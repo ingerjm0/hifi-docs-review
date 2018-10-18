@@ -1,0 +1,2311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from localhost:8000/api-reference/namespaces/laserpointers by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 19:29:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8" />
+    <title>LaserPointers | High Fidelity Documentation</title>
+    <meta name="generator" content="GravCMS" />
+<meta name="Learn all about creating and exploring in High Fidelity through our documentation." content="Documentation for High Fidelity Inc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <link rel="alternate" type="application/atom+xml" href="../../feed_atom.html" title="Atom Feed" />
+    <link rel="alternate" type="application/rss+xml" href="../../feed_rss.html" title="RSS Feed" />
+    <link rel="icon" type="image/png" href="http://localhost:8000/user/themes/learn2/images/favicon.png">
+
+                                                    
+        
+        <link href="http://localhost:8000/user/themes/learn2/css-compiled/nucleus.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/themes/learn2/css-compiled/theme.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/themes/learn2/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/plugins/markdown-notices/assets/notices.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/plugins/breadcrumbs/css/breadcrumbs.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/plugins/simplesearch/css/simplesearch.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/plugins/youtube/css/youtube.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/themes/learn2/css/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link href="http://localhost:8000/user/themes/learn2/css/jquery-ui.css" type="text/css" rel="stylesheet" />
+<link href="../../../cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" type="text/css" rel="stylesheet" />
+
+    
+                                                                                    <script src="http://localhost:8000/system/assets/jquery/jquery-2.x.min.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/modernizr.custom.71422.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/plugins/anchors/js/anchor.min.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/featherlight.min.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/clipboard.min.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/jquery.scrollbar.min.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/jquery-ui.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/bootstrap.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/bootstrap/collapse.js" type="text/javascript" ></script>
+<script src="http://localhost:8000/user/themes/learn2/js/learn.js" type="text/javascript" ></script>
+<script src="../../../cdn.jsdelivr.net/simplemde/latest/simplemde.min.js" type="text/javascript" ></script>
+
+<script>
+$(document).ready(function() {
+                                anchors.options = {
+                                    visible: 'hover',
+                                    placement: 'right',
+                                    
+                                    
+                                    truncate: 64
+                                };
+                                anchors.add('#body h2, #body h3, #body h4, #body h5');
+                             });
+$(function () {
+	$(document).ready(function() {
+		new SimpleMDE({
+			element: document.getElementById("simplemde"),
+			spellChecker: false,
+			hideIcons: ["side-by-side", "fullscreen", "image"],
+			forceSync: true
+		});
+  });
+});
+
+</script>
+
+    
+                    <!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"6DU4p1IWx8104B", domain:"highfidelity.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "../../../certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="../../../certify.alexametrics.com/atrk767e.gif?account=6DU4p1IWx8104B" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+                
+
+    </head>
+<body class="searchbox-hidden " data-url="/api-reference/namespaces/laserpointers">
+        <nav id="sidebar">
+        <div id="header-wrapper">                                                       
+            <div id="header">
+                <a id="logo" href="https://highfidelity.com/"><!--<svg id="logo-svg" viewBox="0 0 444 102" style="background-color:#ffffff00" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+	x="0px" y="0px" width="444px" height="80px"
+>
+	<path d="m87.503 53.977h-10.642c-1.616 0-2.93 1.315-2.93 2.936v20.418l-0.21 0.175c-6.263 5.278-14.182 8.18-22.297 8.18-19.144 0-34.719-15.559-34.719-34.685 0-19.128 15.575-34.684 34.719-34.684 7.444 0 14.562 2.353 20.587 6.811 1.169 0.865 2.792 0.746 3.822-0.28l7.588-7.58c0.592-0.588 0.901-1.406 0.853-2.24-0.046-0.834-0.448-1.607-1.104-2.127-9.016-7.1443-20.29-11.076-31.746-11.076-28.246 0.0001-51.228 22.958-51.228 51.176-0.0005 28.219 22.982 51.179 51.228 51.179 14.584 0 28.534-6.273 38.27-17.208 0.479-0.536 0.742-1.227 0.742-1.945v-26.114c0-1.621-1.314-2.936-2.933-2.936z"/>
+	<path d="m443.52 4.529c-0.54-0.8206-1.47-1.3182-2.45-1.3182h-11.58c-1.17 0-2.23 0.6957-2.7 1.7704l-32.65 75.721-33.23-75.738c-0.47-1.0634-1.52-1.7532-2.68-1.7532h-11.62c-1 0-1.92 0.4976-2.46 1.3265-0.55 0.8288-0.64 1.8753-0.23 2.7832l40.25 91.732c0.47 1.068 1.53 1.758 2.69 1.758h14.66c1.17 0 2.23-0.71 2.7-1.775l39.54-91.734c0.39-0.9055 0.3-1.9466-0.24-2.772z"/>
+	<path d="m291.34 4.9642c-0.47-1.0636-1.52-1.7534-2.69-1.7534h-14.65c-1.17 0-2.23 0.6957-2.7 1.7704l-39.54 91.735c-0.39 0.9-0.3 1.946 0.24 2.766 0.54 0.828 1.46 1.328 2.45 1.328h11.58c1.17 0 2.23-0.71 2.7-1.775l32.64-75.723 33.24 75.74c0.47 1.068 1.52 1.758 2.68 1.758h11.63c0.99 0 1.92-0.5 2.45-1.328 0.55-0.831 0.63-1.878 0.24-2.788l-40.27-91.73z"/>
+	<path d="m185.34 67.248l0.64-0.306c11.56-5.583 19.04-17.434 19.04-30.196 0-18.491-15.06-33.535-33.58-33.535l-42.49-0.0002c-1.62 0-2.93 1.3153-2.93 2.933v91.726c0 1.624 1.31 2.94 2.93 2.94h10.64c1.62 0 2.94-1.316 2.94-2.94v-78.17h28.91c9.42 0 17.07 7.645 17.07 17.046 0 7.84-5.33 14.64-12.97 16.53-1.38 0.348-2.75 0.523-4.1 0.523h-10.64c-1.1 0-2.11 0.622-2.61 1.607-0.5 0.984-0.4 2.164 0.25 3.057l30.17 41.143c0.55 0.754 1.43 1.204 2.36 1.204h13.22c1.11 0 2.12-0.63 2.62-1.611 0.5-0.989 0.4-2.172-0.25-3.06l-21.22-28.891z"/>style="enable-background:new 0 0 444 102;"
+</svg> -->
+
+<svg id="logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="644px" height="160px"
+	 viewBox="0 0 644 160" style="enable-background:new 0 0 644 160;" preserveAspectRatio="xMaxYMax meet" xml:space="preserve">
+<g id="Layer_1">
+	<path d="M225.4,59.3v49.5h-10.6V87.2h-17.5v21.6h-10.6V59.3h10.6v19.1h17.5V59.3H225.4z"/>
+	<path d="M244.2,108.8h-10.6V59.3h10.6V108.8z"/>
+	<path d="M274.8,67.2c-2.5,0-4.6,0.2-6.4,0.7c-1.7,0.5-3.1,1.3-4.2,2.4c-1.1,1.1-1.8,2.7-2.3,4.6c-0.5,1.9-0.7,4.3-0.7,7.1v4.5
+		c0,3,0.2,5.4,0.6,7.3c0.4,1.9,1.1,3.4,2.1,4.4c0.9,1.1,2.2,1.8,3.7,2.2c1.5,0.4,3.4,0.6,5.6,0.6c0.6,0,1.3,0,2-0.1
+		c0.7,0,1.4-0.1,2.2-0.2V87.3h-6.2l1-8.2h15.2v28.2c-1.9,0.7-4.3,1.2-7.2,1.6c-2.8,0.4-5.8,0.6-8.8,0.6c-3.8,0-7-0.5-9.6-1.4
+		c-2.7-0.9-4.8-2.3-6.5-4.2c-1.7-1.9-2.9-4.2-3.7-7.1c-0.8-2.8-1.1-6.2-1.1-10v-5.1c0-3.5,0.4-6.6,1.1-9.5c0.8-2.9,2.1-5.3,3.9-7.3
+		c1.8-2,4.2-3.6,7.1-4.7c2.9-1.1,6.6-1.7,11-1.7c2.4,0,4.8,0.2,7.1,0.6c2.3,0.4,4.2,0.9,5.7,1.4l-1.7,8c-1.3-0.4-2.8-0.7-4.4-1
+		C278.7,67.3,276.9,67.2,274.8,67.2z"/>
+	<path d="M335,59.3v49.5h-10.6V87.2H307v21.6h-10.6V59.3H307v19.1h17.5V59.3H335z"/>
+	<path d="M391.5,59.3l-1.2,8.6h-18.5v10.3h17.1l-1.2,8.6h-15.9v22h-10.6V59.3H391.5z"/>
+	<path d="M408.7,108.8h-10.6V59.3h10.6V108.8z"/>
+	<path d="M417.2,59.3h16.2c4.2,0,7.7,0.6,10.5,1.7c2.8,1.1,5,2.7,6.7,4.6c1.7,2,2.8,4.3,3.5,7.1c0.7,2.8,1,5.8,1,9v4.7
+		c0,3.3-0.3,6.3-1,9.1c-0.7,2.8-1.9,5.1-3.5,7.1c-1.7,2-3.9,3.5-6.7,4.6c-2.8,1.1-6.3,1.7-10.5,1.7h-16.1V59.3z M427.7,100.2h4.6
+		c2,0,3.7-0.2,5.3-0.7c1.5-0.5,2.8-1.3,3.8-2.4c1-1.1,1.7-2.6,2.2-4.4c0.5-1.8,0.7-4.1,0.7-6.9v-3.7c0-2.8-0.2-5.1-0.7-6.9
+		c-0.5-1.8-1.2-3.3-2.2-4.4c-1-1.1-2.2-1.9-3.8-2.3c-1.5-0.4-3.3-0.7-5.3-0.7h-4.6V100.2z"/>
+	<path d="M492.8,59.3l-1.1,8.3h-19.1v10.8h18l-1,8.3h-16.9v13.9h20.2l-1.1,8.3H462V59.3H492.8z"/>
+	<path d="M510.3,59.3v40.9h20.1l-1.2,8.6h-29.5V59.3H510.3z"/>
+	<path d="M547.9,108.8h-10.6V59.3h10.6V108.8z"/>
+	<path d="M593.7,59.3l-1.2,8.6h-13.4v40.9h-10.6V67.9h-14.6l1.2-8.6H593.7z"/>
+	<path d="M618.8,78.6l10.3-19.3H640l-16.2,27.9v21.6h-10.6V87.2l-16-27.9h11.6L618.8,78.6z"/>
+	<g>
+		<path d="M81.1,154.4c-10,0-19.8-2-28.9-5.8c-8.9-3.7-16.8-9.1-23.6-15.9c-6.8-6.8-12.2-14.8-15.9-23.6C8.7,99.8,6.7,90.1,6.7,80
+			c0-10,2-19.8,5.8-28.9c3.7-8.9,9.1-16.8,15.9-23.6c6.8-6.8,14.8-12.2,23.6-15.9c9.2-3.9,18.9-5.8,28.9-5.8c10,0,19.8,2,28.9,5.8
+			c8.9,3.7,16.8,9.1,23.6,15.9c6.8,6.8,12.2,14.8,15.9,23.6c3.9,9.2,5.8,18.9,5.8,28.9c0,10-2,19.8-5.8,28.9
+			c-3.7,8.9-9.1,16.8-15.9,23.6c-6.8,6.8-14.8,12.2-23.6,15.9C100.9,152.4,91.1,154.4,81.1,154.4z M81.1,13.4
+			c-36.7,0-66.6,29.9-66.6,66.6c0,36.7,29.9,66.6,66.6,66.6c36.7,0,66.6-29.9,66.6-66.6C147.7,43.3,117.8,13.4,81.1,13.4z"/>
+		<path d="M103.8,111.6V59.4c3.3-1.1,5.6-4.2,5.6-7.8c0-4.5-3.7-8.2-8.2-8.2s-8.2,3.7-8.2,8.2c0,3.5,2.1,6.4,5.2,7.7v24.3l-34-15.8
+			V48.6c3.3-1.1,5.6-4.2,5.6-7.8c0-4.5-3.7-8.2-8.2-8.2s-8.2,3.7-8.2,8.2c0,3.5,2.1,6.4,5.2,7.7v52.5c-3,1.2-5.2,4.2-5.2,7.7
+			c0,4.5,3.7,8.2,8.2,8.2s8.2-3.7,8.2-8.2c0-3.6-2.3-6.7-5.6-7.8V74.4l34,15.8v21.5c-3,1.2-5.2,4.2-5.2,7.7c0,4.5,3.7,8.2,8.2,8.2
+			s8.2-3.7,8.2-8.2C109.4,115.7,107.1,112.7,103.8,111.6z"/>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
+</a>
+                <div class="searchbox">
+                    <div class="search-wrapper">
+    <form name="search" onSubmit="return validateSearch(event);">
+        <input
+            name="searchfield"
+            class="search-input"
+            type="text"
+            pattern=".{3,}"
+            required
+            oninvalid="this.setCustomValidity('Please add at least 3 characters')" onchange="try{setCustomValidity('')}catch(e){}"
+            placeholder="SEARCH..."
+            value=""
+            data-search-input="/search/query"
+        />
+            </form>
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <script>
+    function validateSearch(event) {
+        var input = document.forms["search"]["searchfield"];
+        var target = input.getAttribute('data-search-input');
+        if (input.value.length >= 3) {
+            event.preventDefault();
+            window.location.href = target + ':' + input.value;
+        } else {
+            event.preventDefault();
+        }
+    }
+    </script>
+</div>
+                    <!-- <span data-search-clear><i class="fa fa-close"></i></span> -->
+                </div>
+            </div>
+        </div>
+
+        
+
+<div class="scrollbar-inner">
+    <div class="highlightable">
+                    <ul class="topics">
+                                                                        <li class="dd-item capital" data-nav-id="/">
+            <a href="../../index.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>1. </b>-->Get Started</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/get-started/what-is-high-fidelity">
+            <a href="../../get-started/what-is-high-fidelity.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->What is High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/get-started/what-is-high-fidelity/how-it-works">
+            <a href="../../get-started/what-is-high-fidelity/how-it-works.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->How It Works</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/what-is-high-fidelity/architecture">
+            <a href="../../get-started/what-is-high-fidelity/architecture.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Understanding High Fidelity's Architecture</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/requirements">
+            <a href="../../get-started/requirements.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Requirements</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/installation">
+            <a href="../../get-started/installation.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Installation</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/get-started/installation/client-install">
+            <a href="../../get-started/installation/client-install.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Client Installation</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/installation/client-and-sandbox-install">
+            <a href="../../get-started/installation/client-and-sandbox-install.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Client and Sandbox Installation</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/installation/installer-interactions">
+            <a href="../../get-started/installation/installer-interactions.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Client and Server Installer and Client Only Installer Interactions</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/join-us">
+            <a href="../../get-started/join-us.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Join Us!</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/get-started/join-us/worklist">
+            <a href="../../get-started/join-us/worklist.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->How Does Worklist Work?</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/get-started/community">
+            <a href="../../get-started/community.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Community</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore">
+            <a href="../../explore.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>2. </b>-->Explore</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/entering-high-fidelity">
+            <a href="../../explore/entering-high-fidelity.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Entering High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface">
+            <a href="../../explore/explore-interface.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Explore Interface</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/basic-controls">
+            <a href="../../explore/explore-interface/basic-controls.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Controls</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/tablet">
+            <a href="../../explore/explore-interface/tablet.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tablet</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu">
+            <a href="../../explore/explore-interface/menu.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tablet Menu</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu/manage-notifications">
+            <a href="../../explore/explore-interface/menu/manage-notifications.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Manage Notifications</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu/configure-your-hand-controllers">
+            <a href="../../explore/explore-interface/menu/configure-your-hand-controllers.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Your Hand Controllers</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu/emote">
+            <a href="../../explore/explore-interface/menu/emote.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->The Emote App</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu/mocap-system">
+            <a href="../../explore/explore-interface/menu/mocap-system.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Motion Capture (Using Vive Trackers)</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/explore-interface/menu/haptic-feedback">
+            <a href="../../explore/explore-interface/menu/haptic-feedback.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Activate Haptic Feedback</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox">
+            <a href="../../explore/start-working-in-your-sandbox.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Sandbox</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/set-up-your-sandbox">
+            <a href="../../explore/start-working-in-your-sandbox/set-up-your-sandbox.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Set Up Your Sandbox</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/server-settings-for-your-domain">
+            <a href="../../explore/start-working-in-your-sandbox/server-settings-for-your-domain.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Server Settings for Your Own Domain</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/assignment-clients">
+            <a href="../../explore/start-working-in-your-sandbox/assignment-clients.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Asset Server (ATP)</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/assignment-clients/baking">
+            <a href="../../explore/start-working-in-your-sandbox/assignment-clients/baking.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Baking Your Assets</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/place-names">
+            <a href="../../explore/start-working-in-your-sandbox/place-names.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Place Names</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/groups-and-lists">
+            <a href="../../explore/start-working-in-your-sandbox/groups-and-lists.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Groups and Lists</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/set-path-in-your-domain">
+            <a href="../../explore/start-working-in-your-sandbox/set-path-in-your-domain.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Set the Path for Your Domain</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/setting-up-a-theater-domain">
+            <a href="../../explore/start-working-in-your-sandbox/setting-up-a-theater-domain.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Setting Up A Theater Domain</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/hosting-on-other-services">
+            <a href="../../explore/start-working-in-your-sandbox/hosting-on-other-services.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Set Up Your Domain on Amazon Services (EC2)</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/migrate-your-sandbox">
+            <a href="../../explore/start-working-in-your-sandbox/migrate-your-sandbox.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Migrate Your Sandbox</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/digital-ocean">
+            <a href="../../explore/start-working-in-your-sandbox/digital-ocean.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Host Your Domain with DigitalOcean</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/digital-ocean/digital-ocean-spaces">
+            <a href="../../explore/start-working-in-your-sandbox/digital-ocean/digital-ocean-spaces.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->DigitalOcean Spaces</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/digital-ocean/archive">
+            <a href="../../explore/start-working-in-your-sandbox/digital-ocean/archive.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Archive: Using DigitalOcean</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/restoring-sandbox-content">
+            <a href="../../explore/start-working-in-your-sandbox/restoring-sandbox-content.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Restoring Sandbox Content</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/restoring-sandbox-content/backup-entities">
+            <a href="../../explore/start-working-in-your-sandbox/restoring-sandbox-content/backup-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Backing Up Entities in Your Sandbox</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/restoring-sandbox-content/backup-sandbox">
+            <a href="../../explore/start-working-in-your-sandbox/restoring-sandbox-content/backup-sandbox.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Backing Up Your Entire Sandbox</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/hosting-your-content">
+            <a href="../../explore/start-working-in-your-sandbox/hosting-your-content.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Hosting Your Content</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/broadcasting">
+            <a href="../../explore/start-working-in-your-sandbox/broadcasting.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Broadcasting from a Domain</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/creating-and-securing-your-domain">
+            <a href="../../explore/start-working-in-your-sandbox/creating-and-securing-your-domain.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Creating and Securing your Domain</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/streaming">
+            <a href="../../explore/start-working-in-your-sandbox/streaming.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Streaming Audio and Video In World</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/streaming/streaming-audio">
+            <a href="../../explore/start-working-in-your-sandbox/streaming/streaming-audio.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Broadcasting Audio In World</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/start-working-in-your-sandbox/streaming/streaming-video">
+            <a href="../../explore/start-working-in-your-sandbox/streaming/streaming-video.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Streaming Video to High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/extras">
+            <a href="../../explore/extras.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Extras</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/extras/chat">
+            <a href="../../explore/extras/chat.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Chat</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/extras/subsurface-scattering">
+            <a href="../../explore/extras/subsurface-scattering.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Subsurface Scattering</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/extras/syncing-services">
+            <a href="../../explore/extras/syncing-services.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Syncing Services</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/extras/syncing-services/video-syncing">
+            <a href="../../explore/extras/syncing-services/video-syncing.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Watch Synced Videos in High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/extras/syncing-services/slide-syncing">
+            <a href="../../explore/extras/syncing-services/slide-syncing.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Watch Synced Presentations in High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/extras/midi">
+            <a href="../../explore/extras/midi.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Using MIDI to control High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/marketplace-apps">
+            <a href="../../explore/marketplace-apps.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Our Marketplace Apps</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/marketplace-apps/record-app">
+            <a href="../../explore/marketplace-apps/record-app.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tablet App: Record</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/marketplace-apps/spectator-cam">
+            <a href="../../explore/marketplace-apps/spectator-cam.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Spectator Camera</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/marketplace-apps/shapes">
+            <a href="../../explore/marketplace-apps/shapes.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Shapes: Create in VR</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/software-options">
+            <a href="../../explore/software-options.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Software Options</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/live-streaming">
+            <a href="../../explore/live-streaming.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->A Guide to Live Streaming in High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/explore/live-streaming/intro-to-live-streaming">
+            <a href="../../explore/live-streaming/intro-to-live-streaming.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Introduction to Live Streaming</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/explore/live-streaming/obs-guide">
+            <a href="../../explore/live-streaming/obs-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Using OBS with High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create">
+            <a href="../../create.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>3. </b>-->Create</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/avatars">
+            <a href="../../create/avatars.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatars</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/avatars/how-do-avatars-work">
+            <a href="../../create/avatars/how-do-avatars-work.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->All About Avatars</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/change-avatar">
+            <a href="../../create/avatars/change-avatar.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Change Your Avatar</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars">
+            <a href="../../create/avatars/create-avatars.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Your Own Avatar</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars/avatar-standards">
+            <a href="../../create/avatars/create-avatars/avatar-standards.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatar Standards</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars/prepare-avatars">
+            <a href="../../create/avatars/create-avatars/prepare-avatars.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Prepare Your Avatar for High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars/fuse-tutorial">
+            <a href="../../create/avatars/create-avatars/fuse-tutorial.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tutorial: Fuse</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars/blender-tutorial">
+            <a href="../../create/avatars/create-avatars/blender-tutorial.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tutorial: Blender</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/create-avatars/mixamo-tutorial">
+            <a href="../../create/avatars/create-avatars/mixamo-tutorial.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tutorial: Mixamo</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/avatar-interactions">
+            <a href="../../create/avatars/avatar-interactions.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatar Interactions</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/blender-workflow">
+            <a href="../../create/avatars/blender-workflow.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Blender Workflow for Avatars</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/add-to-favorites">
+            <a href="../../create/avatars/add-to-favorites.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Add to Favorites</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/customizing-avatar-animations">
+            <a href="../../create/avatars/customizing-avatar-animations.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Customizing Avatar Animations</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/avatars/host-avatar-on-marketplace">
+            <a href="../../create/avatars/host-avatar-on-marketplace.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Hosting an Avatar on the Marketplace Backend</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities">
+            <a href="../../create/entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/entities/create-mode">
+            <a href="../../create/entities/create-mode.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Mode</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/box-and-sphere-entities">
+            <a href="../../create/entities/box-and-sphere-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Box and Sphere Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/light-entities">
+            <a href="../../create/entities/light-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Light Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/web-entities">
+            <a href="../../create/entities/web-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Web Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/particle-entities">
+            <a href="../../create/entities/particle-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Particle Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/text-entities">
+            <a href="../../create/entities/text-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Text Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/zone-entities">
+            <a href="../../create/entities/zone-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Zone Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/entities/zone-entities/zone-properties">
+            <a href="../../create/entities/zone-entities/zone-properties.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Zone Lighting Properties</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/model-entities">
+            <a href="../../create/entities/model-entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Model Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/collision-sounds">
+            <a href="../../create/entities/collision-sounds.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Collision Sounds</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/entities/entity-properties">
+            <a href="../../create/entities/entity-properties.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Entity Properties: General, Collision, and Grabbing</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting">
+            <a href="../../create/all-about-scripting.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->All About Scripting</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/default-scripts">
+            <a href="../../create/all-about-scripting/default-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Default Scripts</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/run-scripts">
+            <a href="../../create/all-about-scripting/run-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->How to Run a Script</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/attach-entity-scripts">
+            <a href="../../create/all-about-scripting/attach-entity-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Entity Scripts</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/attach-entity-scripts/client-entity-scripts">
+            <a href="../../create/all-about-scripting/attach-entity-scripts/client-entity-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Client Entity Scripts</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/attach-entity-scripts/server-entity-scripts">
+            <a href="../../create/all-about-scripting/attach-entity-scripts/server-entity-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Server Entity Scripts</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/all-about-scripting/scripting-console">
+            <a href="../../create/all-about-scripting/scripting-console.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Scripting Console</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/3d-modeling">
+            <a href="../../create/3d-modeling.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->3D Models</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/materials">
+            <a href="../../create/3d-modeling/materials.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->PBR Materials: Textures and Shading Introduction</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/materials/pbr-materials-guide">
+            <a href="../../create/3d-modeling/materials/pbr-materials-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Textures and Shading Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/materials/material-guide">
+            <a href="../../create/3d-modeling/materials/material-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Materials Guide (Blender & Maya)</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/best-practices">
+            <a href="../../create/3d-modeling/best-practices.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Best Practices for Making 3D Content</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/create-buildings">
+            <a href="../../create/3d-modeling/create-buildings.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Buildings</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/3d-modeling/blocks-to-hifi">
+            <a href="../../create/3d-modeling/blocks-to-hifi.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Importing Models from Blocks to High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives">
+            <a href="../../create/archives.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Archives</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/create/archives/configure-audio">
+            <a href="../../create/archives/configure-audio.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Configure Audio</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-a-mini-golf-game">
+            <a href="../../create/archives/create-a-mini-golf-game.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create A Mini Golf Game</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-a-playable-piano">
+            <a href="../../create/archives/create-a-playable-piano.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create a Playable Piano</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-an-interactive-garden">
+            <a href="../../create/archives/create-an-interactive-garden.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create an Interactive Garden</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-butterflies">
+            <a href="../../create/archives/create-butterflies.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Butterflies</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-convex-hulls">
+            <a href="../../create/archives/create-convex-hulls.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Convex Hulls</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-fireflies">
+            <a href="../../create/archives/create-fireflies.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Fireflies</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-fireworks">
+            <a href="../../create/archives/create-fireworks.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Fireworks</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-a-tablet-app">
+            <a href="../../create/archives/create-a-tablet-app.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create a Tablet App</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/create-an-avatar-with-fuse">
+            <a href="../../create/archives/create-an-avatar-with-fuse.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Avatars with Fuse</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/pbr-materials">
+            <a href="../../create/archives/pbr-materials.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->PBR Materials</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/set-grab-properties">
+            <a href="../../create/archives/set-grab-properties.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Set Grab Properties</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/using-leap-motion">
+            <a href="../../create/archives/using-leap-motion.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Using Leap Motion to Draw</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/create/archives/zone-entities-tutorial">
+            <a href="../../create/archives/zone-entities-tutorial.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Zone Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us">
+            <a href="../../learn-with-us.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>4. </b>-->Learn</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/learn-with-us/setup-your-domain-to-build">
+            <a href="../../learn-with-us/setup-your-domain-to-build.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Setup Your Domain to Build in High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/get-started-with-scripting">
+            <a href="../../learn-with-us/get-started-with-scripting.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Get Started with Scripting</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/all-about-entity-scripts">
+            <a href="../../learn-with-us/all-about-entity-scripts.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->All About Entity Scripts</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/a-lesson-in-shortbow">
+            <a href="../../learn-with-us/a-lesson-in-shortbow.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->A Lesson in Shortbow</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/create-an-avatar-switching-tablet-app">
+            <a href="../../learn-with-us/create-an-avatar-switching-tablet-app.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create an Avatar Switching Tablet App</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/create-your-own-attachments">
+            <a href="../../learn-with-us/create-your-own-attachments.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Make Your Own Avatar Attachments</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/scripting-basics">
+            <a href="../../learn-with-us/scripting-basics.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Basic Scripting Examples</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/learn-with-us/create-a-tablet-app">
+            <a href="../../learn-with-us/create-a-tablet-app.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create a Tablet App</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce">
+            <a href="../../high-fidelity-commerce.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>5. </b>-->High Fidelity Commerce</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics">
+            <a href="../../high-fidelity-commerce/basics.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Basics</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics/hfc">
+            <a href="../../high-fidelity-commerce/basics/hfc.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->High Fidelity Coins</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics/hfc/get-hfc">
+            <a href="../../high-fidelity-commerce/basics/hfc/get-hfc.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Get Your Own HFC</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics/hfc/send-money">
+            <a href="../../high-fidelity-commerce/basics/hfc/send-money.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Send Your HFC</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics/pop">
+            <a href="../../high-fidelity-commerce/basics/pop.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->PoP License and Certificate</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/basics/pop/pop-license">
+            <a href="../../high-fidelity-commerce/basics/pop/pop-license.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Switch to the PoP License</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/avatar-wearables">
+            <a href="../../high-fidelity-commerce/avatar-wearables.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatar Wearables</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/avatar-wearables/buy">
+            <a href="../../high-fidelity-commerce/avatar-wearables/buy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Buy Wearables: Shop at Avatar Island</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/avatar-wearables/create">
+            <a href="../../high-fidelity-commerce/avatar-wearables/create.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Your Own Wearable</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/avatar-wearables/entities-differences">
+            <a href="../../high-fidelity-commerce/avatar-wearables/entities-differences.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatar Entities vs Attachments</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/faq-section">
+            <a href="../../high-fidelity-commerce/faq-section.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Frequently Asked Questions</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/faq-section/commerce-faq">
+            <a href="../../high-fidelity-commerce/faq-section/commerce-faq.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Commerce FAQs</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/high-fidelity-commerce/faq-section/digital-asset-registry-faq">
+            <a href="../../high-fidelity-commerce/faq-section/digital-asset-registry-faq.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Digital Asset Registry FAQs</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace">
+            <a href="../../marketplace.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>6. </b>-->Marketplace</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/marketplace/buy">
+            <a href="../../marketplace/buy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Buy from the Marketplace</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace/sell">
+            <a href="../../marketplace/sell.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Sell Your Items</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/marketplace/sell/get-assets">
+            <a href="../../marketplace/sell/get-assets.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Get Your Item Assets</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace/sell/test-item">
+            <a href="../../marketplace/sell/test-item.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Test Your Items</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace/sell/add-item">
+            <a href="../../marketplace/sell/add-item.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Add Your Item</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace/sell/update-item">
+            <a href="../../marketplace/sell/update-item.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Update Your Item</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/marketplace/sell/create">
+            <a href="../../marketplace/sell/create.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Create Your Own Wearable</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide">
+            <a href="../../build-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>7. </b>-->Build Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/build-guide/basic-build-guide">
+            <a href="../../build-guide/basic-build-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Basic Build Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/linux">
+            <a href="../../build-guide/linux.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Linux</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/build-guide/linux/cheatsheet-for-install-linux">
+            <a href="../../build-guide/linux/cheatsheet-for-install-linux.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Cheatsheet for Installing in Linux Server</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/mac-os">
+            <a href="../../build-guide/mac-os.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->macOS</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/windows-64-bit">
+            <a href="../../build-guide/windows-64-bit.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Windows 64-bit</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/android">
+            <a href="../../build-guide/android.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Android</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/cent-os">
+            <a href="../../build-guide/cent-os.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Cent OS</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/command-line-guide">
+            <a href="../../build-guide/command-line-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Command Line Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/coding-standards">
+            <a href="../../build-guide/coding-standards.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Coding Standards</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/xcode">
+            <a href="../../build-guide/xcode.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Xcode</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/clean-installs">
+            <a href="../../build-guide/clean-installs.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Clean Installation of High Fidelity</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/set-variable">
+            <a href="../../build-guide/set-variable.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Set Environment Variables</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/build-guide/log-filters">
+            <a href="../../build-guide/log-filters.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Logs</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item parent capital" data-nav-id="/api-reference">
+            <a href="../../api-reference.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>8. </b>-->API-Reference</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item parent capital" data-nav-id="/api-reference/namespaces">
+            <a href="../namespaces.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Namespaces</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/accountservices">
+            <a href="accountservices.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AccountServices</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/agent">
+            <a href="agent.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Agent</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/animationcache">
+            <a href="animationcache.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AnimationCache</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/assets">
+            <a href="assets.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Assets</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/audio">
+            <a href="audio.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Audio</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/audioscope">
+            <a href="audioscope.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AudioScope</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/audiostats">
+            <a href="audiostats.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AudioStats</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/avatar">
+            <a href="avatar.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Avatar</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/avatarbookmarks">
+            <a href="avatarbookmarks.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AvatarBookmarks</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/avatarinputs">
+            <a href="avatarinputs.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AvatarInputs</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/avatarlist">
+            <a href="avatarlist.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AvatarList</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/avatarmanager">
+            <a href="avatarmanager.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AvatarManager</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/camera">
+            <a href="camera.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Camera</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/clipboard">
+            <a href="clipboard.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Clipboard</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/controller">
+            <a href="controller.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Controller</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/debugdraw">
+            <a href="debugdraw.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->DebugDraw</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/desktop">
+            <a href="desktop.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Desktop</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/entities">
+            <a href="entities.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Entities</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/entityviewer">
+            <a href="entityviewer.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->EntityViewer</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/facetracker">
+            <a href="facetracker.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->FaceTracker</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/file">
+            <a href="file.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->File</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/googlepoly">
+            <a href="googlepoly.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->GooglePoly</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/graphics">
+            <a href="graphics.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Graphics</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/hifiabout">
+            <a href="hifiabout.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->HifiAbout</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/hmd">
+            <a href="hmd.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->HMD</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item active" data-nav-id="/api-reference/namespaces/laserpointers">
+            <a href="laserpointers.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->LaserPointers</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/location">
+            <a href="location.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->location</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/locationbookmarks">
+            <a href="locationbookmarks.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->LocationBookmarks</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/lodmanager">
+            <a href="lodmanager.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->LODManager</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/mat4">
+            <a href="mat4.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Mat4</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/menu">
+            <a href="menu.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Menu</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/messages">
+            <a href="messages.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Messages</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/midi">
+            <a href="midi.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Midi</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/modelcache">
+            <a href="modelcache.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ModelCache</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/myavatar">
+            <a href="myavatar.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->MyAvatar</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/offscreenflags">
+            <a href="offscreenflags.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->OffscreenFlags</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/overlays">
+            <a href="overlays.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Overlays</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/paths">
+            <a href="paths.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Paths</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/picks">
+            <a href="picks.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Picks</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/picktype">
+            <a href="picktype.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->PickType</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/pointers">
+            <a href="pointers.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Pointers</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/quat">
+            <a href="quat.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Quat</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/raypick">
+            <a href="raypick.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->RayPick</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/recording">
+            <a href="recording.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Recording</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/render">
+            <a href="render.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Render</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/resource">
+            <a href="resource.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Resource</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/resources">
+            <a href="resources.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Resources</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/reticle">
+            <a href="reticle.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Reticle</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/scene">
+            <a href="scene.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Scene</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/script">
+            <a href="script.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Script</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/scriptdiscoveryservice">
+            <a href="scriptdiscoveryservice.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ScriptDiscoveryService</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/selection">
+            <a href="selection.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Selection</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/settings">
+            <a href="settings.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Settings</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/snapshot">
+            <a href="snapshot.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Snapshot</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/soundcache">
+            <a href="soundcache.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->SoundCache</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/speechrecognizer">
+            <a href="speechrecognizer.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->SpeechRecognizer</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/stats">
+            <a href="stats.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Stats</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/steam">
+            <a href="steam.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Steam</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/tablet">
+            <a href="tablet.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Tablet</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/tabletinterface">
+            <a href="tabletinterface.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->tabletInterface</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/texturecache">
+            <a href="texturecache.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->TextureCache</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/toolbars">
+            <a href="toolbars.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Toolbars</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/users">
+            <a href="users.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Users</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/uuid">
+            <a href="uuid.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Uuid</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/vec3">
+            <a href="vec3.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Vec3</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/wallet">
+            <a href="wallet.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Wallet</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/namespaces/window">
+            <a href="window.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Window</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects">
+            <a href="../objects.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Objects</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/api-reference/objects/animationobject">
+            <a href="../objects/animationobject.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AnimationObject</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/audioeffectoptions">
+            <a href="../objects/audioeffectoptions.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AudioEffectOptions</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/audioinjector">
+            <a href="../objects/audioinjector.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AudioInjector</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/audiostreamstats">
+            <a href="../objects/audiostreamstats.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->AudioStreamStats</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/interactivewindow">
+            <a href="../objects/interactivewindow.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->InteractiveWindow</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/mappingobject">
+            <a href="../objects/mappingobject.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->MappingObject</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/meshproxy">
+            <a href="../objects/meshproxy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->MeshProxy</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/overlaywebwindow">
+            <a href="../objects/overlaywebwindow.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->OverlayWebWindow</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/overlaywindow">
+            <a href="../objects/overlaywindow.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->OverlayWindow</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/resourceobject">
+            <a href="../objects/resourceobject.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ResourceObject</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/routeobject">
+            <a href="../objects/routeobject.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->RouteObject</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/scriptsmodel">
+            <a href="../objects/scriptsmodel.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ScriptsModel</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/scriptsmodelfilter">
+            <a href="../objects/scriptsmodelfilter.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ScriptsModelFilter</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/soundobject">
+            <a href="../objects/soundobject.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->SoundObject</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/stage">
+            <a href="../objects/stage.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Stage</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/tabletbuttonproxy">
+            <a href="../objects/tabletbuttonproxy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->TabletButtonProxy</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/tabletproxy">
+            <a href="../objects/tabletproxy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->TabletProxy</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/toolbarbuttonproxy">
+            <a href="../objects/toolbarbuttonproxy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ToolbarButtonProxy</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/objects/toolbarproxy">
+            <a href="../objects/toolbarproxy.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->ToolbarProxy</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/api-reference/globals">
+            <a href="../globals.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Globals</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/whats-new">
+            <a href="../../whats-new.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>9. </b>-->What's New in the Docs</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/write-for-us">
+            <a href="../../write-for-us.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b>10. </b>-->Write For Us!</span>
+                <span class="collapsed"></span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item capital" data-nav-id="/write-for-us/contribute">
+            <a href="../../write-for-us/contribute.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Contribute</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/write-for-us/style-guide">
+            <a href="../../write-for-us/style-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Style Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+                            <li class="dd-item capital" data-nav-id="/write-for-us/markdown-guide">
+            <a href="../../write-for-us/markdown-guide.html" >
+                                <span class="caption"><!-- commenting out code for numbered list on the sidebar <b></b>-->Markdown Guide</span>
+                <span class="collapsed"></span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+                            </ul>
+                
+        <a class="padding" href="#" data-clear-history-toggle><!--<i
+                    class="fa fa-fw fa-history"></i>--> Clear History</a><br/>
+
+        <section id="footer">
+            <p>Built with <a href="http://getgrav.org/">Grav</a> - The Modern Flat File CMS</p>
+        </section>
+    </div>
+</div>
+        
+    </nav>
+    
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle><i class="fa fa-2x fa-bars"></i></a>
+
+                        <div id="top-bar">
+                                
+<div id="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+                                            <a href="../../index.html" itemprop="url"><span itemprop="title">Get Started</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="../../api-reference.html" itemprop="url"><span itemprop="title">API-Reference</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="../namespaces.html" itemprop="url"><span itemprop="title">Namespaces</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <span itemprop="title">LaserPointers</span>
+                        </div>
+                            </div>
+            
+                      <div id="api-specific">
+              <div id="body-inner">
+                  <h1>LaserPointers</h1>
+                  <section>
+<article>
+  <div class="container-overview">
+    <div class="description">
+      <table>
+        <tbody>
+          <tr>
+            <th>Available in:</th>
+            <td>Interface Scripts</td>
+            <td>Client Entity Scripts</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>Synonym for
+      <a href="pointers.html">Pointers</a> as used for laser pointers.</div>
+    <div>
+      <h5>Methods</h5>
+    </div>
+    <div>
+      <a href="#.createLaserPointer">createLaserPointer</a>
+    </div>
+    <div>
+      <a href="#.disableLaserPointer">disableLaserPointer</a>
+    </div>
+    <div>
+      <a href="#.editRenderState">editRenderState</a>
+    </div>
+    <div>
+      <a href="#.enableLaserPointer">enableLaserPointer</a>
+    </div>
+    <div>
+      <a href="#.getPrevRayPickResult">getPrevRayPickResult</a>
+    </div>
+    <div>
+      <a href="#.isLeftHand">isLeftHand</a>
+    </div>
+    <div>
+      <a href="#.isMouse">isMouse</a>
+    </div>
+    <div>
+      <a href="#.isRightHand">isRightHand</a>
+    </div>
+    <div>
+      <a href="#.removeLaserPointer">removeLaserPointer</a>
+    </div>
+    <div>
+      <a href="#.setIgnoreItems">setIgnoreItems</a>
+    </div>
+    <div>
+      <a href="#.setIncludeItems">setIncludeItems</a>
+    </div>
+    <div>
+      <a href="#.setLaserLength">setLaserLength</a>
+    </div>
+    <div>
+      <a href="#.setLockEndUUID">setLockEndUUID</a>
+    </div>
+    <div>
+      <a href="#.setPrecisionPicking">setPrecisionPicking</a>
+    </div>
+    <div>
+      <a href="#.setRenderState">setRenderState</a>
+    </div>
+    <br>
+  </div>
+  <h4 class="subsection-title">Methods</h4>
+  <h5 class="name" id=".createLaserPointer"> createLaserPointer<span class="signature">(properties)</span> <span class="type-signature">&#x2192; {number}</span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>properties</code></td>
+        <td class="type"> <span class="param-type"><a href="pointers.html#.LaserPointerProperties">Pointers.LaserPointerProperties</a></span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h6>Returns:</h6>
+  <dl>
+    <dt> Type: number</dt>
+  </dl>
+  <h5 class="name" id=".disableLaserPointer"> disableLaserPointer<span class="signature">(id)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".editRenderState"> editRenderState<span class="signature">(id, renderState, properties)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>renderState</code></td>
+        <td class="type"> <span class="param-type">string</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>properties</code></td>
+        <td class="type"> <span class="param-type"><a href="pointers.html#.RayPointerRenderState">Pointers.RayPointerRenderState</a></span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".enableLaserPointer"> enableLaserPointer<span class="signature">(id)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".getPrevRayPickResult"> getPrevRayPickResult<span class="signature">(id)</span> <span class="type-signature">&#x2192; {<a href="../globals.html#RayPickResult">RayPickResult</a>}</span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h6>Returns:</h6>
+  <dl>
+    <dt> Type:
+      <a href="../globals.html#RayPickResult">RayPickResult</a>
+    </dt>
+  </dl>
+  <h5 class="name" id=".isLeftHand"> isLeftHand<span class="signature">(id)</span> <span class="type-signature">&#x2192; {boolean}</span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h6>Returns:</h6>
+  <dl>
+    <dt> Type: boolean</dt>
+  </dl>
+  <h5 class="name" id=".isMouse"> isMouse<span class="signature">(id)</span> <span class="type-signature">&#x2192; {boolean}</span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h6>Returns:</h6>
+  <dl>
+    <dt> Type: boolean</dt>
+  </dl>
+  <h5 class="name" id=".isRightHand"> isRightHand<span class="signature">(id)</span> <span class="type-signature">&#x2192; {boolean}</span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h6>Returns:</h6>
+  <dl>
+    <dt> Type: boolean</dt>
+  </dl>
+  <h5 class="name" id=".removeLaserPointer"> removeLaserPointer<span class="signature">(id)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setIgnoreItems"> setIgnoreItems<span class="signature">(id, ignoreItems)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>ignoreItems</code></td>
+        <td class="type"> <span class="param-type">Array.&lt;<a href="uuid.html">Uuid</a>&gt;</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setIncludeItems"> setIncludeItems<span class="signature">(id, includeItems)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>includeItems</code></td>
+        <td class="type"> <span class="param-type">Array.&lt;<a href="uuid.html">Uuid</a>&gt;</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setLaserLength"> setLaserLength<span class="signature">(id, laserLength)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>laserLength</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setLockEndUUID"> setLockEndUUID<span class="signature">(id, itemID, isOverlay, offsetMat<span class="signature-attributes">opt</span>)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Attributes</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="attributes"></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>itemID</code></td>
+        <td class="type"> <span class="param-type"><a href="uuid.html">Uuid</a></span></td>
+        <td class="attributes"></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>isOverlay</code></td>
+        <td class="type"> <span class="param-type">boolean</span></td>
+        <td class="attributes"></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>offsetMat</code></td>
+        <td class="type"> <span class="param-type"><a href="mat4.html">Mat4</a></span></td>
+        <td class="attributes"> &lt;optional&gt;
+          <br>
+        </td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setPrecisionPicking"> setPrecisionPicking<span class="signature">(id, precisionPicking)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>precisionPicking</code></td>
+        <td class="type"> <span class="param-type">boolean</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="name" id=".setRenderState"> setRenderState<span class="signature">(renderState, id)</span><span class="type-signature"></span></h5>
+  <h5>Parameters:</h5>
+  <table class="params">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>renderState</code></td>
+        <td class="type"> <span class="param-type">string</span></td>
+        <td class="description last"></td>
+      </tr>
+      <tr>
+        <td class="name"><code>id</code></td>
+        <td class="type"> <span class="param-type">number</span></td>
+        <td class="description last"></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+</section>
+              </div>
+          </div>
+      
+                                        
+        </div>
+                  <div id="navigation">
+                        <a class="nav nav-prev" href="hmd.html"> <img src="http://localhost:8000/user/themes/learn2/images/left-arrow.png"></a>
+                
+                        <a class="nav nav-next" href="location.html"><img src="http://localhost:8000/user/themes/learn2/images/right-arrow.png"></a>
+                    </div>
+          </section>
+                        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39558647-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+            </body>
+
+<!-- Mirrored from localhost:8000/api-reference/namespaces/laserpointers by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 19:29:14 GMT -->
+</html>
