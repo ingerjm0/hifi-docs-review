@@ -15,11 +15,8 @@ Many of our community members have created basic skeletons and avatars that you 
 
 * [Glossary](#glossary)
 * [Community Tools for Avatars](#community-tools-for-avatars)
-* [YouTube Tutorial: Create Your Avatar](#youtube-tutorial)
 * [How to Package Your Avatar](#how-to-package-your-avatar)
-
-
-
+* [YouTube Tutorial: Create Your Avatar](#youtube-tutorial)
 
 ## Glossary
 
@@ -52,17 +49,7 @@ Install it here: [https://github.com/Menithal/Blender-Hifi-Addon](https://github
 ---
 Have a project you've been working on that you'd like us to share? Let us know by editing this page in GitHub! 
 
-## YouTube Tutorial
-
-Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
-
-* [Create an Avatar with Fuse](./fuse-tutorial)
-* [Rig Your Avatar in Mixamo](./mixamo-tutorial)
-* [Modify Materials and Textures with Blender](./blender-tutorial)
-
-[plugin:youtube](https://www.youtube.com/watch?v=6NfiH4rdVRM)
-
-## Package Your Avatar
+## How to Package Your Avatar
 
 No matter how you [created your custom avatar](../), you must convert your FBX model to FST before using that avatar in High Fidelity. This process is called *packaging your avatar*.
 
@@ -76,3 +63,14 @@ High Fidelity provides a built-in tool that will create an FST file that will an
 4. Browse to the folder where you want to save your avatar files. We recommend creating a new directory for each avatar. 
 
 At this point, your avatar has been created! After hosting the avatar in the cloud or the Marketplace, [switch to it](../change-avatar#use-your-own-custom-avatar) and adopt your new look. ![](imported-avatar.png)
+
+## YouTube Tutorial
+
+Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
+
+* [Create an Avatar with Fuse](./fuse-tutorial)
+* [Rig Your Avatar in Mixamo](./mixamo-tutorial)
+* [Modify Materials and Textures with Blender](./blender-tutorial)
+
+[plugin:youtube](https://www.youtube.com/watch?v=6NfiH4rdVRM)
+
