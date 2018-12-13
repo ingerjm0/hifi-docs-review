@@ -4,7 +4,7 @@ taxonomy:
     category: docs 
 ---
 
-High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of thsee places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you.
+High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you.
 
 * [GOTO App](#goto-app)
 * [Visit a Friend](#visit-a-friend)
