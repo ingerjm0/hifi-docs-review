@@ -6,6 +6,7 @@ taxonomy:
 
 You can adjust various settings in High Fidelity so that it runs to your preferences. You can make these changes through your HUD and Menu (in Desktop mode) or Tablet (in VR mode). 
 
+**On This Page:**
 * [Enter or Exit VR Mode](#enter-or-exit-vr-mode)
 * [Change Your Audio Settings](#change-your-audio-settings)
 * [Set Your Perspective](#set-your-perspective)
@@ -75,8 +76,6 @@ You can choose how you view things around you by changing your perspective. To c
 | Independent Mode               | Select this to change what you see through scripting instead of avatar's movements. |
 | Entity Mode                    | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |  
 
-  
-  
 ## Change How You Move in VR
 
 You can change many avatar movement settings in VR such as jumping, flying, and leaning behavior. To do so:  

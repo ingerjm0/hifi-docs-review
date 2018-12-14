@@ -5,6 +5,7 @@ taxonomy:
 ---
 High Fidelity is all about the people you meet and the experiences you have with them. High Fidelity enables people connected by interest, community, and friendship to come together from anywhere in the world.
 
+**On This Page:**
 * [Make Connections and Friends](#make-connections-and-friends)
 * [Attend Live Events](#attend-live-events)
 * [Express Yourself](#express-yourself)

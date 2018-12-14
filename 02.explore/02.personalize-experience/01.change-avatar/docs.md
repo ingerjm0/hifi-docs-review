@@ -6,7 +6,7 @@ taxonomy:
 
 When you first use High Fidelity, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
 
-There are a number of ways you can get a new avatar for yourself: 
+**On This Page:**
 
 * [Get a free avatar from BodyMart](#get-an-avatar-from-bodymart)
 * [Buy an avatar from the Marketplace](#buy-an-avatar-from-the-marketplace)

@@ -6,6 +6,7 @@ taxonomy:
 
 This document outlines the standards you should follow when creating your avatar. Your avatar uses bones to animate the character's limbs and define the scale variable of limbs. You can add custom bones to further adjust the avatar's shape. Customization of your avatar can be fine-tuned using blendshapes to animate the face and scripting to define advanced behaviors.
 
+**On This Page:**
 * [Reference Pose](#reference-pose)
 * [Skeleton](#skeleton)
 * [Flow Bones](#flow-bones)

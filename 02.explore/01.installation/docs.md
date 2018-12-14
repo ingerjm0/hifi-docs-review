@@ -7,6 +7,7 @@ taxonomy:
 
 High Fidelity has two different installers, based on how you use High Fidelity. The _client installer_ comes with everything you need to view and interact with High Fidelity's content and users. However, you are unable to host content using this installer. The _client and sandbox installer_ enables you to host their own content, with the option to share it with the world. 
 
+**On This Page:**
 * [Minimum System Requirements](#minimum-system-requirements)
 * [Client-Only Installer](#client-only-installer)
 * [Client and Sandbox Installer](#client-and-sandbox-installer)

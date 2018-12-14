@@ -6,6 +6,7 @@ taxonomy:
 
 If you want to buy items in High Fidelity, head on over to the Marketplace, where you can purchase more than 300 items built by digital artists and creators from around this world. High Fidelity uses their own cryptocurrency, High Fidelity Coin (HFC) to manage your transactions. 
 
+**On This Page:**
 * [Buying High Fidelity Coin](#buying-high-fidelity-coin)
 * [Shopping the Marketplace](#shopping-the-marketplace)
 

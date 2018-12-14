@@ -8,7 +8,7 @@ High Fidelity enables people connected by interest, community, and friendship to
 
 No matter your level of expertise, High Fidelity provides the tools you need to create anything you can imagine.
 
-Throughout this chapter, learn how to create, build and bring to life your own VR experience.
+Throughout this chapter, learn how to create, build and bring to life your own VR experience:
 
 * [Avatars](./avatars)
 * [Entities](./entities)

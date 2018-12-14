@@ -6,6 +6,7 @@ taxonomy:
 
 High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you.
 
+**On This Page:**
 * [GOTO App](#goto-app)
 * [Visit a Friend](#visit-a-friend)
 * [Movement Controls - Mouse and Keyboard](#mouse-and-keyboard)

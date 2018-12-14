@@ -13,6 +13,7 @@ The steps involved in creating your avatar are:
 
 Many of our community members have created basic skeletons and avatars that you can use as a starting point. If you use one of these, you can skip one or more of the steps above. 
 
+**On This Page:**
 * [Glossary](#glossary)
 * [Community Tools for Avatars](#community-tools-for-avatars)
 * [How to Package Your Avatar](#how-to-package-your-avatar)

@@ -8,7 +8,7 @@ High Fidelity is a metaverse where you can connect and create with others. We in
 
 When you first launch High Fidelity Interface, you'll start your High Fidelity journey in a tutorial that will walk you through the basic controls in High Fidelity. ![](welcome-tutorial.png)
 
-Throughout this chapter, learn how to make the most of your exploration: 
+Throughout this chapter, learn how to make the most of your exploration:
 
 * [Install High Fidelity](./installation)
 * [Personalize your experience](./personalize-experience)

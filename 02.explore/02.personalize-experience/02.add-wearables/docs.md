@@ -6,6 +6,7 @@ taxonomy:
 
 You can customize your avatar's appearance by adding wearables , such as a pirate's hat, a pair of sunglasses, or even a pair of trousers that you designed. Like avatars, you can buy wearables from the Marketplace or use your imagination to create your own. 
 
+**On This Page:**
 * [Buy and Wear a Wearable from the Marketplace](#buy-and-wear-a-wearable-from-the-marketplace)
 * [Wear Your Own Wearable](#wear-your-own-wearable)
 
