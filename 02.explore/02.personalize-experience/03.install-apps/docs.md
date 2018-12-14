@@ -10,12 +10,15 @@ On this page:
 
 * [Install an App]($install-an-app)
 * [Our Marketplace Apps](#our-marketplace-apps)
-  * [Spectator Cam: Record or Livestream from High Fidelity](#spectator-cam)
-  * [Shapes: Create in VR](#shapes-create-in-vr)
+
+  * [Spectator Cam: Record or Livestream in High Fidelity](#spectator-cam)
+
+  * [Finger Painting](#finger-painting)
+
 
 ## Install an App
 
-We and many users have created apps that are available on High Fidelity's Marketplace. To find and install an app:
+We and many users have created apps that are available in High Fidelity's Marketplace. To find and install an app:
 
 *  Go to **Market** on your HUD or Tablet. and click 'Categories'.
 *  Select 'Apps, Scripts, & Tools' from the dropdown to take a look at what's available. You can also type 'app' in the search bar. Apps can be free or may be purchased at the listed price. If an app is not free, set up your [Wallet](#set-up-your-wallet) before purchasing anything on the Marketplace.
@@ -38,8 +41,8 @@ You can record or livestream what you see through your Spectator Camera using OB
 #### Get the Spectator Camera
 
 * On your HUD or Tablet, go to **Market**.
-* Search for the Spectator Camera and get it. 
-* You will be prompted about running the camera script. Click Yes and check your Tablet to see if the Spectator app has been added.
+* Search for the Spectator Camera. 
+* Install the app.
 
 >>> While using the Spectator Camera, Interface's framerate might be affected. This is because Interface is rendering not only what you see, but what the Spectator Camera sees as well. 
 
@@ -53,39 +56,20 @@ You can record or livestream what you see through your Spectator Camera using OB
   * Vive: If you're using HTC Vive controllers, press on the center of the thumb pad to switch views. 
 
 
-### Shapes: Create in VR
 
-Shapes lets you add and edit basic shapes (entities) in High Fidelity. You can use Shapes only in VR mode. 
+### Finger Painting 
 
-#### Get Shapes
+The Fingerpaint app allows you to paint your environment, your own avatar, or even another user's avatar. 
 
-* On your HUD or Tablet, go to **Market**.
-* Search for **Shapes** and get it. 
-* You will be prompted about running the Shapes script. Click "Yes" and check your tablet to see if the Shapes app has been added.
+#### Get the Fingerpaint App
 
-#### Using Shapes
+- On your HUD or Tablet, go to **Market**.
+- Search for the Fingerpaint App. 
+- Install the app.
 
-* Click on **Shapes** on your Tablet. 
-* A **Tools** menu and **Create** palette will be attached to your non-dominant hand. You can set your dominant hand by going to **Settings > Avatar > Dominant Hand**. ![](create-and-tools.gif)
+#### Using the Fingerpaint App
 
-#### Using the Create Palette
-
-* Click on one of the shapes to create and add that entity. 
-* The entity will be created at your hand. You can grab it by pressing the trigger on your controller. 
-
-#### Using the Tools Menu
-Once you create an entity, you can edit its properties using the **Tools** menu. 
-
-* You can see the tools available on the **Tools** menu in the image below. ![](tools.jpg)
-* Activate a tool by clicking its button. You'll see an icon representing the tool you selected on your dominant hand. 
-* You can deactivate a tool by hovering over the title bar and clicking "Back".
-* **Color**: You can choose a color for your entity by pointing your laser at "Color" in the **Tools** menu and dipping your finger or stylus in the color of your choice. You can even create color swatches for yourself. 
-* **Stretch**: You can change the dimensions of your entity by stretching it. Select "Stretch" to see the handles on your entity that you can pull it using your controllers.
-* **Clone**: You can clone your entity using the "Clone" tool. Select "Clone", point your laser at your entity and pull out its clone. 
-* **Group**: You can group two or more entities together for easier editing. Select "Group" and then select all the entities you want to group. 
-* **Physics**: You can modify the physics (behavior of your entity in space) using the "Physics" tool. Select "Physics" to see the variety of options available to you. 
-* **Delete**: You can delete an entity by selecting "Delete" and then selecting the entity you want to delete.   
-
-
-
-
+* On your HUD or Tablet, go to **Body Paint** and open the app.
+* First, select what you would like to paint on - the world around you, your avatar, or another user's avatar (with their permission). Do this by clicking **Options** and selecting your choice. 
+* Click **Palette** to select a color for your paint. 
+* Click **Brushes** to select the settings for your brush, such as stroke width, type of brush, and special effects.![](fingerpaint.PNG)
