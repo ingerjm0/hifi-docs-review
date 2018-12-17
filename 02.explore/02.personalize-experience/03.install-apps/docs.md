@@ -20,7 +20,8 @@ On this page:
 
 We and many users have created apps that are available in High Fidelity's Marketplace. To find and install an app:
 
-*  Go to **Market** on your HUD or Tablet. and click 'Categories'.
+1. In Interface, pull up your tablet or HUD and go to Market. 
+2. Search for a specific app, or browse all apps by selecting the Apps, Scripts & Tools category.
 *  Select 'Apps, Scripts, & Tools' from the dropdown to take a look at what's available. You can also type 'app' in the search bar. Apps can be free or may be purchased at the listed price. If an app is not free, set up your [Wallet](#set-up-your-wallet) before purchasing anything on the Marketplace.
 *  Click the app of your choice to purchase it. Once you've purchased your app, you can view it in your **Inventory** or **Recent Activity**. 
 *  Click **Install App**.
