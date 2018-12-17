@@ -9,7 +9,8 @@ To build any content in High Fidelity, whether it is an object that you interact
 **In This Section:**
 
 * [Create New Entities](./create-entities)
-* [Change How Entities Look](./edit-entities)
+* [Change How Entities Look](./entity-appearance)
+* [Define an Entity's Behavior](./entity-behavior)
 * [Apply Physics to Entities](./entity-physics)
 * [Add Sound to Entities](./add-sound)
 * [Host Your Entity](./host-entities)
