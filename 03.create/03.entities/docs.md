@@ -13,7 +13,6 @@ To build any content in High Fidelity, whether it is an object that you interact
 * [Define an Entity's Behavior](./entity-behavior)
 * [Apply Physics to Entities](./entity-physics)
 * [Add Sound to Entities](./add-sound)
-* [Host Your Entity](./host-entities)
 * [Define Interactions with Avatars](./avatar-interactions)
 * [Tutorial: Create a Pink Spotlight](./create-spotlight)
 * [Tutorial: Display a YouTube Channel](./display-youtube)

@@ -15,48 +15,12 @@ To add a sound:
 ## Tutorial: Create a Bouncing Ball
 In this example, we will walk through the steps to create a bouncing ball that emits a sound every time it hits a wall.
 
-1. Create a wall to bounce your ball off of. 
-	a. [Add a cube entity](../add-entities) to your domain.
-	b. [Resize the entity](../entity-appearance#set-the-size-of-an-entity) to approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1).
+1. Create a wall to bounce your ball off of.   
+	a. [Add a cube entity](../add-entities) to your domain.  
+	b. [Resize the entity](../entity-appearance#set-the-size-of-an-entity) to approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1).  
+2. Create a ball by [adding a sphere entity](../add-entities) to your domain. Optionally, [change the color](../entity-appearance#change-the-color-of-an-entity) of your ball, so that it is different than your wall.  
+3. In the Create Tools, click on Properties and scroll down to the Collision settings. Check the box for 'Collides' and 'Dynamic'.
+4. For 'Collision Sound', enter the URL of your sound file. The sound must be a *.wav* file, uncompressed, 48Khz, 16 bit. The URL can be either a web address, or an ATP reference to the assets on this domain server.  
+5. Scroll down to the Physics settings. Set the Gravity for Y to -5. This will cause your ball to fall a little more slowly than things on earth (use -9.8 if you want that). Gravity is in units of m/s<sup>2</sup>.
 
-We'll start by making a floor to bounce something off.
-
-- Create a [**Box Entity**](../box-and-sphere-entities).
-- Select the **Properties** tab.
-- Change the Dimensions to about 10m wide, 1m high and 10m deep (X:10, Y:1, Z:10).
-- Drag it down to the ground level. This will be our floor.
-
-## Add a Ball
-
-- Start by standing on the floor entity and create a [**Sphere Entity**](../box-and-sphere-entities).
-- Change the Color of the sphere to something other than red.
-
-### Set "Collisions" to Active
-
-- Scroll down and find the check box for **Collisions will Move**, put a check in there.
-- The entity is now set to respond to collisions.
-
-## Applying the Sound URL to the Entity
-
-The URL to a sound is set in the entity's properties as the **Collision Sound URL** . The sound must be a *.wav* file, uncompressed, 48Khz, 16 bit. The URL can be either a web address, or an ATP reference to the assets on this domain server.
-
-For this example, copy the following link and paste it into the space for Collision Sound URL:
-
-```
-http://s3.amazonaws.com/hifi-public/sounds/dice/diceCollide.wav
-```
-
-## Making the Ball Move
-
-Find Gravity and change the value for **Y** to *-5*. This will cause it to fall a little more slowly than things on earth (use -9.8 if you want that). Gravity is in units of meters/second^2^.
-
-As soon as you click off, the gravity will cause the ball to fall downwards. When it hits the floor, it should stop or bounce a little and the sound should play.
-
-You can just keep picking it up and dropping it to hear the sound again.
-
-You can duplicate the balls by ALT + Drag and then knock them into each other to get more sounds.
-
-## Resources
-
-- [Create a playable piano](../../archives/create-a-playable-piano)
-
+As soon as you click off the ball, the gravity will cause the ball to fall downwards. When it hits the floor, it should stop or bounce a little and the sound should play.

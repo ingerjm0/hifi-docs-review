@@ -12,6 +12,8 @@ High Fidelity has two different installers, based on how you use High Fidelity. 
 * [Client-Only Installer](#client-only-installer)
 * [Client and Sandbox Installer](#client-and-sandbox-installer)
 * [Perform a Clean Installation](#perform-a-clean-installation)
+	* [Windows](#windows-clean-install)
+	* [Mac](#mac-clean-install)
 
 ## Minimum System Requirements
 
@@ -75,7 +77,7 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 
 >>> A clean install removes multiple files and settings that you may need once you install High Fidelity again. Please back-up the following files before a clean install: Favorites, Wearables, Sandbox, and Entities in your Sandbox.
 
-### Windows
+### Windows Clean Install
 
 1. Click on the Start menu and type "Add or Remove Programs" in your Windows search bar.  
 2. Uninstall any versions of High Fidelity that are visible (Including any Steam installs). ![](add-remove-programs.png) 
@@ -85,7 +87,7 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 5. Browse to your roaming %AppData% folder (usually `C:/Users/<your_username>/AppData/Roaming`). Delete all folders related to High Fidelity.
 6. Re-install High Fidelity using the steps above. To restore your Sandbox content, copy the `assignment-client` folders you backed up back to their respective locations.
 
-## Mac
+## Mac Clean Install
 
 1. Open your Applications folder and delete the High Fidelity folder. 
 2. Browse to `<username>/.config` and delete the `highfidelity.io` folder. 

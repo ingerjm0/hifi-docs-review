@@ -7,9 +7,14 @@ High Fidelity is all about the people you meet and the experiences you have with
 
 **On This Page:**
 * [Make Connections and Friends](#make-connections-and-friends)
+	* [The People App](#the-people-app)
+	* [Your Privacy Bubble](#your-privacy-bubble)
 * [Attend Live Events](#attend-live-events)
 * [Express Yourself](#express-yourself)
+	* [The Emote App](#the-emote-app)
 * [Giving and Receiving Gifts](#giving-and-receiving-gifts)
+	* [Gifting HFC to Others](#gifting-hfc-to-others)
+	* [Gifting Purchased Items to Others](#gifting-purchased-items-to-others)
 
 ## Make Connections and Friends
 

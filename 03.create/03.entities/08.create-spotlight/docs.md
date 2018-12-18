@@ -4,29 +4,31 @@ taxonomy:
     category: docs
 ---
 
-*Learn how to create and edit a light entity.*
+In this example, we will use light entities to create a pink spotlight shining on a wall. We will:  
 
-## Example: Shine a Pink Spotlight on a Wall
+1. [Create a wall to shine the light on](#create-a-wall)
+2. [Create a light entity](#create-a-light-entity)
+3. [Edit the properties of the light so that it is a pink spotlight](#edit-the-light-properties)
 
-To demonstrate how Light entities work this example creates a pink spotlight shining down a wall. For this example, you will need to:
+## Create a Wall
 
-1. Create a wall to shine the light on.
-2. Create a Light entity.
-3. Edit the Light properties so that it is a pink spotlight.
+1. In Sandbox, pull up your tablet or HUD and go to Create.  
+2. In the Create Tools app, click CUBE.  
+3. In the Properties tab, scroll down to the Spatial settings. Change the dimensions so that you can easily see a wall in front of you. 
+![](create-wall.png)
 
-The next sections cover these steps in detail followed by a section covering some of the issues you might run into when working with Light entities.
+## Create a Light Entity
+1. In the Create Tools app, click LIGHT.  
+2. Grab the Light entity and move it so that it is centered on the wall.
+![](add-light.png)
 
-### Create a Wall to Shine the Light On
+## Edit the Light Properties
+1. With the light entity selected, open the entity's Properties in the Create Tools app.
+2. 
 
-To create a wall to shine the light on, in [Create Mode](../create-mode), complete these steps:
 
-1. Click the **Cube** icon to [create a Box entity](../box-and-sphere-entities).
-2. Select the **Properties** tab in the *Create* panel and make the following changes to the box properties:
-   ![](light-fall-off.PNG)
 
-Assuming you are in third person view, if you use the scroll wheel to zoom back, you should now have a "wall" that looks something like this:
 
-![](wall.PNG)
 
 
 ### Create a Light Entity
