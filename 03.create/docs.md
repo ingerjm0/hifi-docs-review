@@ -10,11 +10,11 @@ No matter your level of expertise, High Fidelity provides the tools you need to 
 
 Throughout this chapter, learn how to create, build and bring to life your own VR experience:
 
+* [Creator Tools](./tools)
 * [Avatars](./avatars)
-* [Entities](./entities)
 * [Wearables](./wearables)
+* [Entities](./entities)
 * [3D Models](./3d-models)
-* [Physics](./physics)
 * [Environments](./environments)
 * [Applications](./applications)
 
