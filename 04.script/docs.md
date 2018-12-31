@@ -13,6 +13,6 @@ Throughout this chapter, learn about the different types of scripts and how you 
 * [Interface Scripts](./interface-scripts)
 * [Assignment Client Scripts](./assignment-client-scripts)
 * [Avatar Scripts](./avatar-scripts)
-* Client Entity Scripts
-* Server Entity Scripts
+* [Client Entity Scripts](./client-entity-scripts)
+* [Server Entity Scripts](./server-entity-scripts)
 
