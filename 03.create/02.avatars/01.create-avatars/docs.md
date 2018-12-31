@@ -11,9 +11,10 @@ The steps involved in creating your avatar are:
 3. Fine tune your avatar using a tool such as Blender or Maya.
 4. Package the model in High Fidelity for use as an avatar.
 
-Many of our community members have created basic skeletons and avatars that you can use as a starting point. If you use one of these, you can skip one or more of the steps above. 
+You do not need to design an avatar using Adobe Fuse. You can also download avatars for use from other external sources such as TurboSquid or CGTrader. Once you get the avatar, you can proceed to step 2 where you rig and animate your avatar.  
 
 **On This Page:**
+
 * [Glossary](#glossary)
 * [Community Tools for Avatars](#community-tools-for-avatars)
 * [How to Package Your Avatar](#how-to-package-your-avatar)
