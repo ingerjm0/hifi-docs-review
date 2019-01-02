@@ -10,6 +10,7 @@ Throughout this chapter, learn about the different types of scripts and how you 
 
 * [Get Started with Scripting](./get-started-with-scripting)
 * [Write Your Own Scripts](./write-scripts)
+* [JavaScript Tips and Tricks](./js-tips)
 * [Interface Scripts](./interface-scripts)
 * [Assignment Client Scripts](./assignment-client-scripts)
 * [Avatar Scripts](./avatar-scripts)
