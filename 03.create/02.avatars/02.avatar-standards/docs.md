@@ -1,5 +1,5 @@
 ---
-title: Avatar Standards
+title: Avatar Standards Guide
 taxonomy:
     category: docs
 ---
