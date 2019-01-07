@@ -45,9 +45,9 @@ This guide will help you move around in the metaverse.
 | Side Step to the Right  | <kbd class="keyboard">E</kbd> or Right Click + <kbd class="keyboard">D</kbd>   |
 | Turn Left | <kbd class="keyboard">A</kbd> or <kbd class="keyboard">Left Arrow</kbd>   |
 | Turn Right | <kbd class="keyboard">D</kbd> or <kbd class="keyboard">Right Arrow</kbd>   |
-| Jump | <kbd class="keyboard">space</kbd> |
-| Fly | Hold <kbd class="keyboard">space</kbd> | 
-| Fly Down | <kbd class="keyboard">C</kbd> |  
+| Jump | <kbd class="keyboard">space</kbd> or <kbd class="keyboard">PgUp</kbd> |
+| Fly | Hold <kbd class="keyboard">space</kbd> or <kbd class="keyboard">PgUp</kbd> | 
+| Fly Down | <kbd class="keyboard">C</kbd> or <kbd class="keyboard">PgDn</kbd> |  
 <br />
 
 ### VR Controllers
