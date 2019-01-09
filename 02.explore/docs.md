@@ -10,9 +10,9 @@ When you first launch High Fidelity Interface, you'll start your High Fidelity j
 
 Throughout this chapter, learn how to make the most of your exploration:
 
-* [Install High Fidelity](./installation)
-* [Personalize your experience](./personalize-experience)
-* [Change your avatar](./personalize-experience/change-avatar)
-* [Move and Travel between worlds](./travel)
-* [Interact with other people](./interact-with-others)
-* [Bank and shop](./bank-and-shop)
+* [**Install High Fidelity**](./installation)
+* [**Personalize Your Experience**](./personalize-experience)
+* [**Change Your Avatar**](./personalize-experience/change-avatar)
+* [**Move and Travel Between Worlds**](./travel)
+* [**Socialize with Others**](./socialize)
+* [**Bank and Shop**](./bank-and-shop)

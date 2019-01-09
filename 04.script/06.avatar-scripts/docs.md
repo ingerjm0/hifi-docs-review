@@ -14,6 +14,8 @@ With avatar scripts, you can do things like make your hair flow or create partic
 ## Add an Avatar Script
 There are two different ways you can add an avatar script to your FST file: either by using our Package Model tool or by manually adding the script.
 
+>>>>> You cannot add scripts to avatars you have purchased from the Marketplace. You can add scripts to custom avatars only. 
+
 To add an avatar script using the Package Model tools: 
 1. Create a folder called `scripts` in the same location as your FBX file.
 2. Copy your avatar script into this new folder.
@@ -24,5 +26,55 @@ To add an avatar script manually:
 1. Open the FST file for your avatar in the text editor of your choice.  
 2. Add a line telling the avatar where to find the script file using the syntax `script = [SCRIPT URL]`.![](add-script.png)
 
->>>>> You can add multiple scripts to your avatar by adding multiple `script = url` lines.
+You can add multiple scripts to your avatar by adding multiple `script = url` lines.
 
+## Example of an Avatar Script
+
+The following script makes your avatar throw balls when its right hand moves. 
+
+```
+function(){
+    var triggerDistance = 0.0;
+    var TRIGGER_THRESHOLD = 0.9;
+    var LOAD_THRESHOLD = 0.6
+    var init = false;
+    var rightHandIndex = MyAvatar.getJointIndex("RightHand");
+    var rightArmIndex = MyAvatar.getJointIndex("RightArm");
+    var distance = 0.0;
+    var triggered = false;
+    function fireBall(position, speed) {
+        var baseID = Entities.addEntity({
+            type: "Sphere",
+            color: { blue: 128, green: 128, red: 20 },
+            dimensions: { x: 0.1, y: 0.1, z: 0.1 },
+            position: position,
+            dynamic: true,
+            collisionless: false,
+            lifetime: 10,
+            gravity: speed,
+            userData: "{ \"grabbableKey\": { \"grabbable\": true, \"kinematic\": false } }"
+        }); 
+        Entities.editEntity(baseID, { velocity: speed });
+    }
+    Script.update.connect(function() {
+        rightHandPos = MyAvatar.getJointPosition(rightHandIndex);
+        rightArmPos = MyAvatar.getJointPosition(rightArmIndex);
+        fireDir = Vec3.subtract(rightHandPos, rightArmPos);
+        var distance = Vec3.length(fireDir);
+        triggerDistance = distance > triggerDistance ? distance : triggerDistance;
+        if (!triggered) {
+            if (distance < LOAD_THRESHOLD * triggerDistance) {
+                triggered = true;
+            }
+        } else if (distance > TRIGGER_THRESHOLD * triggerDistance) {
+            triggered = false;
+            fireBall(rightHandPos, Vec3.normalize(fireDir));
+        }     
+    });
+    MyAvatar.scaleChanged.connect(function () {
+        triggerDistance = 0.0;
+    });
+})()
+```
+
+This example script uses the [MyAvatar](../../api-reference/namespace/myavatar) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](../../api-reference/namespace/entities) (to create the ball you will launch) and [Vec3](../../api-reference/namespace/vec3) (to determine the right positions and distances). Add it to your avatar to see how it works. 

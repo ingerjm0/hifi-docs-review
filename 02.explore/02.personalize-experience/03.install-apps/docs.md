@@ -8,7 +8,7 @@ You can enhance your experience in High Fidelity by installing apps from the Mar
 
 If you can't find an app for what you'd like to do, you can [create your own](../../../create/applications) and upload it to our Marketplace for your personal use or to sell to others.
 
-**On this Page:**
+**On This Page:**
 
 * [Install an App](#install-an-app)
 * [Our Marketplace Apps](#our-marketplace-apps)
