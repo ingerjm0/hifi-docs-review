@@ -134,9 +134,6 @@ You can change your account security settings in High Fidelity.
 | Account             | Enable to stay logged in (in the current device) even if you exit High Fidelity. |
 | Secure Transactions | Change your security picture.                                |
 
-![](security.png)
-
-
 
 **See Also**
 

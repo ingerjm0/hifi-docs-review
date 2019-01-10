@@ -83,15 +83,15 @@ We've listed some external tools you might want to use to create avatars and 3D 
 ### Adobe Fuse
 >>>>>There are community reports where users are unable to easily open Adobe Fuse once installed. To work around this issue, open it multiple times successively until you are able to open the application.
 
-Use [Adobe Fuse]((https://www.adobe.com/in/products/fuse.html)) to create a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse can help you start your customization.
+Use [Adobe Fuse](https://www.adobe.com/in/products/fuse.html) to create a custom avatar. The default heads, torsos, arms, and legs in Adobe Fuse can help you start your customization.
 
 ### Mixamo
 
-[Mixamo]((https://www.mixamo.com/#/)) is a rigging system that will rig your avatar's skeleton for you. You do not need any advanced knowledge of rigging to create simple animations for your avatar. 
+[Mixamo](https://www.mixamo.com) is a rigging system that will rig your avatar's skeleton for you. You do not need any advanced knowledge of rigging to create simple animations for your avatar. 
 
 ### Blender
 
-[Blender](https://www.blender.org/) is an open-source 3D modelling creation suite which supports everything from modelling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in High Fidelity. 
+[Blender](https://www.blender.org) is an open-source 3D modelling creation suite which supports everything from modelling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in High Fidelity. 
 
 ###  Maya
 
@@ -99,6 +99,6 @@ Use [Adobe Fuse]((https://www.adobe.com/in/products/fuse.html)) to create a cust
 
 ### Blocks
 
-[Blocks](https://vr.google.com/blocks/) is a 3D modeling tool you can use in VR. Blocks lets you create models easily regardless of your experience. You can create something on [Blocks through Steam](http://store.steampowered.com/app/533970/Blocks_by_Google/) or download it for the VR equipment you are using.
+[Blocks](https://vr.google.com/blocks) is a 3D modeling tool you can use in VR. Blocks lets you create models easily regardless of your experience. You can create something on [Blocks through Steam](http://store.steampowered.com/app/533970/Blocks_by_Google/) or download it for the VR equipment you are using.
 
 
