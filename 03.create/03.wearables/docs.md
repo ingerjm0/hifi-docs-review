@@ -8,10 +8,6 @@ Wearables are objects that attach to your avatar. They can be hats, skirts, glas
 
 Before you can use a custom wearable, you must first host its FBX and JSON files in a place that is publicly accessible to High Fidelity.  You can use any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc. You can also [upload your custom wearable to the Marketplace](../../sell/add-items) and sell it to others. 
 
-**On This Page**
-* [Build a Custom Wearable](#build-a-custom-wearable)
-* [Import and Edit Your Wearable](#import-and-edit-your-wearable)
-
 ## Build a Custom Wearable
 Wearables are simply [3D models](../3d-models) that are customized to fit on your avatar. Therefore, the first step in creating your wearable is to build one or find an existing model that you want to use. 
 
