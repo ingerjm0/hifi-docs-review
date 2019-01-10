@@ -8,22 +8,22 @@ When you first use High Fidelity, you will be wearing the default avatar, Woody.
 
 **On This Page:**
 
-* [Get a free avatar from BodyMart](#get-an-avatar-from-bodymart)
-* [Buy an avatar from the Marketplace](#buy-an-avatar-from-the-marketplace)
-* [Use your own custom avatar](#use-your-own-custom-avatar)
+* [Get an Avatar from BodyMart](#get-an-avatar-from-bodymart)
+* [Buy an Avatar from the Marketplace](#buy-an-avatar-from-the-marketplace)
+* [Use Your Own Custom Avatar](#use-your-own-custom-avatar)
 
-### Get an Avatar from BodyMart 
+## Get an Avatar from BodyMart 
  
- We've designed a number of avatars that are available for your use in BodyMart. 
- 
- To get an avatar from BodyMart:
- 
- 1. In Interface, pull up your tablet or HUD and select GoTo.
- 2. Enter BodyMart as the domain address.
- 3. Click on BodyMart. ![](bodymart.png)
- 4. Walk up to the avatar you like and grab it. You will now be wearing your new avatar. 
+We've designed a number of avatars that are available for your use in BodyMart. 
 
-### Buy an Avatar from the Marketplace
+To get an avatar from BodyMart:
+
+1. In Interface, pull up your tablet or HUD and select GoTo.
+2. Enter BodyMart as the domain address.
+3. Click on BodyMart. ![](bodymart.png)
+4. Walk up to the avatar you like and grab it. You will now be wearing your new avatar. 
+
+## Buy an Avatar from the Marketplace
 
 We and our users have designed multiple avatars that are available for your use in the Marketplace. 
 
@@ -34,7 +34,7 @@ To get an avatar from the Marketplace:
 3. You'll see a list of avatars of different designs available. Click on any one you like and hit **Get** (for free items) or **Buy** (for purchased avatars). ![](avatars.PNG)
 4. After completing your purchase, click **Wear** to switch to your new avatar. 
 
-### Use Your Own Custom Avatar
+## Use Your Own Custom Avatar
 
 You can use an avatar that you created. Learn more about how you can create your avatar [here](../create-avatars).
 

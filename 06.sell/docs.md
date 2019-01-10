@@ -10,9 +10,9 @@ There is no fee to post your items for sale on the Marketplace. We help you host
 
 Throughout this chapter, learn how you can upload your items to the Marketplace and make them available for purchase to all users in High Fidelity:
 
-* [Add Items to the Marketplace](./add-item)
-* [Update Your Marketplace Item](./update-item)
-* [Ownership of Your Items](./own-item)
-* [Marketplace Bill of Rights](./bill-of-rights)
-* [Marketplace Submission Rules](./submission-rules)
-* [Certified App Design Guidelines](./certified-apps)
+* [**Add Items to the Marketplace**](./add-item)
+* [**Update Your Marketplace Item**](./update-item)
+* [**Ownership of Your Items**](./own-item)
+* [**Marketplace Bill of Rights**](./bill-of-rights)
+* [**Marketplace Submission Rules**](./submission-rules)
+* [**Certified App Design Guidelines**](./certified-apps)
