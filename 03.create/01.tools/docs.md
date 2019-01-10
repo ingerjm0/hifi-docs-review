@@ -4,10 +4,10 @@ taxonomy:
     category: docs
 ---
 
-To build and create things in High Fidelity, you need to become familiar with the tools available to you. We've created our own custom tools (Create app and Shapes app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
+To build and create things in High Fidelity, you need to become familiar with the tools available to you. We've created our own custom tools (including the Create app and Shapes app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
 
-**On this page:**
-+ [Create App](#create-app)
+**On This page:**
++ [The Create App](#the-create-app)
 + [Shapes: Create in VR](#shapes-create-in-vr)
 + [Marketplace Item Tester](#marketplace-item-tester)
 + [External Creator Tools](#avatar-creator-tools)
@@ -18,7 +18,7 @@ To build and create things in High Fidelity, you need to become familiar with th
   + [Blocks](#blocks)
 
 
-## Create App
+## The Create App
 
 Use the **Create** app to [create any type of entity](../entities/create-entities). In Interface, pull up your HUD or Tablet and go to **Create** to get started. The Create app lets you:
 
@@ -76,7 +76,6 @@ To use the Marketplace Item Tester:
     <p><img src="../../../user/pages/03.create/01.tools/wearable-icon.png" style="display: inline; margin: 0;" /> Wearable</p>
 4. Click the icon to load your content in world. ![](test-item.png)
 
-
 ## External Creator Tools
 
 We've listed some external tools you might want to use to create avatars and 3D models. 
@@ -100,6 +99,6 @@ Use [Adobe Fuse]((https://www.adobe.com/in/products/fuse.html)) to create a cust
 
 ### Blocks
 
-[Blocks](https://vr.google.com/blocks/) is a 3D modelling tool you can use in VR. Blocks lets you create models easily regardless of your experience. You can create something on [Blocks through Steam](http://store.steampowered.com/app/533970/Blocks_by_Google/) or download it for the VR equipment you are using.
+[Blocks](https://vr.google.com/blocks/) is a 3D modeling tool you can use in VR. Blocks lets you create models easily regardless of your experience. You can create something on [Blocks through Steam](http://store.steampowered.com/app/533970/Blocks_by_Google/) or download it for the VR equipment you are using.
 
 

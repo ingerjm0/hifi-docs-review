@@ -36,7 +36,7 @@ You can locate all items that you purchase in the Inventory App.
 
 ### The Inventory App
 
-The Inventory App provides an interface to manage your transactions, purchases, and HFC. From the Inventory App, you can: 
+The Inventory app provides an interface to manage your transactions, purchases, and HFC. From the Inventory app, you can: 
 
 * View your recent purchases, sales, gifts and other transaction history
 * Change avatars, put on wearables and install/update apps

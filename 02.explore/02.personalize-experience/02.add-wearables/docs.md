@@ -7,10 +7,10 @@ taxonomy:
 You can customize your avatar's appearance by adding wearables, such as a pirate's hat, a pair of sunglasses, or even a pair of trousers that you designed. Like avatars, you can buy wearables from the Marketplace or use your imagination to create your own. 
 
 **On This Page:**
-* [Buy and Wear a Wearable from the Marketplace](#buy-and-wear-a-wearable-from-the-marketplace)
+* [Buy a Wearable from the Marketplace](#buy-a-wearable-from-the-marketplace)
 * [Wear Your Own Wearable](#wear-your-own-wearable)
 
-## Buy and Wear a Wearable from the Marketplace
+## Buy a Wearable from the Marketplace
 We and our users have designed many wearables that are available for your use in the Marketplace.
 
 1. In Interface, pull up your tablet or HUD and go to Market.

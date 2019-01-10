@@ -9,7 +9,7 @@ When you first use High Fidelity, you will be wearing the default avatar. Your a
 **In This Section:** 
 
 * [Create Your Own Avatar](./create-avatars)
-* [Avatar Standards Guide](./avatar-standards)
+* [Find and Use an Existing Avatar](./find-avatars)
 * [Host Your Avatar](./host-avatar)
 * [Tutorial: Create an Avatar with Fuse](./fuse-tutorial)
 * [Tutorial: Rig Your Avatar with Mixamo](./mixamo-tutorial)

@@ -9,15 +9,14 @@ The steps involved in creating your avatar are:
 1. Create an avatar with 3D character modeling tool such as Adobe Fuse. 
 2. Rig and animate your avatar with an animation tool such as Mixamo.
 3. Fine tune your avatar using a tool such as Blender or Maya.
-4. Package the model in High Fidelity for use as an avatar.
+4. Package the model in High Fidelity for use as an avatar.  
 
-You do not need to design an avatar using Adobe Fuse. You can also download avatars for use from other external sources such as TurboSquid or CGTrader. Once you get the avatar, you can proceed to step 2 where you rig and animate your avatar.  
+>>>>>You do not need to design an avatar using Adobe Fuse. You can also download avatars for use from other external sources such as TurboSquid or CGTrader. If you get an avatar from somewhere else, use the [High Fidelity Avatar Exporter for Unity](./find-avatars) to map the avatar's skeleton and package it for use with High Fidelity.
 
 **On This Page:**
-
 * [Glossary](#glossary)
 * [Community Tools for Avatars](#community-tools-for-avatars)
-* [How to Package Your Avatar](#how-to-package-your-avatar)
+* [Package Your Avatar](#package-your-avatar)
 * [YouTube Tutorial: Create Your Avatar](#youtube-tutorial)
 
 ## Glossary
@@ -31,7 +30,6 @@ As we delve deeper into creating custom avatars, we may use terminology that you
 * Rigging - The process of creating a skeleton of the avatar model.
 * Blendshapes - Variations of the topology that defines how the mesh is modified to create various "shapes".
 * FST file - The main avatar file, which contains information about the skeleton, blendshapes, FBX file and textures used by an avatar.
-
 
 ## Community Tools for Avatars
 As you're creating your avatar, remember that High Fidelity is an open-source project. Many of our community members have created plug-ins, add-ons, toolkits, skeletons and more to help you create content, including avatars. Here are a few for you to play around with.
@@ -51,7 +49,7 @@ Install it here: [https://github.com/Menithal/Blender-Hifi-Addon](https://github
 ---
 Have a project you've been working on that you'd like us to share? Let us know by editing this page in GitHub! 
 
-## How to Package Your Avatar
+## Package Your Avatar
 
 No matter how you [created your custom avatar](../), you must convert your FBX model to FST before using that avatar in High Fidelity. This process is called *packaging your avatar*.
 
@@ -60,8 +58,7 @@ High Fidelity provides a built-in tool that will create an FST file that will an
 
 1. In Interface, go to Edit > Package Model as fst.
 2. Click Browse and locate the FBX file for your avatar. Click OK. 
-3. The Set Model Properties window lets you map the FBX properties with everything that High Fidelity needs to know to create your avatar. If you use Mixamo, these will be set automatically for you and you do not need to make any changes. Here, you can also attach external textures or scripts to your avatar. Click OK.
->>>>>Scripts let you produce special effects for your avatars. For more information, check out [Get Started with Scripting](https://docs.highfidelity.com/learn-with-us/get-started-with-scripting).
+3. The Set Model Properties window lets you map the FBX properties with everything that High Fidelity needs to know to create your avatar. If you use Mixamo, these will be set automatically for you and you do not need to make any changes. Here, you can also attach external textures or [scripts](../../../scripts/avatar-scripts) to your avatar. Click OK.
 4. Browse to the folder where you want to save your avatar files. We recommend creating a new directory for each avatar. 
 
 At this point, your avatar has been created! After hosting the avatar in the cloud or the Marketplace, [switch to it](../change-avatar#use-your-own-custom-avatar) and adopt your new look. ![](imported-avatar.png)

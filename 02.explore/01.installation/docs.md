@@ -87,7 +87,7 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 5. Browse to your roaming %AppData% folder (usually `C:/Users/<your_username>/AppData/Roaming`). Delete all folders related to High Fidelity.
 6. Re-install High Fidelity using the steps above. To restore your Sandbox content, copy the `assignment-client` folders you backed up back to their respective locations.
 
-## Mac Clean Install
+### Mac Clean Install
 
 1. Open your Applications folder and delete the High Fidelity folder. 
 2. Browse to `<username>/.config` and delete the `highfidelity.io` folder. 
