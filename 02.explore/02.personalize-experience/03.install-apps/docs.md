@@ -22,10 +22,10 @@ If you can't find an app for what you'd like to do, you can [create your own](..
 We and many users have created apps that are available in High Fidelity's Marketplace. To find and install an app:
 
 1. In Interface, pull up your HUD or Tablet and go to **Market**.
-2. Search for a specific app, or browse all apps by selecting the "Apps, Scripts, & Tools" category.
-3. Click the app of your choice to purchase it and hit **Get** (for free items) or **Buy** (for purchased apps). Once you've purchased your app, you can view it in your **Inventory** or **Recent Activity**. 
-4. After completing your purchase, click **Install App** to start using the app in High Fidelity.
-5. Once the app is installed, click **Open App** to launch. You can also access the app through your HUD or Tablet.
+2. Search for a specific app, or browse all apps by selecting the 'Apps, Scripts, & Tools' category.
+3. Click the app of your choice to purchase it and hit 'Get' (for free items) or 'Buy' (for purchased apps). Once you've purchased your app, you can view it in your **Inventory** or 'Recent Activity'. 
+4. After completing your purchase, click 'Install App' to start using the app in High Fidelity.
+5. Once the app is installed, click 'Open App' to launch. You can also access the app through your HUD or Tablet.
 
 ## Our Marketplace Apps
 
@@ -53,9 +53,9 @@ The Fingerpaint app lets your paint your environment, your own avatar, or even a
 
 To use the Fingerpaint app: 
 1. In Interface, pull up your HUD or Tablet and go to **Body Paint**. 
-2. First, click **Options** to select what you would like to paint on - the world around you, your avatar, or another user's avatar (with their permission).  
-3. Click **Palette** to select a color for your paint. 
-4. Click **Brushes** to select the settings for your brush, such as stroke width, type of brush, and special effets.
+2. First, click 'Options' to select what you would like to paint on - the world around you, your avatar, or another user's avatar (with their permission).  
+3. Click 'Palette' to select a color for your paint. 
+4. Click 'Brushes' to select the settings for your brush, such as stroke width, type of brush, and special effects.
 ![](fingerpaint.png)
 
 ### Text to Speech
@@ -70,5 +70,8 @@ To use the Text to Speech (TTS) app:
 1. In Interface, pull up your HUD or Tablet and go to **TTS**. 
 2. In the app, select the Pitch and Speed of your choice. 
 3. Type in the text you'd like your avatar to speak.
-4. Hit **Speak** to hear your text. Hit **Stop Last** to stop your avatar from speaking.
+4. Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from speaking.
 ![](tts.png). 
+
+**See Also**
++ [Applications](../../../create/applications)
