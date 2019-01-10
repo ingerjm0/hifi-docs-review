@@ -17,7 +17,7 @@ Just like in the real world, you can interact with your environment by grabbing 
 
 ## Grab Objects
 
-You can grab objects in High Fidelity using your mouse or hand controllers. You can grab an entity, hold it, throw it, and drop it depending on the entity's properties. 
+You can grab objects in High Fidelity using your mouse or hand controllers. You can grab an entity, hold it, throw it, and drop it depending on the [entity's properties](../../create/entities/entity-behavior). 
 
 * In Desktop mode, click and hold the left mouse button to grab and hold an entity. 
 * In VR mode, reach out towards the object and press the Grab button. The location of this button depends on the controllers you are using. 
@@ -27,7 +27,7 @@ You can grab objects in High Fidelity using your mouse or hand controllers. You 
 
 ## Collisions
 
-You can collide (or run into) objects and other avatars in High Fidelity. Likewise, objects can collide with one another. We use physics to govern how entities behave when they collide with each other or with avatars. 
+You can collide (or run into) objects and other avatars in High Fidelity. Likewise, objects can collide with one another. We use [physics to govern how entities behave](../../create/entities/entity-physics) when they collide with each other or with avatars. 
 
 Without this collision property set, objects will move straight through other entities and avatars. As you interact with your environment, take note on which objects have collisions enabled based on whether or not you can walk through them. 
 
@@ -39,3 +39,9 @@ Some entities have scripts (or triggers) that make them behave a certain way whe
 
 These triggers are scripted in the entities themselves by their creators. Because of this, the possible behavior is endless. We encourage you to explore and discover all of the cool ways you can interact with your surroundings. 
 
+**See Also**
+
++ [Apply Physics to Entities](../../create/entities/entity-physics)
++ [Define an Entity's Behavior](../../create/entities/entity-behavior)
++ [Add Sound to Entities](../../create/entities/add-sounds)
++ [Define Interactions with Avatars](../../create/entities/avatar-interactions)

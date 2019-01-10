@@ -25,14 +25,14 @@ You can also receive HFC from gifts from your friends or as prizes at events in 
 
 The Marketplace contains all types of items to enrich your VR experience, including avatars, buildings, apps, wearables, toys and so much more. Each item will have a cost associated with it - some items are free, while others can be purchased. 
 
-Browse our items in the Marketplace either on [our website](https://highfidelity.com/marketplace) or by using the Market App. 
+Browse our items in the Marketplace either on [our website](https://highfidelity.com/marketplace) or by using the **Market** App. 
 
 To buy an item: 
-1. In Interface, pull up your tablet or HUD and go to Market.
+1. In Interface, pull up your tablet or HUD and go to **Market**.
 2. Browse to the item you want to buy.
-3. Click on the item and hit **Get** (for free items) or **Buy** (for purchased items).![](buy-item.png)
+3. Click on the item and hit Get (for free items) or Buy (for purchased items).![](buy-item.png)
 
-You can locate all items that you purchase in the Inventory App. 
+You can locate all items that you purchase in the **Inventory** App. 
 
 ### The Inventory App
 
@@ -40,6 +40,11 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 
 * View your recent purchases, sales, gifts and other transaction history
 * Change avatars, put on wearables and install/update apps
-* Send HFC to your friends or anyone nearby
+* [Send HFC to your friends or anyone nearby](../socialize#send-hfc-to-others)
 
 ![](inventory-app.png)
+
+**See Also**
++ [Send HFC to Others](../socialize#send-hfc-to-others)
++ [Send Purchased Items to Others](../socialize#send-purchased-items-to-others)
++ [Sell](../sell)

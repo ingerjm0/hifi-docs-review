@@ -19,11 +19,11 @@ You can enjoy High Fidelity with or with VR equipment such as head mounted displ
 
 Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. We support the following VR equipment: 
 
-| Head Mounted Displays                    | Hand Controllers    | 
-| ---------------------------------------- | ------------------- | 
-| Oculus Rift (CV1 and DK2, runtime version 1.3) | HTC Vive            | 
-| HTC Vive                                 | Oculus Touch        | 
-| Windows MR    | XBox One Controller | 
+| Head Mounted Displays                    | Hand Controllers    |
+| ---------------------------------------- | ------------------- |
+| Oculus Rift (CV1 and DK2, runtime version 1.3) | HTC Vive            |
+| HTC Vive                                 | Oculus Touch        |
+| Windows MR    | XBox One Controller |
 |                                          | Leap Motion Orion   
 
 Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
@@ -74,7 +74,7 @@ You can choose how you view things around you by changing your perspective. To c
 | Third Person                   | Select this setting to change your perspective to third person. In this view, you will see yourself, as well as the environment around you. ![](third-person.png) |
 | Mirror                         | Select this to change your perspective to mirror. In this view, you will see yourself and the space behind you. ![](mirror.png) NOTE: You cannot move in mirror mode. It is for viewing only. |
 | Independent Mode               | Select this to change what you see through scripting instead of avatar's movements. |
-| Entity Mode                    | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |  
+| Entity Mode                    | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |
 
 ## Change How You Move in VR
 
@@ -135,3 +135,9 @@ You can change your account security settings in High Fidelity.
 | Secure Transactions | Change your security picture.                                |
 
 ![](security.png)
+
+
+
+**See Also**
+
++ [Configure Your Domain Settings](../../../host/your-domain/install-domain-configure-settings)
