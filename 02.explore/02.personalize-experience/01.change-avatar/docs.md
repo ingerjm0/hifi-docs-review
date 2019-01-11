@@ -54,3 +54,4 @@ Once you have your avatar's .fst file, you can upload it.
 + [Create Your Own Avatar](../../../create/avatars/create-avatars)
 + [Find and Use an Existing Avatar](../../../create/avatars/find-avatars)
 + [Host Your Avatar](../../../create/avatars/host-avatar)
++ [Add Your Avatar to the Marketplace](../../../sell/add-item/upload-avatar)

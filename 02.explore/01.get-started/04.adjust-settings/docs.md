@@ -4,14 +4,22 @@ taxonomy:
     category: docs 
 ---
 
-You can adjust various settings in High Fidelity so that it runs to your preferences. You can make these changes through your HUD and Menu (in Desktop mode) or Tablet (in VR mode). 
+You can adjust various settings in High Fidelity so that it runs to your preferences. Many of these settings are changed using the HUD (in Desktop mode) or Tablet (in VR mode). 
 
 **On This Page:**
+* [The Tablet and HUD](#the-tablet-and-hud)
 * [Enter or Exit VR Mode](#enter-or-exit-vr-mode)
 * [Change Your Audio Settings](#change-your-audio-settings)
 * [Set Your Perspective](#set-your-perspective)
 * [Change How You Move in VR](#change-how-you-move-in-vr) 
 * [Other Miscellaneous Settings](#other-miscellaneous-settings)
+
+## The Tablet and HUD
+In VR, all of your settings are found in your **Tablet**. It also gives you easy access to any [apps that you install](../../personalize-experience/install-apps). Pull up the tablet by clicking the menu button on your controller.
+![](tablet.png)
+
+In Desktop Mode, you have the option to use either the Tablet or a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. To enable the HUD, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar**. 
+![](hud.png)
 
 ## Enter or Exit VR Mode
 

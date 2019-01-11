@@ -11,14 +11,14 @@ If you can't find an app for what you'd like to do, you can [create your own](..
 **On This Page:**
 
 * [Install an App](#install-an-app)
+* [Update an App](#update-an-app)
 * [Our Marketplace Apps](#our-marketplace-apps)
-  * [Spectator Cam: Record or Livestream in High Fidelity](#spectator-cam)
-  * [Finger Painting](#finger-painting)
-  * [Text to Speech](#text-to-speech)
+	* [Spectator Cam: Record or Livestream in High Fidelity](#spectator-cam)
+	* [Finger Painting](#finger-painting)
+	* [Text to Speech](#text-to-speech)
 
 
 ## Install an App
-
 We and many users have created apps that are available in High Fidelity's Marketplace. To find and install an app:
 
 1. In Interface, pull up your HUD or Tablet and go to **Market**.
@@ -27,12 +27,27 @@ We and many users have created apps that are available in High Fidelity's Market
 4. After completing your purchase, click 'Install App' to start using the app in High Fidelity.
 5. Once the app is installed, click 'Open App' to launch. You can also access the app through your HUD or Tablet.
 
-## Our Marketplace Apps
 
+## Update an App
+When an app has an update available, a notification will pop up in the top right corner of the Interface when you open High Fidelity. Additionally, a red dot will appear on the **Inventory** icon of your HUD or Tablet to indicate an update is available to download.
+
+To update your app: 
+1. In Interface, pull up your HUD or Tablet and go to **Inventory**.
+2. In the **Inventory** app, click the notification that says "You have X item updates available."
+3. Scroll to the app you'd like to update and click on the menu. ![](update-menu.png)
+4. Click the 'Update' button, then 'Update for Free'.
+>>>>>You can also visit the Item Listing page, where you’ll see an 'Update For Free' button. 
+
+### Additional Notes on Updating
+* If you decide not to update an item, the old product will still be valid and listed in **Inventory**.
+* Once you update an item, the previous version of the product will no longer be available.
+* If you purchased multiple instances of an item, you need to individually update each instance of an item in your **Inventory**.
+* When you update a product with the old version already in-world, it will remain intact until it is replaced manually with the updated version. If you attempt to import an entities JSON which contains the old version, the system will ignore the item, and not automatically replace it in-world. It is up to the end-user to replace the old instances with the new.
+
+## Our Marketplace Apps
 We've listed some of the apps we created and how you can use them. 
 
 ### Spectator Cam
-
 The Spectator Camera is a camera you can use to record or livestream what you and your friends do in High Fidelity. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details. 
 
 [Use the instructions above](#install-an-app) to install the Spectator Camera app.
@@ -71,7 +86,7 @@ To use the Text to Speech (TTS) app:
 2. In the app, select the Pitch and Speed of your choice. 
 3. Type in the text you'd like your avatar to speak.
 4. Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from speaking.
-![](tts.png). 
+![](tts.png)
 
 **See Also**
-+ [Applications](../../../create/applications)
++ [Create Applications](../../../create/applications)

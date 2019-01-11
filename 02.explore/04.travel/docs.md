@@ -1,17 +1,14 @@
 ---
-title: Move and Travel Between Worlds
+title: Travel Between Worlds
 taxonomy:
     category: docs 
 ---
 
-High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you.
+High Fidelity is made up of many virtual places that let you participate in activities and interact with the people around you. Many of these places are beautifully detailed worlds that are interesting to explore at any time, while others were built to host events and engage with the people around you. 
 
 **On This Page:**
-* [GOTO App](#goto-app)
+* [GoTo App](#goto-app)
 * [Visit a Friend](#visit-a-friend)
-* [Movement Controls - Mouse and Keyboard](#mouse-and-keyboard)
-* [Movement Controls - VR Controllers](#vr-controllers)
-* [Movement Controls - Gamepad](#gamepad)
 
 ## GoTo App
 The **GoTo** app lets you travel between different places in the High Fidelity metaverse. Many of our places are created by users just like you. 
@@ -29,38 +26,6 @@ Once you've [made a friend](../socialize#make-connections-and-friends), you can 
 1. In Interface, open your tablet or HUD and go to **People**. 
 2. Click 'Connections' and find the friend you want to visit. 
 3. Select their name then 'Visit'.
-
-## Movement Controls
-This guide will help you move around in the metaverse.
-
-### Mouse and Keyboard
-
-![](controls-keyboard.png)
-
-| Movement  | Key |
-| ------------- | ------------- |
-| Walk Forward | <kbd class="keyboard">W</kbd> or <kbd class="keyboard">Up Arrow</kbd>  |
-| Walk Backward  | <kbd class="keyboard">S</kbd> or <kbd class="keyboard">Down Arrow</kbd>  |
-| Side Step to the Left | <kbd class="keyboard">Q</kbd> or Right Click + <kbd class="keyboard">A</kbd>   |
-| Side Step to the Right  | <kbd class="keyboard">E</kbd> or Right Click + <kbd class="keyboard">D</kbd>   |
-| Turn Left | <kbd class="keyboard">A</kbd> or <kbd class="keyboard">Left Arrow</kbd>   |
-| Turn Right | <kbd class="keyboard">D</kbd> or <kbd class="keyboard">Right Arrow</kbd>   |
-| Jump | <kbd class="keyboard">space</kbd> or <kbd class="keyboard">PgUp</kbd> |
-| Fly | Hold <kbd class="keyboard">space</kbd> or <kbd class="keyboard">PgUp</kbd> |
-| Fly Down | <kbd class="keyboard">C</kbd> or <kbd class="keyboard">PgDn</kbd> |
-<br />
-
-### VR Controllers
-
->>>>>If you want to jump and fly in VR, you must enable it under Settings > Controls > VR Movement.
-
-![](controls-VR.png)
-
-### Gamepad
-
-While the use of a gamepad is supported, High Fidelity is best experienced with hand controllers like the Oculus Touch, HTC Vive, and Microsoft MR controllers.
-
-![](controls-gamepad.png)
 
 **See Also**
 + [Socialize with Others](../socialize)
