@@ -10,11 +10,10 @@ When you first launch High Fidelity Interface, you'll start your High Fidelity j
 
 Throughout this chapter, learn how to make the most of your exploration:
 
-* [**Install High Fidelity**](./installation)
+* [**Get Started with High Fidelity**](./get-started)
 * [**Personalize Your Experience**](./personalize-experience)
 * [**Change Your Avatar**](./personalize-experience/change-avatar)
-* [**Travel Between Worlds**](./travel)
 * [**Socialize with Others**](./socialize)
+* [**Travel Between Worlds**](./travel)
+* [**Interact with Your Environment**](./interact-objects)
 * [**Bank and Shop**](./bank-and-shop)
-* [**Keyboard Controls for Desktop**](./keyboard-controls)
-* [**Controls for VR Hardware**](./vr-controls)

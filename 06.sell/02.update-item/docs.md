@@ -11,7 +11,7 @@ Once you've [added an item](../add-item) to sell on the Marketplace, you can upd
 * [Additional Notes](#additional-notes)
 
 ## Update Your Item in the Marketplace
-All updates to your item must be reviewed, verified and certified by our Marketplace team. Once you have the new assets, you are ready to update your item. The process is similar to when you first [added your item](./add-item).
+All updates to your item must be reviewed, verified and certified by our Marketplace team. Once you have the new assets, you are ready to update your item. The process is similar to when you first [added your item](../add-item).
 
 1. Go to [https://highfidelity.com/marketplace/items/new](https://highfidelity.com/marketplace/items/new) to create a new item. If you're not logged in, you will be prompted to do so. 
 2. Enter the name of your item and select your category. 

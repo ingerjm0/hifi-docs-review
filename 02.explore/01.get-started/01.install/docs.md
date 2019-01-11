@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-High Fidelity has two different installers, based on how you use High Fidelity. The _client installer_ comes with everything you need to view and interact with High Fidelity's content and users. However, you are unable to host content using this installer. The _client and sandbox installer_ enables you to [host your own content](../host), with the option to share it with the world. 
+High Fidelity has two different installers, based on how you use High Fidelity. The _client installer_ comes with everything you need to view and interact with High Fidelity's content and users. However, you are unable to host content using this installer. The _client and sandbox installer_ enables you to [host your own content](../../../host), with the option to share it with the world. 
 
 **On This Page:**
 * [Minimum System Requirements](#minimum-system-requirements)
@@ -100,4 +100,4 @@ If you're facing problems when you load Interface and Sandbox, you can try perfo
 
 **See Also**
 
-+ [Install Your Domain](../host/your-domain/install-domain)
++ [Install Your Domain](../../../host/your-domain/install-domain)

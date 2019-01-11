@@ -100,7 +100,7 @@ You can create a coupon when you want to send money or an item to someone at a l
 3. Select 'Create Coupon'.
 4. Enter an optional public message explaining the purpose of the coupon. 
 5. The Tablet will now display a window with the 'Authorization ID' and 'Coupon ID'. Copy both these values on your computer. Click 'Close'.
-6. Include the copied values in a [script where another user receives the HFC or item](../../script/write-scripts/transfer-money-items).
+6. Include the copied values in a [script where another user receives the HFC or item](../../script/transfer-hfc-tutorial).
 ![](create-coupon.png)
 
 **Example: Use a Coupon to Hold a Raffle**  
@@ -116,5 +116,5 @@ Say you want to pre-authorize 10 of your High Fidelity Coins to be paid out to a
 
 **See Also**
 
-+ [Bank and Shop](../explore/bank-and-shop)
++ [Bank and Shop](../bank-and-shop)
 + [Tutorial: Transfer Money and Items](../../script/transfer-hfc-tutorial)

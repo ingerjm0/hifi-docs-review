@@ -15,7 +15,7 @@ To add a new entity to your domain:
 3. Depending on the entity type, the behavior will be different:  
 	* For model and material entities, enter the URL that you want to import.  
 	* For all other  entities, an entity with the default settings will appear in front of your avatar.
-4. Edit the properties of your entity so that it [looks](../edit-entities) and [behaves](../entity-physics) like you want it to.
+4. Edit the properties of your entity so that it [looks](../entity-appearance) and [behaves](../entity-physics) like you want it to.
 
 ![](add-cube.png)
 ## Types of Entities

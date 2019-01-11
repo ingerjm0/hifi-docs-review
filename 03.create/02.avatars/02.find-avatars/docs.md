@@ -76,7 +76,7 @@ Your avatar package has been created! The File Explorer will open to your new av
 
 Test your avatar locally before you host and use it. This step lets you check your avatar for any issues and fix them before you host it online. 
 
->>>>>Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly [host your avatar](../../host-avatar) before you can [use your custom avatar](../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar). 
+>>>>>Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly [host your avatar](../host-avatar) before you can [use your custom avatar](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar). 
 
 1. Copy your avatar's textures into the project’s textures folder. We support textures in either PNG  or JPG format.
 2. Go to the folder where your avatar project is saved on your computer. Right-click the FST file and click copy. This will copy your FST file’s local path.
@@ -84,7 +84,7 @@ Test your avatar locally before you host and use it. This step lets you check yo
 4. In the Avatar window, click the link icon next to your current avatar. Paste the copied FST file's URL and click Confirm.![](avatar-link.png)
 5. Test your avatar by moving around and using the **Emote** app.
 
-If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to [host your avatar](../host-avatar) then [change the URL](../../explore/change-avatar#use-your-own-custom-avatar) to point to your hosted version.
+If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to [host your avatar](../host-avatar) then [change the URL](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar) to point to your hosted version.
 
 ### Troubleshooting Tips
 

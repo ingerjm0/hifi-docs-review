@@ -38,7 +38,7 @@ To get an avatar from the Marketplace:
 
 You can use an avatar that you created. Learn more about how you can create your avatar [here](../../../create/avatars/create-avatars).
 
->>>>>All avatars must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, Github, or Microsoft Azure. Alternatively, you can [add your avatar to the Marketplace](../../../marketplace/sell/add-item) to sell to other users. 
+>>>>>All avatars must be hosted in the cloud before they can be used with High Fidelity. Examples of cloud storage options include Amazon S3, Google Cloud Storage, Github, or Microsoft Azure. Alternatively, you can [add your avatar to the Marketplace](../../../sell/add-item/upload-avatar) to sell to other users. 
 
 Once you have your avatar's .fst file, you can upload it. 
 
