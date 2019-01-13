@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Once you [create an avatar](../create-and-explore/avatars/create-avatars), it should contain the following files:
+Once you [create an avatar](../../../create/avatars/create-avatars), it should contain the following files:
 * An FST file
 * An FBX file
 * Scripts folder (optional)

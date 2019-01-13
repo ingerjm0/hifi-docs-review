@@ -10,7 +10,7 @@ You can download avatars for use from external sources such as TurboSquid or CGT
 * [Avatar Guidelines](#avatar-guidelines)
 * [High Fidelity Avatar Exporter for Unity](#high-fidelity-avatar-exporter-for-unity)
 	* [Create a Unity Project](#create-a-unity-project)
-	* [Install the High Fidelity Avatar Exporter for Unity](install-the-high-fidelity-avatar-exporter-for-unity)
+	* [Install the High Fidelity Avatar Exporter for Unity](#install-the-high-fidelity-avatar-exporter-for-unity)
 	* [Create an Avatar Package](#create-an-avatar-package)
 	* [Test Your Avatar](#test-your-avatar)
 	* [Troubleshooting Tips](#troubleshooting-tips)
@@ -21,7 +21,7 @@ Many external sites like TurboSquid and CGTrader provide avatars that you can us
 
 * [Real-time models](https://blog.turbosquid.com/real-time-models/) (not rendered)
 * Rigged avatars
->>>>>If your avatar is not rigged, you can use [Mixamo](../mixamo-tutorial) to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use [our avatar packager](../../package-avatar) to import your avatar into High Fidelity. 
+>>>>>If your avatar is not rigged, you can use [Mixamo](../mixamo-tutorial) to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use [our avatar packager](../create-avatars.html#package-your-avatar) to import your avatar into High Fidelity. 
 * Avatars in the FBX file format (we don't enforce a poly count limit, but we recommend using an avatar with a low poly count of around 10k)
 
 ## High Fidelity Avatar Exporter for Unity
@@ -76,7 +76,7 @@ Your avatar package has been created! The File Explorer will open to your new av
 
 Test your avatar locally before you host and use it. This step lets you check your avatar for any issues and fix them before you host it online. 
 
->>>>>Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly [host your avatar](../../host-avatar) before you can [use your custom avatar](../../change-avatar#use-your-own-custom-avatar). 
+>>>>>Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly [host your avatar](../host-avatar) before you can [use your custom avatar](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar). 
 
 1. Copy your avatar's textures into the project’s textures folder. We support textures in either PNG  or JPG format.
 2. Go to the folder where your avatar project is saved on your computer. Right-click the FST file and click copy. This will copy your FST file’s local path.
@@ -84,7 +84,7 @@ Test your avatar locally before you host and use it. This step lets you check yo
 4. In the Avatar window, click the link icon next to your current avatar. Paste the copied FST file's URL and click Confirm.![](avatar-link.png)
 5. Test your avatar by moving around and using the **Emote** app.
 
-If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to [host your avatar](../../host-avatar) then [change the URL](../../change-avatar#use-your-own-custom-avatar) to point to your hosted version.
+If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to [host your avatar](../host-avatar) then [change the URL](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar) to point to your hosted version.
 
 ### Troubleshooting Tips
 

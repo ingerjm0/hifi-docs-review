@@ -104,7 +104,7 @@ You'll have to add the [entity script](https://s3.amazonaws.com/hifi-docs-script
 Close the Create app and click on the Tip Jar cube entity. A window pops up, prompting you to pay 10 HFC to the username specified in the script.
 
 ## Create a VIP Access Zone
-In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](../client-entity-scripts) to transfer money and an [assignment script](../assignment-scripts) to verify payments. 
+In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](../client-entity-scripts) to transfer money and an [assignment client script](../assignment-client-scripts) to verify payments. 
 
 Here are the steps for this tutorial: 
 	+ [Place a VIP Zone in Your Domain](#place-a-vip-zone-in-your-domain)
@@ -178,7 +178,7 @@ This step is optional as it doesn't matter how a user sends you 10 HFC to earn V
 However, to make it easier to people to pay you, you can create an box that collects payment. Simply follow the directions to [create a tip jar](#create-a-tip-jar) above. You should now have a working "VIP Zone" in your domain. Only users with VIP status can enter this "VIP Zone". You should also have a "Tip Cube" in your domain that helps users pay you HFC to become VIPs.
 
 ## Add a Slot Machine Game
-In this example, we walk through creating a slot machine game that pays out HFC. Players will pay you (the domain owner) 1 HFC to start playing, and the slot machine will pay out 25 HFC if the payer wins. This tutorial uses [coupons](../../explore/socialize#create-a-coupon) to reserve HFC ahead of time, [client entity scripts](../client-entity-scripts) to control the mechanics of the slot machine, and an [assignment client script](../assignment-scripts) to handle the slot machine game logic. 
+In this example, we walk through creating a slot machine game that pays out HFC. Players will pay you (the domain owner) 1 HFC to start playing, and the slot machine will pay out 25 HFC if the payer wins. This tutorial uses [coupons](../../explore/socialize#create-a-coupon) to reserve HFC ahead of time, [client entity scripts](../client-entity-scripts) to control the mechanics of the slot machine, and an [assignment client script](../assignment-client-scripts) to handle the slot machine game logic. 
 
 Here are the steps for this tutorial: 
 * [Create a Slot Machine in Your Domain](#create-a-slot-machine-in-your-domain)

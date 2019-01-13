@@ -6,10 +6,10 @@ taxonomy:
 
 This guide details instructions for building High Fidelity on your system. If you're looking for build guides specific to the OS of your preference, check out:
 
-- [Windows 64-bit](../windows-64-bit)
-- [OS X](../os-x)
-- [Linux](../linux)
-- [Android](../android)
+- [Windows 64-bit](./windows-64-bit)
+- [OS X](./os-x)
+- [Linux](./linux)
+- [Android](./android)
 
 ## Dependencies
 

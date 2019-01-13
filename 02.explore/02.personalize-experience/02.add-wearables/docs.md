@@ -33,8 +33,7 @@ Once you have your wearable's .fbx file, you can upload it.
 8. Click 'Save'.
 
 
-
 **See Also**
 
-+ [Wearables](../../../create/wearables)
-+ [Add Your Wearable](../../../sell/add-item/upload-wearable)
++ [Create Wearables](../../../create/wearables)
++ [Add Your Wearable to the Marketplace](../../../sell/add-item/upload-wearable)

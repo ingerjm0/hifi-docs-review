@@ -47,4 +47,4 @@ The Inventory app provides an interface to manage your transactions, purchases, 
 **See Also**
 + [Send HFC to Others](../socialize#send-hfc-to-others)
 + [Send Purchased Items to Others](../socialize#send-purchased-items-to-others)
-+ [Sell](../sell)
++ [Sell Items on the Marketplace](../../sell)

@@ -11,7 +11,7 @@ The steps involved in creating your avatar are:
 3. Fine tune your avatar using a tool such as Blender or Maya.
 4. Package the model in High Fidelity for use as an avatar.  
 
->>>>>You do not need to design an avatar using Adobe Fuse. You can also download avatars for use from other external sources such as TurboSquid or CGTrader. If you get an avatar from somewhere else, use the [High Fidelity Avatar Exporter for Unity](./find-avatars) to map the avatar's skeleton and package it for use with High Fidelity.
+>>>>>You do not need to design an avatar using Adobe Fuse. You can also download avatars for use from other external sources such as TurboSquid or CGTrader. If you get an avatar from somewhere else, use the [High Fidelity Avatar Exporter for Unity](../find-avatars) to map the avatar's skeleton and package it for use with High Fidelity.
 
 **On This Page:**
 * [Glossary](#glossary)
@@ -58,18 +58,18 @@ High Fidelity provides a built-in tool that will create an FST file that will an
 
 1. In Interface, go to Edit > Package Model as fst.
 2. Click Browse and locate the FBX file for your avatar. Click OK. 
-3. The Set Model Properties window lets you map the FBX properties with everything that High Fidelity needs to know to create your avatar. If you use Mixamo, these will be set automatically for you and you do not need to make any changes. Here, you can also attach external textures or [scripts](../../../scripts/avatar-scripts) to your avatar. Click OK.
+3. The Set Model Properties window lets you map the FBX properties with everything that High Fidelity needs to know to create your avatar. If you use Mixamo, these will be set automatically for you and you do not need to make any changes. Here, you can also attach external textures or [scripts](../../../script/avatar-scripts) to your avatar. Click OK.
 4. Browse to the folder where you want to save your avatar files. We recommend creating a new directory for each avatar. 
 
-At this point, your avatar has been created! After hosting the avatar in the cloud or the Marketplace, [switch to it](../change-avatar#use-your-own-custom-avatar) and adopt your new look. ![](imported-avatar.png)
+At this point, your avatar has been created! After hosting the avatar in the cloud or the Marketplace, [switch to it](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar) and adopt your new look. ![](imported-avatar.png)
 
 ## YouTube Tutorial
 
 Check out this YouTube playlist for one way to create and customize your own avatar. Here, we use Adobe Fuse to create our avatar, Mixamo to rig our avatar automatically, and Blender to adjust the rendering on our avatar. We also have written instructions on the same process: 
 
-* [Create an Avatar with Fuse](./fuse-tutorial)
-* [Rig Your Avatar in Mixamo](./mixamo-tutorial)
-* [Modify Materials and Textures with Blender](./blender-tutorial)
+* [Create an Avatar with Fuse](../fuse-tutorial)
+* [Rig Your Avatar in Mixamo](../mixamo-tutorial)
+* [Modify Materials and Textures with Blender](../blender-tutorial)
 
 [plugin:youtube](https://www.youtube.com/watch?v=6NfiH4rdVRM)
 
