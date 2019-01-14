@@ -98,3 +98,9 @@ Your wearable must have a `parentJoint` described in your .JSON, as well as `use
 
 
 >>>> Content found to infringe on copyrights and content found to be malicious after being accepted will be invalidated. This will halt all access to the item and it will no longer be available for purchase or rezzing.
+
+
+
+**See Also**
+
++ [Marketplace Bill of Rights](../bill-of-rights)

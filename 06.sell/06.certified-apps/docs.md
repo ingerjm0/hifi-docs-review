@@ -119,3 +119,8 @@ If you choose to stop all functionality (option 1), then the certified app needs
 1. Turn off the 3D user interfaces. This can be achieved either by providing that functionality in the 3D user interface, or surfacing a button in the UI of the certified app that achieves the same function.
 2. Stop the script from modifying or enhancing the client. This can be achieved by surfacing a button in the UI of the certified app.
 
+**See Also**
+
++ [Write Your Own Scripts](../script/write-scripts)
+
+  

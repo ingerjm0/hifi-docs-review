@@ -49,3 +49,7 @@ greet.sayHello(); // prints Hello to the console
 
 When you use the `require` method, you are making any function or object exported from **example.js** available to **main.js**. This means that **main.js **now has access to functions that will print either Hello or Goodbye to the console. In the above example, we are printing Hello to the console when we run **main.js**.
 
+**See Also**
+
++ [Write Your Own Scripts](../write-scripts)
++ [API Reference](../../api-reference)

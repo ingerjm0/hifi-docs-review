@@ -67,7 +67,7 @@ Your domain server makes regular archives of the content in your domain. These a
 
 The 'Content Archives' section can be used to restore your domain to a previous version or to share your archive and settings with another user. In this section you can:
 
-- **Restore, Download, or Delete an Archive**: On any archive of your choice, click on the three dots to the right to:
+- **Restore, Download, or Delete an Archive**: On any archive of your choice, click on the 'Actions' to the right to:
   - **Restore from here**: Reset the domain to that saved state or archive.
   - **Download**: Compress all of the content in your domain to a downloaded zip file.
   - **Delete**: Remove the archive from the saved archives list.  ![](content-archives-actions.png)
@@ -78,7 +78,7 @@ The 'Content Archives' section can be used to restore your domain to a previous 
 You can upload content stored on your computer to your domain. 
 
 1. Choose your archive zip file from your computer. 
-2. Select "Upload Content" to upload a content archive.
+2. Select 'Upload Content' to upload a content archive.
 
 
 ### Set an Entry Path for Users
@@ -87,7 +87,7 @@ You can set an entry path to control where a user appears and which direction th
 
 1. In your domain, move your avatar to the point where you wish to have users appear. 
 2. Go to **Navigate > Copy Path to Clipboard**. The path will be represented using 3D coordinates with orientation information, for example `/-8.10251e-07,-11.1818,1.79641e-05/0,-0.708837,0,0.705372`. This type of path is tedious to approximate and enter manually, making 'Copy Path to Clipboard' the more practical method of defining a path.
-3. Open your [domain settings](http://localhost:40100/settings/). Click Content and go to Paths on the drop down menu. ![](go-to-path.png)
+3. Open your [domain settings](https://highfidelity.com/user/cloud_domains) if you're hosting it on a cloud service. Or, use (http://localhost:40100/settings/) for a local sandbox. Click 'Content' and go to 'Paths' on the drop down menu. ![](go-to-path.png)
 4. Click the plus sign to add a new path. Paste your copied path under 'Viewpoint'.
 
 You can add multiple user directions and rotations using this table. Exactly like a website URL, if a user is going to `example-domain` and enters it by typing in `example-domain/taco`, they will appear with the direction and rotation of the `/taco` path.
@@ -116,8 +116,8 @@ The audio settings affect how sound is transmitted and received throughout the d
 You can add audio settings for a stage in your domain. This stage is used for performances and events. 
 
 1. Create two new zones, call them "Stage" and "Audience".
-2. Set the **Attenuation Coefficients** to zero with Stage as the source and Audience as the listener. That way, anyone in Audience will hear anyone on Stage at maximum volume. 
-3. If you want to minimize people in the audience hearing one another in the Audience zone, set up another **Attenuation Coefficients** pair with Audience as both source and listener, and set the distance attenuation very high--e.g., to 1.0. That way, you'll only hear people very close to you like your friend on your right, but won't hear the guy coughing 10 rows back.
+2. Set the 'Attenuation Coefficients' to zero with Stage as the source and Audience as the listener. That way, anyone in Audience will hear anyone on Stage at maximum volume. 
+3. If you want to minimize people in the audience hearing one another in the Audience zone, set up another 'Attenuation Coefficients' pair with Audience as both source and listener, and set the distance attenuation very high--e.g., to 1.0. That way, you'll only hear people very close to you like your friend on your right, but won't hear the guy coughing 10 rows back.
 
 
 

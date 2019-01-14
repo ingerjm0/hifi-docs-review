@@ -76,12 +76,12 @@ Here are the steps for this tutorial:
 Consider getting familiar with the following concepts before starting this tutorial:
 * [Create New Entities](../../create/entities)
 * [Get Started with Scripting](../get-started-with-scripting)
-* [Asset Server]()
+* [Asset Server](../../host/manage-your-domain-assets)
 
 ### Create a Tip Jar in Your Domain
-You need a jar that accepts money. In this simple example, we will use a cube entity as our tip jar. Create your tip jar in the Create app:
+You need a jar that accepts money. In this simple example, we will use a cube entity as our tip jar. Create your tip jar in the **Create** app:
 
-1. In Interface, pull up your HUD or Tablet and go to Create.
+1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click the cube icon to create a cube entity.
 3. Move the Tip Jar to where you want it.
 
@@ -95,13 +95,13 @@ You'll have to add the [entity script](https://s3.amazonaws.com/hifi-docs-script
 1. Change the `DESTINATION_USERNAME` variable in `tipJar.js` to match your username.
 2. Upload the `tipJar.js` script to your domain's ATP server. 
 	* In Interface, go to **Edit > Asset Browser > Choose File**. 
-	* Right-click the script file, then select "Copy URL".
-3. In Interface, pull up your HUD or Tablet and go to Create.
-4. In the Entity List, select the Tip Jar cube entity.
-5. In the entity's Properties, scroll down to "Script" and paste the URL you copied, into the text box. Press Enter.
+	* Right-click the script file, then select 'Copy URL'.
+3. In Interface, pull up your HUD or Tablet and go to **Create**.
+4. In the 'Entity List', select the Tip Jar cube entity.
+5. In the entity's 'Properties', scroll down to 'Script' and paste the URL you copied, into the text box. Press Enter.
 5. Lock the entity so nobody can change its attributes.
 
-Close the Create app and click on the Tip Jar cube entity. A window pops up, prompting you to pay 10 HFC to the username specified in the script.
+Close the **Create** app and click on the Tip Jar cube entity. A window pops up, prompting you to pay 10 HFC to the username specified in the script.
 
 ## Create a VIP Access Zone
 In this example, we walk through creating an exclusive VIP zone that is accessible only to paid VIPs. This tutorial uses a [client entity script](../client-entity-scripts) to transfer money and an [assignment client script](../assignment-client-scripts) to verify payments. 
@@ -121,13 +121,13 @@ Here are the steps for this tutorial:
 Consider getting familiar with the following concepts before starting this tutorial:
 * [Create New Entities](../../create/entities)
 * [Get Started with Scripting](../get-started-with-scripting)
-* [Asset Server]()
+* [Asset Server](../../host/manage-your-domain-assets)
 
 ### Place a VIP Zone in Your Domain
 You need an area (or zone) in your domain that will be designated the "VIP Zone". Only users who have paid you 10 HFC in the current server session have access to enter this zone. If the server restarts, users will have to pay for VIP status again.
 
-1. In Interface, pull up your HUD or Tablet and go to Create.
-2. Click the Zone icon to create a zone entity.
+1. In Interface, pull up your HUD or Tablet and go to **Create**.
+2. Click the 'Zone' icon to create a zone entity.
 3. Move the zone to where you want it.
 
 ### Write an Entity Script for the VIP Zone
@@ -141,10 +141,10 @@ We need to write an entity script to put on the VIP Zone. This script will check
 To add the [entity script](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneEntityScript.js) to the VIP zone:
 1. Upload the [`vipZoneEntityScript.js`](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneEntityScript.js) script to your domain's ATP server. 
 	* In Interface, go to **Edit > Asset Browser > Choose File**. 
-	* Right-click the script file, then click "Copy URL".
-2. In Interface, pull up your HUD or Tablet and go to Create.
-3. In the Entity List, select the VIP Zone entity.
-3. In the entity's Properties, scroll down to "Script" and paste the URL you copied into the text box. Press Enter.
+	* Right-click the script file, then click 'Copy URL'.
+2. In Interface, pull up your HUD or Tablet and go to **Create**.
+3. In the 'Entity List', select the 'VIP Zone' entity.
+3. In the entity's 'Properties', scroll down to 'Script' and paste the URL you copied into the text box. Press Enter.
 4. Lock the zone entity so nobody can change its attributes.
 
 ### Obtain the Auth Token
@@ -154,23 +154,23 @@ To obtain this auth token:
 1. Go to https://highfidelity.com/user/tokens/new.
 2. Name the token something memorable.
 3. Select the `commerce` scope.
-4. Click "Create Token".
+4. Click 'Create Token'.
 5. Copy and save the token.
 
 ### Write an Authenticated AC Script
-Now, write an Assignment Client (AC) script containing the authentication token you copied and saved. This AC script checks your Recent Activity for recent transactions of 10 HFC made in your domain.
+Now, write an [Assignment Client (AC) script](../assignment-client-scripts) containing the authentication token you copied and saved. This AC script checks your Recent Activity for recent transactions of 10 HFC made in your domain.
 
 [Click here](https://s3.amazonaws.com/hifi-docs-scripts/vipZoneACScript.js) to download a pre-made "VIP Zone" AC script. Follow along with the comments in the code to understand what it's doing!
 
 ### Run the AC Script in Your Domain
 To run the above AC script in your domain from ATP:
 1. Set `HIFI_COMMERCE_TOKEN` to the token you saved in the `vipZoneACScript.js` script. 
-2. Upload your `vipZoneACScript.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click and select "Copy URL".
+2. Upload your `vipZoneACScript.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click and select 'Copy URL'.
 3. Navigate to the Domain Settings page of your domain (for a local sandbox, this is http://localhost:40100/). 
-4. Click "Content" at the top of the page, then scroll to the "Scripts" section.
-5. Under "Persistent Scripts", click the `+` button on the right column.
-6. Under "Script URL", paste the ATP URL you copied.
-7. Click "Save and restart" at the top right of the page.
+4. Click 'Content' at the top of the page, then scroll to the 'Scripts' section.
+5. Under 'Persistent Scripts', click the `+` button on the right column.
+6. Under 'Script URL', paste the ATP URL you copied.
+7. Click 'Save and restart' at the top right of the page.
 
 ### (Optional) Create a Box to Accept Payments
 This step is optional as it doesn't matter how a user sends you 10 HFC to earn VIP status. For example, if a user (in Interface) went to **Inventory > Send Money > Nearby** to send you 10 HFC while you were in your domain, they would still get "VIP status".
@@ -203,8 +203,8 @@ You need a slot machine that your users can play. You can [create your own](../.
 
 To use the one that already exists:
 1. Download the following JSON: [basicSlotMachine_noScripts.json](https://s3.amazonaws.com/hifi-docs-scripts/basicSlotMachine_noScripts.json)
-2. In Interface, pull up your tablet or HUD and go to Create.
-3. In the Create Tools app, click 'Import Entities'. Browse to and select `basicSlotMachine_noScripts.json`.
+2. In Interface, pull up your tablet or HUD and go to **Create**.
+3. In the **Create** Tools app, click 'Import Entities'. Browse to and select `basicSlotMachine_noScripts.json`.
 
 You should now see a slot machine entity in your domain. This example entity consists of:
 * Three "reels" (red, green, and blue cubes).
@@ -230,8 +230,8 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
     * Authorization ID
     * Coupon ID
 4. In the second row, under the HFC column, put `25`.
-5. In the second row, under the "Authorization ID" column, paste your saved Authorization ID.
-6. In the second row, under the "Coupon ID" column, paste your saved Coupon ID.
+5. In the second row, under the 'Authorization ID' column, paste your saved Authorization ID.
+6. In the second row, under the 'Coupon ID' column, paste your saved Coupon ID.
 
 **To create the Google script**
 
@@ -242,8 +242,8 @@ In this step, you will put the "Authorization ID" and "Coupon ID" into some sort
     * The Spreadsheet ID is embedded in the URL of the Google Sheets page and is visible in the following screenshot (part of the URL is blocked out for privacy purposes).
         ![](googleSheetURL.png)
 5. Save the script, using whatever filename you wish.
-6. Click "Publish", then "Deploy as Web App..."
-7. Follow Google's instructions to deploy your script as a web app. Ensure you set "Who has access to the app" to "Anyone, even anonymous". When finished, copy the URL you're given at the end of the process and save it somewhere you'll remember for later. The web app URL will look something like `https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec`
+6. Click 'Publish', then 'Deploy as Web App...'
+7. Follow Google's instructions to deploy your script as a web app. Ensure you set 'Who has access to the app' to 'Anyone, even anonymous'. When finished, copy the URL you're given at the end of the process and save it somewhere you'll remember for later. The web app URL will look something like `https://script.google.com/macros/s/ABCDEFGHIJKLMNOP_QRSTUVWXYZ1984373/exec`
 
 >>>>Make sure you keep the web app URL and the Google Sheet URL **private**, or your authorization data will be visible to anyone with access to the sheet.
 
@@ -257,12 +257,12 @@ This script will display a message "1 Slot Machine Play Credit" when they click 
 ### Add the Entity Script to the Slot Machine
 To add the [entity script](https://s3.amazonaws.com/hifi-docs-scripts/addCreditsButton.js) to the slot machine:
 1. Change the `DESTINATION_USERNAME` to your username in `addCreditsButton.js`.
-2. Upload the `addCreditsButton.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click "Copy URL".
-3. In Interface, use the 'CREATE' app to select the "Click Here to Add Credits" text entity on the Slot Machine entity.
-4. In the entity's Properties tab, scroll down to "Script" and paste the URL you copied in step 2 into the text box. Press Enter.
+2. Upload the `addCreditsButton.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click 'Copy URL'.
+3. In Interface, use the **Create** app to select the 'Click Here to Add Credits' text entity on the Slot Machine entity.
+4. In the entity's 'Properties' tab, scroll down to 'Script' and paste the URL you copied in step 2 into the text box. Press Enter.
 5. Lock the entity so nobody can change its attributes.
-6. In Interface, use the 'CREATE' app to select the border entity around the "Click Here to Add Credits" button on the Slot Machine entity.
-7. In the entity's Properties tab, scroll down to "Script" and paste the URL you copied in step 2  into the text box. Press Enter.
+6. In Interface, use the **Create** app to select the border entity around the 'Click Here to Add Credits' button on the Slot Machine entity.
+7. In the entity's 'Properties' tab, scroll down to 'Script' and paste the URL you copied in step 2  into the text box. Press Enter.
 8. Lock the entity so nobody can change its attributes.
 
 ### Allow Users to Pull the Reels
@@ -271,9 +271,9 @@ Next, you need to provide your users with a way to start the slot machine's reel
 [Click here](https://s3.amazonaws.com/hifi-docs-scripts/slotMachineSpinLever.js) to download a pre-made "Spin Lever" entity script. Follow along with the comments in the code to understand what it's doing!
 
 To add the entity script to the reels: 
-1. Upload the `slotMachineSpinLever.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click "Copy URL".
-2. In Interface, use the 'CREATE' app to select the red Spin Lever sphere entity on the Slot Machine entity.
-3. In the entity's Properties tab, scroll down to "Script" and paste the URL from step 1 into the text box. Press Enter.
+1. Upload the `slotMachineSpinLever.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click 'Copy URL'.
+2. In Interface, use the **Create** app to select the red Spin Lever sphere entity on the Slot Machine entity.
+3. In the entity's 'Properties' tab, scroll down to 'Script' and paste the URL from step 1 into the text box. Press Enter.
 4. Lock the entity so nobody can change its attributes.
 
 ### Obtain Auth Token
@@ -283,7 +283,7 @@ To get this auth token:
 1. Go to https://highfidelity.com/user/tokens/new.
 2. Name the token something memorable.
 3. Select the `commerce_ro` scope.
-4. Click "Create Token".
+4. Click 'Create Token'.
 5. Copy and save the token.
 
 ### Write a Game Logic AC Script
@@ -308,13 +308,20 @@ To run the AC script on your domain from ATP:
     6. Set `GOOGLE_SHEET_AUTH_SCRIPT` to the URL of the Google Script Web App created earlier.
     7. Set `SLOT_MACHINE_AREA` to the coordinates around which the slot machine entity will be placed.
         *See the comments in the code for more details about why this is necessary.*
-2. Upload your `slotMachineACScript.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click "Copy URL".
+2. Upload your `slotMachineACScript.js` script to your domain's ATP server. In Interface, go to **Edit > Asset Browser > Choose File**. Right-click the script file, then click 'Copy URL'.
 3. Navigate to the Domain Settings page of your domain (for a local sandbox, this is http://localhost:40100/).
-4. Click "Content" at the top of the page, then scroll to the "Scripts" section.
-5. Under "Persistent Scripts", click the `+` button on the right column
-6. Under "Script URL", paste the ATP URL from step 2.
-7. Click "Save and restart" at the top right of the page
+4. Click 'Content' at the top of the page, then scroll to the 'Scripts' section.
+5. Under 'Persistent Scripts', click the `+` button on the right column
+6. Under 'Script URL', paste the ATP URL from step 2.
+7. Click 'Save and restart' at the top right of the page
 
 You should now have a basic but fully working slot machine in your domain, that you and anyone else in your domain can play.
 
 >>>> In this example, a user could change the colors of the unlocked reels to match just before the game ends, and thus force a payout. This example does not cover anti-cheat or anti-tampering methods for securing your slot machine or funds!
+
+**See Also**
+
+- [Get Started with Scripting](../get-started-with-scripting)
+- [Write Your Own Scripts](../write-scripts)
+- [API Reference](../../api-reference)
+- [Create a Coupon](../../explore/socialize#create-a-coupon)

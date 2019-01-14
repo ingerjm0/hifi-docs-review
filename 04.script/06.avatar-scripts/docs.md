@@ -8,6 +8,7 @@ Avatar scripts are bound to an avatar. This means that they run when a user puts
 With avatar scripts, you can do things like make your hair flow or create particle clouds around your avatar.
 
 **On This Page**
+
 * [Add an Avatar Script](#add-an-avatar-script)
 * [Example of an Avatar Script](#example-of-an-avatar-script)
 
@@ -19,8 +20,8 @@ There are two different ways you can add an avatar script to your FST file: eith
 To add an avatar script using the Package Model tools: 
 1. Create a folder called `scripts` in the same location as your FBX file.
 2. Copy your avatar script into this new folder.
-3. In Interface, go to Edit > Package Model as .fst
-4. For Script Directory, enter the path to the `scripts` folder you created above. 
+3. In Interface, go to **Edit > Package Model as .fst**
+4. For 'Script Directory', enter the path to the `scripts` folder you created above. 
 
 To add an avatar script manually:  
 1. Open the FST file for your avatar in the text editor of your choice.  
@@ -78,3 +79,9 @@ function(){
 ```
 
 This example script uses the [MyAvatar](../../api-reference/namespaces/myavatar) namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as [Entities](../../api-reference/namespaces/entities) (to create the ball you will launch) and [Vec3](../../api-reference/namespaces/vec3) (to determine the right positions and distances). Add it to your avatar to see how it works. 
+
+**See Also**
+
+- [Get Started with Scripting](../get-started-with-scripting)
+- [Write Your Own Scripts](../write-scripts)
+- [API Reference](../../api-reference)

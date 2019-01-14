@@ -8,6 +8,7 @@ High Fidelity's robust [JavaScript API](../../api-reference) provides the tools 
 In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer. 
 
 **On This Page:**
+
 * [Write to the Debug Window](#write-to-the-debug-window)
 * [Create an Entity](#create-an-entity)
 * [Edit an Entity](#edit-an-entity)
@@ -62,3 +63,9 @@ print("Entity color: " + JSON.stringify(properties.color));
 
 When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the Debug Window. Then, the script changes the color of the entity to red, and prints the new color in the Debug Window.
 ![](edit-entity.png)
+
+
+
+**See Also**
+
++ [Load and Run A Script](../get-started-with-scripting#load-and-run-a-script)
