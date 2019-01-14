@@ -7,6 +7,7 @@ taxonomy:
 In the metaverse, it can be tricky to verify the legitimacy or ownership of a piece of property. High Fidelity implemented a blockchain tracking system that allows content creators to certify their creations and records all transactions made using HFC. 
 
 **On This Page**
+
 * [Blockchain Protection](#blockchain-protection)
 * [PoP License and Certificate](#pop-license-and-certificate)
 
@@ -25,3 +26,9 @@ When you put up an item for review on the Marketplace, it has to be approved by 
 Once an item is approved by the registry, you (the user) will receive a PoP Certificate of edition 0 of the item. This PoP Certificate contains static properties about the item and cannot be altered. This means all the descriptors will always remain the same and your item's Certificate cannot be changed. It can only be changed when the PoP Certificate is transferred.
 
 If you place this item on sale on the Marketplace, any other users purchasing your item will receive subsequent editions of your item. Every time a user purchases your item, it is certified and cryptographically signed by the Marketplace. The PoP Certificate proves that you possess an item through legal means.
+
+**See Also**
+
++ [Add an Item to the Marketplace](../add-item)
++ [Marketplace Bill of Rights](../bill-of-rights)
+

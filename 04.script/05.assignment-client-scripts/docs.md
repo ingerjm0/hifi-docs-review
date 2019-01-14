@@ -14,15 +14,15 @@ With AC scripts, you can do things like coordinate actions between entities and 
 ## Add an AC Script
 Once you've written and hosted your script, you need to add it to a domain, either your own or one where you have permissions to run an AC script.
 
-1. In your browser, go to: [http://localhost:40100](http://localhost:40100)
-2. From the menu, go to Content > Scripts.
-3. In the Persistent Scripts section, click **+** and paste the URL to your script under **Script URL**. 
+1. Open your 'Domain Administration Panel'. If you are on a local sandbox, open it by clicking on the High Fidelity icon in the taskbar notifications and 'click Settings'.
+2. From the menu, go to **Content > Scripts**.
+3. In the Persistent Scripts section, click **+** and paste the URL to your script under 'Script URL'. 
 ![](ac-script.png)
-4. At the top of the page, click Save and Restart. Now, every time you enter that domain, the AC script will be running.
+4. At the top of the page, click 'Save and Restart'. Now, every time you enter that domain, the AC script will be running.
 
 ## Example of an AC Script
 
-The following script counts the number of entities found in a domain using High Fidelity's [EntityViewer](https://docs.highfidelity.com/api-reference/namespaces/entityviewer).
+The following script counts the number of entities found in a domain using High Fidelity's [EntityViewer](../../api-reference/namespaces/entityviewer).
 
 ```javascript
 var SEARCH_CENTER = {x: 0, y: -10, z: 0};
@@ -54,3 +54,8 @@ var update = function(deltaTime) {
 Script.update.connect(update);
 ```
 
+**See Also**
+
++ [Configure Your Domain Settings](../../host/your-domain/configure-settings)
++ [Get Started with Scripting](../get-started-with-scripting)
++ [Write Your Own Scripts](../write-scripts)

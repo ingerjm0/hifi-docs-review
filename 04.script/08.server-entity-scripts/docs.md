@@ -13,10 +13,10 @@ You can make content in High Fidelity interactive by attaching scripts to entiti
 
 ## Attach a Server Entity Script to an Entity
 To attach a server entity script to an entity: 
-1. In Interface, pull up your tablet or HUD and go to Create.
-2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the Entity List.
-3. In the Create Tools, go to the Properties tab and scroll down to the Behavior section. 
-4. For Server Script, enter the URL to your server entity script. 
+1. In Interface, pull up your tablet or HUD and go to **Create**.
+2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the 'Entity List'.
+3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section. 
+4. For 'Server Script', enter the URL to your server entity script. 
 
 >>>>>An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL. 
 
@@ -47,7 +47,7 @@ The following script modifies the intensity of a light entity, so that it flicke
 });
 
 ```
-This script is a good example of a server entity script because it only needs one actor to update the intensitvy of the light. The same script could be attached as an entity client script, but all clients who could see the tea light would be editing the entity to vary the intensity of the light to flicker it.
+This script is a good example of a server entity script because it only needs one actor to update the intensity of the light. The same script could be attached as an entity client script, but all clients who could see the tea light would be editing the entity to vary the intensity of the light to flicker it.
 
 ## Script API
 
@@ -55,3 +55,8 @@ The Entity Script Server does not have access to all of the listed components of
 
 Learn more about what APIs are available to server entity scripts [here](https://docs.highfidelity.com/api-reference/namespaces/entities).
 
+**See Also**
+
+- [Get Started with Scripting](../get-started-with-scripting)
+- [Write Your Own Scripts](../write-scripts)
+- [API Reference](../../api-reference)
