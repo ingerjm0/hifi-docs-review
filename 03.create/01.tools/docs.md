@@ -8,35 +8,38 @@ To build and create things in High Fidelity, you need to become familiar with th
 
 **On This page:**
 + [The Create App](#the-create-app)
+    + [Entity List](#entity-list)
 + [Shapes: Create in VR](#shapes-create-in-vr)
 + [Marketplace Item Tester](#marketplace-item-tester)
 + [External Creator Tools](#avatar-creator-tools)
-  + [Adobe Fuse](#adobe-fuse)
-  + [Mixamo](#mixamo)
-  + [Blender](#blender)
-  + [Maya](#maya)
-  + [Blocks](#blocks)
+    + [Adobe Fuse](#adobe-fuse)
+    + [Mixamo](#mixamo)
+    + [Blender](#blender)
+    + [Maya](#maya)
+    + [Blocks](#blocks)
 
 
 ## The Create App
+Use the **Create** app to [create any type of entity](../entities/create-entities). In Interface, pull up your HUD or Tablet and go to **Create** to get started. With the Create app, you can:
 
-Use the **Create** app to [create any type of entity](../entities/create-entities). In Interface, pull up your HUD or Tablet and go to **Create** to get started. The Create app lets you:
-
-+ Add Entities: You can [add any type of entity](../entities/create-entities) using the Create app. You can also import externally created models and materials using the Create app. 
-+ Edit Entity Properties: An entity's [appearance](../entities/entity-appearance), [position](../entities/entity-appearance#move-an-entity), and [behavior](../entities/entity-behavior) are controlled by its properties. You can edit these properties through the Create app. 
-+ Expose a Grid: The **Grid** tab in the Create app is used to expose a grid to assist you with the layout. Use this to toggle grid visibility, toggle snapping to the grid, and set the grid position, size, and color.
-+ Display the Entity List: When you open the Create app, the Entity List pops up. This window lists all the entities in the domain. 
++ [Add any type of entity](../entities/create-entities) and import externally created models and materials. 
++ Edit entity properties, such as its [appearance](../entities/entity-appearance), [position](../entities/entity-appearance#move-an-entity), and [behavior](../entities/entity-behavior).
++ Expose a grid that assists you with the layout and placement of entities.
++ [Display the Entity List](#entity-list), which lists all the entities in the domain. In HMD, the entity list will be an additional tab in the Create app. In Desktop mode, the Entity List is its own window.
 
 ### Entity List
 
 The Entity List shows you all entities in the local domain. You can filter by entity type and by distance from the current location. 
 
-When you select an entity in the Entity List, you can
+At the top of the Entity List, you can switch between 'Local' and 'World' view. When set to 'Local', the position, size and rotation settings for entities are set in reference to the parent entity. When set to 'World', these settings are set in reference to the world's default position.
+
+When you select an entity in the Entity List, you can: 
 + Find an entity: You can double-click an entity on the list to view it in your domain. You will see the entity with a bounding box and arrows around it. 
 + Lock an entity: A locked entity cannot be edited. Select an entity and click the lock icon on the top of the window.  
 + Change visibility: You can hide or make an entity visible. Select an entity and click the eye icon on the top of the window.
 + Name an entity: Name an entity when you select it on the list.
 + Delete an entity: Delete an entity by clicking on the red bin icon on the top-right corner of the window. 
+
 
 ## Shapes: Create in VR
 

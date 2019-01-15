@@ -28,8 +28,10 @@ You can manually change the color of most entity types in the Create App. With t
 | Background Color  | The color of the background of the text   | Text  |
 | Key Light  | The color of the lighting in the zone. Select Inherit to keep the lighting of the domain, or Off to remove all lighting   | Zone  |
 | Sky Box  | The color of the ceiling in the zone. Select Inherit to keep the color of the domain, or Off to remove all color   | Zone  |
+| Ambient Light | Configures the amount of ambient light in the zone. Ambient light reflects on content within your zone.    | Zone  |
 | *Haze:* Haze Color  | When Haze is turned on, the color of the haze in the zone.   | Zone  |
 | *Haze:* Glare Color  | When Haze is turned on, the color of the glare based on the key light.   | Zone  |
+| Bloom | Configures how much the bright areas of the scene glow.    | Zone  |
 | *Color:* Color  | As the particle moves, sets the color of the particle at the start, middle, and finish    | Particle  |
 | *Color:* Color Spread  | The spread of color that each particle is given, resulting in a variety of colors    | Particle  |
 
