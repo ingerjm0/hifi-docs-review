@@ -4,14 +4,10 @@ taxonomy:
     category: docs
 ---
 
-Set up your High Fidelity domain to build a virtual world of your own. You can create and edit content in your domain and control how users interact with your environment. 
-
-Depending on your needs, you can host a domain on your computer or you can host it on a cloud service.
+Your domain is your own personal virtual world. In it, you can express your creativity and host your own content, with the option to share it with the world. Before you start creating content, you will need to install, configure, and secure your domain to control how other users will interact with your environment. 
 
 **In This Section:**
 
-+ [Install Your Domain](../your-domain/install-domain)
-+ [Configure Your Domain Settings](../your-domain/configure-settings)
-+ [Secure Your Domain](../your-domain/secure-domain)
-
-
++ [Install Your Domain](./install-domain)
++ [Configure Your Domain Settings](./configure-settings)
++ [Secure Your Domain](./secure-domain)
