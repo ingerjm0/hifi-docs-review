@@ -1,23 +1,18 @@
 ---
-title: Stream to and from Your Domain
+title: Stream Content
 taxonomy:
     category: docs
 ---
 
-You can stream content to your High Fidelity domain to watch a football game with your friends. You can live stream what's happening in your High Fidelity domain as well. We recommend using the following external software to do both. 
+You can stream content to your High Fidelity domain, which lets you host events such as watching a football game with your friends. Or, you can go the other way, and live stream what's happening in your domain to external users. 
 
 **On This Page **
 
-+ [Stream Content to Your Domain](#stream-content-to-your-domain)
-  + [Stream Audio to Your Domain](#stream-audio-to-your-domain)
-  + [Stream Video to Your Domain](#stream-video-to-your-domain)
++ [Stream Audio to Your Domain](#stream-audio-to-your-domain)
++ [Stream Video to Your Domain](#stream-video-to-your-domain)
 + [Live Stream from a Domain](#live-stream-from-a-domain)
 
-## Stream Content to Your Domain
-
-You will need to follow both tutorials below to stream audio and video to your domain.
-
-### Stream Audio to Your Domain
+## Stream Audio to Your Domain
 
 When you want to stream audio from your domain, we recommend you set up another computer dedicated for streaming, with its own avatar, and use the Stereo Mix device from Windows as the audio input.
 
@@ -32,14 +27,14 @@ When you want to stream audio from your domain, we recommend you set up another 
 
 You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](../your-domain/configure-settings#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
 
-#### Troubleshooting
+### Troubleshooting
 + If you cannot find Stereo Mix in your audio devices, check out [this document](https://www.howtogeek.com/howto/39532/how-to-enable-stereo-mix-in-windows-7-to-record-audio/).
 + If your computer does not support Stereo Mix, check out some alternatives [here](https://mediarealm.com.au/articles/stereo-mix-setup-windows-10/).
 + If your domain visitors hear an echo, ensure that your High Fidelity audio output is muted.
 
 
 
-### Stream Video to Your Domain
+## Stream Video to Your Domain
 
 Screenleap is an external service for Windows that allows you to share your whole screen, an application window, or a screen section to the rest of the world. We use it because it works with the current web entity system for High Fidelity. With Screenleap, everyone sees the exact same video image in sync, no matter how late they come into the domain. Latency is typically less than milliseconds.
 
