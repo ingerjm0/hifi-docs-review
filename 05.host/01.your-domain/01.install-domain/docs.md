@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-High Fidelity has a sandbox that you can download and start using as your home domain. This sandbox is hosted on your local machine's server. 
+High Fidelity has a local sandbox that you can download and start using as your home domain. This sandbox is hosted on your local machine's server. 
 
 **On This Page:**
 
@@ -13,7 +13,7 @@ High Fidelity has a sandbox that you can download and start using as your home d
 
 ## Install Your Sandbox
 
-You can install the sandbox if your system meets the [minimum requirements](../../../explore/installation#minimum-system-requirements). To install the sandbox:
+You can install the sandbox if your system meets the [minimum requirements](../../../explore/get-started/install#minimum-system-requirements). To install the sandbox:
 
 1. Go to [High Fidelity's website](https://highfidelity.com/download/sandbox) and download the Client and Sandbox installer.
 2. Run the High Fidelity installer.
@@ -33,6 +33,6 @@ To visit your sandbox:
 2. On the menu that opens, click 'Visit Sandbox'. ![](visit-sandbox.png)
 
 **See Also**
-+ [Install High Fidelity](../../../explore/installation)
++ [Install High Fidelity](../../../explore/get-started/install)
 
 
