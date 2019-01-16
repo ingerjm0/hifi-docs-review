@@ -4,9 +4,9 @@ taxonomy:
     category: docs
 ---
 
-Once you've completed [setting up your domain](../your-domain), you can start building content for it. You can add content to your domain using [our creator tools](../../create/tools) or using the Asset Server.
+Once you've completed [setting up your domain](../your-domain), you can start building content for it. You can add content to your domain using [our creator tools](../../create/tools) or the Asset Server.
 
-The Asset Server allows you to host files or assets that can either be added or be referenced by entities and scripts in your domain. Assets are files available in your domain and can include 3D models, audio files for various sound effects, image files for textures and skyboxes, scripts, and more. 
+The Asset Server hosts files or assets that can either be added as-is to your domain or that are referenced by existing entities and scripts already in your domain. Your assets are 3D models, audio files for various sound effects, image files for textures and skyboxes, scripts, and more. 
 
 **On This Page:**
 
@@ -15,24 +15,22 @@ The Asset Server allows you to host files or assets that can either be added or 
 + [Add an Asset to Your Domain](#add-an-asset-to-your-domain)
 + [Edit Assets in the Asset Server](#edit-assets-in-the-asset-server)
 
-> >>> >Files hosted on the Asset Server are only available in your domain. Do not upload avatars you wish to wear in other domains to the Asset Server.
+>>>>>Files hosted on the Asset Server are only available in your domain, and cannot be seen in other domains. Therefore, we recommend that you do not upload avatars to the Asset Server since they will not be available in domains other than your own.
 
 ## Add an Asset to the Asset Server
 
-You can add, edit, and remove files from your Asset Server through the Asset Browser in your domain. Add a file from your computer to the Asset Server:
+You can add, edit, and remove files from your Asset Server through the Asset Browser in your domain. To add a file from your computer to the Asset Server:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**. 
 2. In the **Create** app, click 'Open This Domain's Asset Server' to view the Asset Browser.
-3. To add a file to the Asset Server, click 'Choose File' in the Asset Browser window. 
-4. Select your file from your computer's directory and click 'Open'. 
-5. You will need to specify a folder path before the `/asset_filename` . By default, there is no folder created for your asset. When you add a folder name, it will be automatically created in your Asset Server. ![](create-folder.png)
-6. Click 'OK'. You can view your asset in the Asser Browser. ![](added-asset.png)
+3. Click 'Choose File' in the Asset Browser window. 
+4. Browse to your asset file, then click 'Open'. 
+5. Enter a folder name to specify a path for your asset. This path should be added before the asset file name `/asset_filename`. By default, there is no folder created for your asset. However, we recommend that you add folders for each of your assets to help keep your assets organized. ![](create-folder.png)
+6. Click 'OK'. Your assets will be added to the Asset Browser under the folder that you specified. ![](added-asset.png)
 
-
-
-7. Once files have been uploaded to your Asset Server, they can be referenced by any entities or scripts in your domain using their URLs. You can get an asset's URL by selecting the asset, right-clicking and selecting 'Copy URL'. You can also add these assets to your domain. 
-
-
+Once files have been uploaded to your Asset Server, they can be added directly to your domain or referenced by any entities or scripts in your domain using their URLs. To get an asset's URL: 
+1. Right-click on the asset in the Asset Browser. 
+2. Click 'Copy URL'.
 
 ## Bake an Asset
 
@@ -44,7 +42,7 @@ When you upload a model to your domain, you are rendering the following:
 
 Loading models in High Fidelity involves real-time rendering (drawcalls), which means images are produced and analyzed in real time. Depending on the complexity of the models, the drawcalls can differ. You can reduce the drawcalls and optimize the rendering process using baking. Baking optimizes the rendering process by compressing the poly meshes and textures in an asset. A baked model loads the smaller meshes first, cutting down on the load time. Baked textures are often larger than the original texture because they contain textures with different resolutions.
 
-In High Fidelity, baking helps in improving the efficiency with which models are stored and transmitted. If you bake your domain content, you will reduce the initial load times for your visitors.
+In High Fidelity, baking improves the efficiency with which models are stored and transmitted. If you bake your domain content, you will reduce the initial load times for your visitors.
 
 | File Type                                    | Baking Process                                               |
 | -------------------------------------------- | ------------------------------------------------------------ |
@@ -70,8 +68,6 @@ You can add an asset to your domain through the Asset Browser.
 3. Select the asset you wish to add from the list displayed. 
 4. Click 'Add to World'. ![](add-to-world.png)
 5. In the window that pops up, you can view the asset's URL (Asset Server URL) in the format `atp:/$FILENAME`, and modify its collision and physics properties. Once you are done with these changes, click 'Add'. ![](add-edit-world.png)
-
-
 
 ## Edit Assets in the Asset Server
 
