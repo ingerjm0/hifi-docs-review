@@ -8,11 +8,11 @@ High Fidelity enables you to host your own domain where you can create, add, and
 
 Throughout this chapter, learn how to set up a domain, secure and host it, and make it accessible to other users. 
 
-+ [**Set Up Your Domain**](../host/your-domain)
-+ [**Configure Your Domain Settings**](../host/your-domain/configure-settings)
-+ [**Manage Your Domain Assets**](../host/manage-your-domain-assets)
-+ [**Add a Place Name**](../host/add-place-name)
-+ [**Host Your Domain**](../host/host-your-domain)
-+ [**Broadcast Your Domain**](../host/broadcast-your-domain)
-+ [**Backup Your Domain**](../host/backup-restore-domain)
-+ [**Tutorial: Set Up a Theater Domain**](../host/theater-domain-tutorial)
++ [**Set Up Your Domain**](./your-domain)
++ [**Configure Your Domain Settings**](./your-domain/configure-settings)
++ [**Manage Your Domain Assets**](./manage-your-domain-assets)
++ [**Add a Place Name**](./add-a-place-name)
++ [**Host Your Domain**](./host-your-domain)
++ [**Broadcast Your Domain**](./broadcast-your-domain)
++ [**Backup Your Domain**](./backup-restore-domain)
++ [**Tutorial: Set Up a Theater Domain**](./theater-domain-tutorial)

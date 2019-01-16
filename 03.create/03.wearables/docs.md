@@ -25,3 +25,9 @@ After hosting your wearable in the cloud or the Marketplace, [put it on](../../e
 >>>>>If you're creating a wearable to [add to the Marketplace](../../sell/add-item/upload-wearable), make sure it will fit the default wooden mannequin avatar (unless you are specifically making it to go with a very specific base avatar model). This will ensure that the wearable will work with most avatars in High Fidelity.
 
 
+
+**See Also**
+
++ [Add Your Wearable](../../../sell/add-item/upload-wearable)
++ [Get Your 3D Model](../3d-models/get-model)
++ [Put On Wearables](../../explore/personalize-experience/add-wearables)
