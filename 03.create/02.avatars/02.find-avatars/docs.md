@@ -37,36 +37,36 @@ You will need the following to use this tool:
 ### Create a Unity Project
 
 1. Launch Unity. 
-2. On the Home screen, click New. 
+2. On the Home screen, click 'New'. 
 3. Enter a Project name and Template. Your models should be 3D. 
-4. Click Create project. ![](unity-new-project.png)
+4. Click 'Create project'. ![](unity-new-project.png)
 
 ### Install the High Fidelity Avatar Exporter for Unity
 
 >>>>>You need to install the extension for each Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.  
 
 1. Download the [avatar exporter](https://github.com/highfidelity/hifi/raw/master/tools/unity-avatar-exporter/avatarExporter.unitypackage) from High Fidelity. 
-2. In Unity, open the Project window at the bottom.![](project-window.png)
-3. Right-click the Assets folder, then select Import Package > Custom Package. ![](import-package.png)
-4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click Open. You can also double-click the package on your computer to import it automatically.
-5. In the Importing Package window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
-6. Click Import. The package's files are added to the Assets folder. You should now have a High Fidelity menu in Unity. ![](hifi-menu.png)
+2. In Unity, open the 'Project' window at the bottom.![](project-window.png)
+3. Right-click the 'Assets' folder, then select **Import Package > Custom Package**. ![](import-package.png)
+4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
+5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
+6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'High Fidelity' menu in Unity. ![](hifi-menu.png)
 
 ### Create an Avatar Package
 
 1. You can import the FBX model for your avatar into Unity using any of the following methods:
-   + Drag and drop the FBX file into the Assets folder of your Project window.
-   + In the Project window, right-click the Assets folder, then select Import Package > Import New Asset. Navigate to the FBX file and click Import.
-   + In Unity, open the Assets menu, then select Import Package > Import New Asset. Navigate to the FBX file and click Import.
-2. In the Project window, select your avatar’s FBX file. In the Inspector, open Rig. For Animation type, choose Humanoid and then click Apply. ![](apply-humanoid-animation.png)
-3. <a id="mesh"></a>Click Configure to investigate and tweak the mapping of your avatar.  ![](configure-avatar.png)
+   + Drag and drop the FBX file into the 'Assets' folder of your 'Project' window.
+   + In the 'Project' window, right-click the 'Assets' folder, then select **Import Package > Import New Asset**. Navigate to the FBX file and click 'Import'.
+   + In Unity, open the 'Assets' menu, then select **Import Package > Import New Asset**. Navigate to the FBX file and click 'Import'.
+2. In the 'Project' window, select your avatar’s FBX file. In the 'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then click 'Apply'. ![](apply-humanoid-animation.png)
+3. <a id="mesh"></a>Click 'Configure' to investigate and tweak the mapping of your avatar.  ![](configure-avatar.png)
 4. All bones mapped in Unity are highlighted in green and can be selected. Check if anything is missing. Any errors will appear in red. The minimum required bones for mapping are Hips and Spine. If either of these are missing, you must manually add bones before continuing. ![](check-mesh.png)
 >>>>>Avatars in High Fidelity must also have a Chest bone. If your avatar does not have a chest bone, the avatar exporter attempts to map another existing bone to the Chest. If we can't find a suitable Chest bone and Humanoid didn't correctly map Chest, then you will get an error and need to manually add a Chest bone to your skeleton.
-5. If you made any changes, click Done. 
-6. Click on the FBX file in the Assets manager. ![](select-avatar-unity.png)
-7. Make sure that you have the [avatar exporter](#install-the-high-fidelity-avatar-exporter-for-unity) installed. Open the High Fidelity menu in the top menu bar, then select Export New Avatar.
+5. If you made any changes, click 'Done'. 
+6. Click on the FBX file in the 'Assets' manager. ![](select-avatar-unity.png)
+7. Make sure that you have the [avatar exporter](#install-the-high-fidelity-avatar-exporter-for-unity) installed. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
 8. Give your avatar project a name. The default project location is your local user's `Documents\High Fidelity Projects` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer. ![](export-avatar.png)
-9. Click Export. 
+9. Click 'Export'. 
 
 Your avatar package has been created! The File Explorer will open to your new avatar project.![](exported-package.png)
 
@@ -78,10 +78,10 @@ Test your avatar locally before you host and use it. This step lets you check yo
 
 >>>>>Using these steps will not actually change your avatar in the metaverse, and should only be used for testing. If you want to change your avatar to something others can see, you need to first publicly [host your avatar](../host-avatar) before you can [use your custom avatar](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar). 
 
-1. Copy your avatar's textures into the project’s textures folder. We support textures in either PNG  or JPG format.
+1. Copy your avatar's textures into the project’s textures folder. We support textures in either PNG or JPG format.
 2. Go to the folder where your avatar project is saved on your computer. Right-click the FST file and click copy. This will copy your FST file’s local path.
-3. In Interface, pull up your tablet or HUD and click on Avatar.
-4. In the Avatar window, click the link icon next to your current avatar. Paste the copied FST file's URL and click Confirm.![](avatar-link.png)
+3. In Interface, pull up your tablet or HUD and click on **Avatar**.
+4. In the Avatar window, click the link icon next to your current avatar. Paste the copied FST file's URL and click 'Confirm'.![](avatar-link.png)
 5. Test your avatar by moving around and using the **Emote** app.
 
 If something doesn't look right, you can tweak your avatar in Unity, then update it with the High Fidelity menu. If everything looks good, you need to [host your avatar](../host-avatar) then [change the URL](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar) to point to your hosted version.
@@ -99,3 +99,7 @@ Use these troubleshooting tips if you notice any issues while packaging or testi
 | Your avatar is tied up into knots or laying down.                      | This could mean that your skeleton is not right. Re-open your avatar in Unity and run through steps 2-5 of [Create an Avatar Package](#create-an-avatar-package) again. Update your project in Unity (go to High Fidelity menu > Update Existing Avatar, then browse to your avatar package). <p>If it still doesn't work, ensure that you are testing the correct file that the avatar exporter created. |
 | Your avatar's skin doesn't move properly with animations. |  The avatar exporter was written to improve the process of rigging and mapping the skeleton rig. This will not affect the animations in your avatar. To adjust the animations, you will need to use a 3D modeling tool such as Blender or Maya and fix the skin weighting on the avatar prior to using the avatar exporter in Unity.  |
 
+**See Also**
+
++ [Host Your Avatar](../host-avatar)
++ [Package Your Avatar](../create-avatars#package-your-avatar)

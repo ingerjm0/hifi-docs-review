@@ -22,7 +22,7 @@ A _flow thread_ is a set of connected joints with at least one joint that compli
 ![Flow Thread](flowthread.png)
 
 ## Flow App
-After you ensure that you have the proper flow threads, run the [**Flow app**](https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js) to enable flow for your avatar.  See [**this document**](https://docs.highfidelity.com/create-and-explore/all-about-scripting/run-scripts) for more information on how to run a script or app in High Fidelity.
+After you ensure that you have the proper flow threads, run the [Flow app](https://hifi-content.s3.amazonaws.com/luis/flowFiles/flowApp.js) to enable flow for your avatar.  See [this document](../../../../script/get-started-with-scripting#load-and-run-a-script) for more information on how to run a script or app in High Fidelity.
 
 Below are details and descriptions of the Flow app's functionality that will help you control and manipulate your avatar's flow. 
 
@@ -64,7 +64,7 @@ This panel displays the output JSON data structure with your avatar's flow confi
 
 ![](jsonpanel.png)
 
-This data can be copied and pasted into the [**Flow**](https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js) script between the lines:
+This data can be copied and pasted into the [Flow](https://hifi-content.s3.amazonaws.com/luis/flowFiles/flow.js) script between the lines:
 
 ```javascript
 // CUSTOM DATA STARTS HERE
@@ -73,12 +73,12 @@ Erase existing code and paste new code here
 
 // CUSTOM DATA ENDS HERE
 ```
-You can now add the modified **Flow** script to your avatar's FST file to see your work in action. 
+You can now add the modified Flow script to your avatar's FST file to see your work in action. 
 
 ## Add an Avatar Script
-In order to attach a script to your avatar, you must modify your avatar's FST file to include the path where your script lives. There are two ways to update your FST file:
+In order to [attach a script to your avatar](../../../../script/avatar-scripts), you must modify your avatar's FST file to include the path where your script lives. There are two ways to update your FST file:
 1.  You can manually add a line to the FST file telling the avatar where to find the script file using `script = [FLOW SCRIPT URL HERE]`.![addScript1](addscript.PNG)
-2. You can also use our Package Model tool to add your avatar script.  
+2. You can also use our [Package Model tool](../../create-avatars#generate-an-fst-file) to add your avatar script.  
     a. Create a folder in the path of your avatar that includes the script.    
     b. In the interface, go to Edit > 'Package Model as .fst'.  
     c. Select the path in the "Script Directory" section of the Package Model tool.![addscript2](addscript2.PNG)
@@ -87,3 +87,9 @@ When packaging your model, the tool will iterate through the directory and add e
 
 ## Avatar Examples
 Here is an example of an avatar that is rigged appropriately to use with Flow: [Mannequin with Hair](https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst).
+
+**See Also**
+
++ [Avatar Standards](../avatar-standards)
++ [Package Your Avatar](../../create-avatars#package-your-avatar)
++ [Get Started with Scripting](../../../../script/get-started-with-scripting)

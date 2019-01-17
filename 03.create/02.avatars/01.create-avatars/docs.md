@@ -53,6 +53,8 @@ Have a project you've been working on that you'd like us to share? Let us know b
 
 No matter how you [created your custom avatar](../), you must convert your FBX model to FST before using that avatar in High Fidelity. This process is called *packaging your avatar*.
 
+If you wish to host your avatar on our Marketplace and make it available for purchase, you can use our [Avatar Packager](#use-the-avatar-packager). If you want to [host your avatar](../host-avatar) on a cloud service, you can [generate an FST file](#generate-an-fst-file) to upload to the service of your choice.
+
 ### Generate an FST File
 High Fidelity provides a built-in tool that will create an FST file that will animate our avatar in VR. 
 
@@ -62,6 +64,22 @@ High Fidelity provides a built-in tool that will create an FST file that will an
 4. Browse to the folder where you want to save your avatar files. We recommend creating a new directory for each avatar. 
 
 At this point, your avatar has been created! After hosting the avatar in the cloud or the Marketplace, [switch to it](../../../explore/personalize-experience/change-avatar#use-your-own-custom-avatar) and adopt your new look. ![](imported-avatar.png)
+
+### Use the Avatar Packager
+You can use our built-in Avatar Packager to upload, edit, and use your custom avatar and make it available for purchase on the Marketplace. 
+
+1. In Interface, go to **Edit > Avatar Packager**. 
+2. In the Avatar Packager window that opens, click 'New Project'.![](new-project.png)
+3. In the Create Project window, fill in the following details:
+   1. Name: The name you want for your avatar. 
+   2. Project Location: The folder path where your avatar's files are stored. 
+   3. Avatar Model: Your avatar's FBX file.
+   4. Texture Folder: If your avatar has textures in a separate folder, specify the folder location. If your avatar's textures are embedded in the FBX, you do not need to specify anything. ![](create-project.png)
+4. Click 'Create'.
+5. Click 'Upload' to upload your avatar's files to High Fidelity's servers. If you make any changes to your custom avatar, you will need to update it through this packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
+6. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. ![](inventory.png)
+7. Click 'Wear' to try out your new avatar! 
+8. You can view your avatar in the Marketplace. It is currently in Draft mode. You will need to submit it for review to make your avatar available for purchase on the Marketplace.
 
 ## YouTube Tutorial
 
@@ -73,4 +91,7 @@ Check out this YouTube playlist for one way to create and customize your own ava
 
 [plugin:youtube](https://www.youtube.com/watch?v=6NfiH4rdVRM)
 
+**See Also**
 
++ [Find and Use an Existing Avatar](../find-avatars)
++ [Host Your Avatar](../host-avatar)
