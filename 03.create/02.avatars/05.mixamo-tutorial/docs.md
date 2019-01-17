@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Rig Your Avatar in Mixamo
+title: 'Tutorial: Rig Your Avatar in Mixamo'
 taxonomy:
     category: docs
 ---

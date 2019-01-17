@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Create a Gold Spotlight
+title: 'Tutorial: Create a Gold Spotlight'
 taxonomy:
     category: docs
 

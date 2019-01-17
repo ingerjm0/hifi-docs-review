@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Create Buildings
+title: 'Tutorial: Create Buildings'
 taxonomy:
     category: docs
 ---

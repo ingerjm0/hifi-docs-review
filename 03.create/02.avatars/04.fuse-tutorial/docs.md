@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Create an Avatar with Fuse
+title: 'Tutorial: Create an Avatar with Fuse'
 taxonomy:
     category: docs
 ---
