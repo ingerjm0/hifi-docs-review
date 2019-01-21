@@ -13,35 +13,35 @@ An entity's behavior controls its interactions with other entities and avatars i
 + [Make an Entity Grabbable](#make-an-entity-grabbable)
 + [Set an Entity to Trigger Scripts](#set-an-entity-to-trigger-scripts)
 + [Make an Entity Cloneable](#make-an-entity-cloneable)
-+ [Set an Entity to Cast a Shadow](#set-an-entity-to-case-shadows)
++ [Set an Entity to Cast a Shadow](#set-an-entity-to-cast-a-shadow)
 
 
 ## Set an Entity to Respond to Physics
 
-If you want an entity to respond to physics or other entities and avatars, you need to make it dynamic. This allows a box to respond to gravity or a ball to bounce when it hits the floor. If an entity is not dynamic, it is static and has no gravity and no velocity. It can only be moved by a user.  
+If you want an entity to [respond to physics](../entity-physics) or other entities and avatars, you need to make it dynamic. This allows a box to respond to gravity or a ball to bounce when it hits the floor. If an entity is not dynamic, it is static and has no gravity and no velocity. It can only be moved by a user.  
 
 To make an entity dynamic:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Select your entity on the Entity List window or just click on it. 
-3. Go to the Properties tab, scroll down to "Collisions" and check "Dynamic".
+2. Select your entity on the 'Entity List' window or just click on it. 
+3. Go to the 'Properties' tab, scroll down to 'Collisions' and check 'Dynamic'.
 
 ## Set Entity Behavior on Collision
 
-When an entity has no collision properties, it moves through other entities and avatars like it's not a solid object. For an entity to collide when it comes in contact with another entity or avatar, its collision properties need to be changed. With the entity selected, click on Properties and scroll down to the Collision settings. Here are the different collision settings you can configure:
+When an entity has no collision properties, it moves through other entities and avatars like it's not a solid object. For an entity to collide when it comes in contact with another entity or avatar, its collision properties need to be changed. With the entity selected, click on 'Properties' and scroll down to the 'Collision' settings. Here are the different collision settings you can configure:
 
 | Collides With      | Description                                                  |
 | ------------------ | ------------------------------------------------------------ |
 | Static Entities    | Your entity will collide with static entities. Keep in mind that if your entity is a static entity, it will not collide with another static entity. Only a dynamic entity can collide with a static entity. |
 | Kinematic Entities | Your entity will collide with kinematic entities. Kinematic entities have velocity, but are not dynamic. Their behavior is controlled by an external script. |
 | Dynamic Entities   | Your entity will collide with other dynamic entities.        |
-| My avatar          | Your entity will collide with your avatar.                   |
+| My avatar          | Your entity will [collide with your avatar](../avatar-interactions). |
 | Other avatars      | Your entity will collide with other user's avatars.          |
 | Collision Sound    | You can [make your entity emit a sound](../add-sounds) whenever it collides with other entities. |
 
 ## Make an Entity Grabbable
 
-Your entity's grab properties determine how it behaves when you or another user interacts with it. By default, **Grabbable** and **Follow Controller** are checked. Here are the different grab settings you can configure:
+Your entity's grab properties determine how it behaves when you or another user interacts with it. By default, 'Grabbable' and 'Follow Controller' are checked. Here are the different grab settings you can configure:
 
 | Behavior          | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
@@ -78,4 +78,9 @@ You can make your entity behave like a real world object by making it cast a sha
 
 
 
+**See Also**
 
++ [Apply Physics to Entities](../entity-physics)
++ [Define Interactions with Avatars](../avatar-interactions)
++ [Add Sound to Entities](../add-sounds)
++ [Interact with Your Environment](../../../explore/interact-objects)

@@ -22,9 +22,9 @@ Worklist displays all available part-time jobs and projects at High Fidelity. If
 The process for a Workflow project goes like this:
 1. Open [Worklist](https://worklist.net) and log in using your GitHub credentials. You will need to confirm your email address.
 2. To get paid, you need to verify your PayPal address and upload a completed W-9 form (US citizens only). Click on your username in the top-right corner and go to Settings. ![](get-paid.png)
-3. Click on Jobs in the toolbar to view all of the available jobs. Available jobs are listed in the **Bidding** category. 
+3. Click on 'Jobs' in the toolbar to view all of the available jobs. Available jobs are listed in the **Bidding** category. 
 4. Click on the project you'd like to work on. 
-5. In the page that opens, click Bid. Enter the amount you'd like to get paid, any notes to justify your bid, and the amount of time you expect to work on the project. Click 'Place Bid'. ![](bid-parameters.PNG)
+5. In the page that opens, click 'Bid'. Enter the amount you'd like to get paid, any notes to justify your bid, and the amount of time you expect to work on the project. Click 'Place Bid'. ![](bid-parameters.PNG)
 6. Once your bid has been accepted, change the status of your project to 'In Progress'. 
 7. Once you’ve completed the work, change the status to 'QA Ready'. At this point, we will check your code and test your solution to ensure that it works correctly. 
 8. When you have a PR ready, change the status to 'Needs Review'. Mention your PR in a comment so that we can verify and pay you once we merge your work to the repository.
@@ -47,6 +47,9 @@ In order to work with us, we require that you set the `HIFI_TESTER` environment 
 1. Search for 'Advanced System Settings' and open the menu. ![](system-settings.png)
 2. Click the 'Environment Variables' button. 
 3. Click 'New' under 'System Variables'.
-4. Enter `HIFI_TESTER` as the Variable name and set the Variable value to `0`. Click OK. ![](set-variable.png)
+4. Enter `HIFI_TESTER` as the 'Variable' name and set the 'Variable' value to `0`. Click 'OK'. ![](set-variable.png)
 5. Restart your computer for the changes to take effect.
 
+**See Also**
+
++ [Install Your Sandbox](../../host/your-domain/install-domain#install-your-sandbox)

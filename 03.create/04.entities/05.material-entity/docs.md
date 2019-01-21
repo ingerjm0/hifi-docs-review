@@ -47,10 +47,15 @@ This file contains all related material data, such as the color, roughness, and 
 Once you have your material entity .JSON file, you can add it to an object in High Fidelity. Let's add the [castle wall material](https://hifi-public.s3.amazonaws.com/sam/MaterialExportGuide/MaterialEntities/MatOne/CastleWall/CastleWall.hfm.json) to a box entity in your domain. 
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Create a wall. Click the **Cube** icon to add a box entity and change the dimensions to make it resemble a wall. 
-3. Go to the Create tab and click on the **Material** icon to add a material entity. Enter the material's .JSON file URL when prompted. You will see the material entity represented as a small sphere. 
-4. Click and select the wall. Go to the Properties tab and copy the parent ID under the "Name" box. 
-5. Click and select the material entity. Go to the Properties tab and paste the copied parent ID in the Parent box. You will see the material applied to the wall. In this step, you are parenting or applying a material to an entity.
-6. You can also add the material entity in another way. Click and select the wall entity. Go to the Properties tab and paste the .JSON file URL in the Material URL box. 
+2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall. 
+3. Go to the **Create** tab and click on the 'Material' icon to add a material entity. Enter the material's .JSON file URL when prompted. You will see the material entity represented as a small sphere. 
+4. Click and select the wall. Go to the 'Properties' tab and copy the parent ID under the 'Name' box. 
+5. Click and select the material entity. Go to the 'Properties' tab and paste the copied parent ID in the 'Parent' box. You will see the material applied to the wall. In this step, you are parenting or applying a material to an entity.
+6. You can also add the material entity in another way. Click and select the wall entity. Go to the 'Properties' tab and paste the JSON file URL in the 'Material URL' box. 
 
    ![](material-entity.GIF)
+
+**See Also**
+
++ [Create New Entities](../create-entities)
++ [PBR Materials Guide](../../3d-models/pbr-materials-guide)

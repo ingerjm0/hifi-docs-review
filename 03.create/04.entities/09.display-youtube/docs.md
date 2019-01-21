@@ -26,7 +26,7 @@ A web entity is a flat object on which you can view any website of your choosing
 To create a web entity:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Click the **Web** icon to create a web entity. By default, a web entity always displays High Fidelity's home page.
+2. Click the 'Web' icon to create a web entity. By default, a web entity always displays High Fidelity's home page.
 
 
 
@@ -35,9 +35,15 @@ To create a web entity:
 You can make the web entity display High Fidelity's YouTube channel.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**. 
-2. Select your web entity and go to the Properties tab.
-3. Scroll down until you see the Source URL option. Enter the High Fidelity YouTube channel URL: https://www.youtube.com/user/HighFidelityio. You should see the new page as soon as you hit Enter.
+2. Select your web entity and go to the 'Properties' tab.
+3. Scroll down until you see the 'Source URL' option. Enter the High Fidelity YouTube channel URL: https://www.youtube.com/user/HighFidelityio. You should see the new page as soon as you hit 'Enter'.
 
 ![](source-url.PNG)
 ![](youtube-web-entity.PNG)
 
+
+
+**See Also**
+
+- [Create New Entities](../create-entities)
+- [Change How Entities Look](../entity-appearance)

@@ -8,22 +8,35 @@ This guide will help you build High Fidelity if you’re using a system with Win
 
 >>>>> We use Visual Studio 2017 and Qt 5.10.1. If you are upgrading from Visual Studio 2013 and Qt 5.6.2, do a clean uninstall of those versions before going through this guide.  
 
+**On This Page:**
+
++ [Install Visual Studio 2017 and Python](#1-install-visual-studio-2017-and-python)
+  + [Alternate Install of Python](#1a-alternate-install-of-python)
+  + [Install CMake](#2-install-cmkae)
+  + [Install Qt](#3-install-qt)
+  + [Set the Qt Environment Variable](#4-set-the-qt-environment-variable)
+  + [Run CMake to Generate Build Files](#5-run-cmake-to-generate-build-files)
+  + [Make a Build](#6-make-a-build)
+  + [Test Interface](#7-test-interface)
++ [Troubleshooting](#troubleshooting)
+  + [Common Errors and Solutions](#common-errors-and-solutions)
+
 #### 1. Install Visual Studio 2017 and Python
 
 If you don’t have the Community or Professional edition of Visual Studio 2017:
 
 *  Download [Visual Studio Community 2017](https://www.visualstudio.com/downloads/).
-* When selecting components, check **Desktop development with C++**. 
-* On the Summary toolbar, check **Windows 8.1 SDK and UCRT SDK** and **VC++ 2015.3 v140 toolset (x86,x64)**. 
-* If you don't have a python development environment installed, check **Python Development**.
+*  When selecting components, check 'Desktop development with C++'. 
+*  On the Summary toolbar, check 'Windows 8.1 SDK and UCRT SDK' and 'VC++ 2015.3 v140 toolset (x86,x64)'. 
+*  If you don't have a python development environment installed, check 'Python Development'.
 
 If you already have Visual Studio installed and need to add Python:
 
 * Go to **Control Panel > Add or Remove Programs**.
-* Find the **Microsoft Visual Studio Installer**. 
-* Select and click **Modify**. 
-* In the installer, select **Modify** again. 
-* Check **Python Development** and allow the installer to apply the changes.
+* Find the 'Microsoft Visual Studio Installer'. 
+* Select and click 'Modify'. 
+* In the installer, select 'Modify' again. 
+* Check 'Python Development' and allow the installer to apply the changes.
 
 #### 1a. Alternate Install of Python
 If you don't wish to use the Python installation bundled with Visual Studio, you can download the installer [here](https://www.python.org/downloads). Ensure you get version 3.6.6 or higher.
@@ -47,7 +60,7 @@ Go to **Control Panel > System > Advanced System Settings > Environment Variable
 * Set "Variable value":  `C:\Qt\5.10.1\msvc2017_64\lib\cmake`
 
 
-#### 5. Run CMake to Generate Build Files**  
+#### 5. Run CMake to Generate Build Files  
 
 Run Command Prompt from Start. Type and run the following commands:
 ```bash
@@ -90,3 +103,11 @@ If you face any problems once you start trying to generate build files using CMa
 * If CMake gives you the same error message after the build fails, remove `CMakeCache.txt` from the `%HIFI_DIR%\build` directory.
 * If CMake cannot find OpenSSL, remove `CMakeCache.txt` from the `%HIFI_DIR%\build` directory. Verify that your `VCPKG_ROOT` environment variable is set and pointing to the correct location. Verify that the file `${VCPKG_ROOT}/installed/x64-windows/include/openssl/ssl.h` exists.
 * If Qt is throwing an error, make sure you have the correct version (5.10.1) installed and the `QT_CMAKE_PREFIX_PATH` environment variable is set correctly.
+
+
+
+**See Also**
+
++ [Build High Fidelity](../)
+
+  

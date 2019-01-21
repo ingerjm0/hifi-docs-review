@@ -121,7 +121,8 @@ You can also nest blockquotes:
 ```
 The rendered output looks like this:
 > This is a blockquote. 
->> The second paragraph is nested.
+>
+> > The second paragraph is nested.
 
 #### Notices
 We have four different notices that are used in our documentation.  
@@ -211,3 +212,7 @@ If there is more than one markdown syntax listed, feel free to use any of them. 
 | Markdown Syntax  | HTML  | Output  |
 |---|---|---|
 | \___<br />\---<br />\***  | &lt;hr />  | <hr> |
+
+**See Also**
+
++ [Get Started with High Fidelity](../../explore/get-started)

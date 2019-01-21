@@ -4,26 +4,38 @@ taxonomy:
   category: docs
 ---
 
-This guide will help you build High Fidelity if you’re using a Linux system. Please read the [general build guide](https://docs.highfidelity.com/build-guide/basic-build-guide) for information on dependencies required for all platforms. Only Linux specific instructions are found on this page.
+This guide will help you build High Fidelity if you’re using a Linux system. Please read the [general build guide](../) for information on dependencies required for all platforms. We've listed only Linux specific instructions here. 
 
-#### Install Qt5 Dependencies
+**On This Page:**
 
-If you choose not to install Qt5 via a package manager that handles dependencies for you, you may be missing some Qt5 dependencies. On Ubuntu, for example, the following additional packages are required:
++ [Install Qt5 Dependencies](#install-qt5-dependencies)
++ [Ubuntu 18.04  Build Guide](#ubuntu-1804-build-guide)
+  + [Prepare Environment](#prepare-environment)
+  + [Get Code and Checkout the Tag You Need](#get-code-and-checkout-the-tag-you-need)
+  + [Compile](#compile)
+  + [Run the Software](#run-the-software)
++ [Ubuntu 16.04 Build Guide](#ubuntu-1604-build-guide)
+  + [Install in Linux Server](#install-in-linux-server)
+
+
+## Install Qt5 Dependencies
+
+If you choose not to install Qt5 via a package manager that handles dependencies for you, you may be missing some Qt5 dependencies. On Ubuntu, the following additional packages are required:
 
 ```bash
 libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack0 libjack-dev libxrandr-dev libudev-dev libssl-dev
 ```
 
-## Ubuntu 16.04/18.04 Specific Build Guide
+## Ubuntu 18.04 Build Guide
 
-#### Ubantu 18.04 Only
+
 Add the universe repository. *This is not enabled by default on the server edition*
 ```bash
 sudo add-apt-repository universe
 sudo apt-get update
 ```
 
-### Prepare environment
+### Prepare Environment
 1. Install Qt 5.10.1:
 	```bash
 	wget http://debian.highfidelity.com/pool/h/hi/hifiqt5.10.1_5.10.1_amd64.deb
@@ -63,7 +75,7 @@ sudo apt-get update
 	```bash
 	git checkout tags/v0.71.0
 	```
-### Compiling
+### Compile
 
 1. Create the build directory:
 	```bash
@@ -71,17 +83,18 @@ sudo apt-get update
 	cd hifi/build
 	```
 2. Prepare makefiles:
-    	```bash
-	cmake 		 
-	-DQT_CMAKE_PREFIX_PATH=/usr/local/Qt5.10.1/5.10.1/gcc_64/lib/cmake..
+     ```bash
+     cmake 		 
+     -DQT_CMAKE_PREFIX_PATH=/usr/local/Qt5.10.1/5.10.1/gcc_64/lib/cmake..
+     ```
   ```
 3. Start compilation and get a cup of coffee:
 	```bash
 	make domain-server assignment-client interface
-	```
+  ```
 In a server, it does not make sense to compile Interface.
 
-### Running the Software
+### Run the Software
 
 1. Running the domain server:
 	```bash
@@ -97,9 +110,8 @@ In a server, it does not make sense to compile Interface.
 	```
 4. Go to localhost in the running Interface.
 
-## Installing in Linux Server
-This guide is specific to Ubuntu 16.04. 
-
+## Ubuntu 16.04 Build Guide
+### Install in Linux Server
 Deb packages of High Fidelity domain server and assignment client are stored on debian.highfidelity.com
 
 ```
@@ -135,3 +147,7 @@ To do this you can modify /etc/crontab by adding the following lines
 1 */1 * * * root apt-get install --only-upgrade -y hifi-domain-server
 2 */1 * * * root apt-get install --only-upgrade -y hifi-assignment-client
 ```
+
+**See Also**
+
++ [Build High Fidelity](../)
