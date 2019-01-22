@@ -4,7 +4,15 @@ taxonomy:
   category: docs
 ---
 
-This guide will help you build High Fidelity for Android devices. Please read the [general build guide](https://docs.highfidelity.com/build-guide/basic-build-guide) for information on dependencies required for all platforms. Only Android specific instructions are found in this file.
+This guide will help you build High Fidelity for Android devices. Please read the [general build guide](../) for information on dependencies required for all platforms. Only Android specific instructions are found in this file.
+
+**On This Page:**
+
++ [Android Dependencies](#android-dependencies)
+  + [Gradle](#gradle)
+  + [Android Studio](android-studio)
++ [Prepare Environment](#prepare-environment)
++ [Build and Run](#build-and-run)
 
 ## Android Dependencies
 
@@ -56,8 +64,12 @@ gradle setupDependencies
 
 ## Build and Run
 1. Open Android Studio.
-2. Choose Open Existing Android Studio Project.
-3. Navigate to the hifi repository and choose the android folder and select OK.
+2. Choose 'Open Existing Android Studio Project'.
+3. Navigate to the hifi repository and choose the android folder and select 'OK'.
 4. If Android Studio asks you if you want to use the Gradle wrapper, select cancel and tell it where your local Gradle installation is. If you used SDKMAN to install Gradle, it will be located in $HOME/.sdkman/candidates/gradle/current.
-5. From the Build menu, select Make Project.
-6. Once the build completes, from the Run menu select Run App.
+5. From the 'Build' menu, select 'Make Project'.
+6. Once the build completes, from the 'Run' menu select 'Run' App.
+
+**See Also**
+
++ [Build High Fidelity](../)

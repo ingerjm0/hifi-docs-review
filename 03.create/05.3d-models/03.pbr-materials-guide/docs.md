@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-The appearance of a 3D model is controlled by its materials. The materials supported in High Fidelity are Physically-based Rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
+The appearance of a 3D model is controlled by its materials. The materials supported in High Fidelity are physically-based rendering (PBR) materials. This means that a 3D model's materials will reflect or absorb light like how they would (approximately) in real life.
 
 **On This Page:**
 + [Introduction to Materials, Textures, and Shading](#introduction-to-materials-textures-and-shading)
@@ -18,9 +18,9 @@ The appearance of a 3D model is controlled by its materials. The materials suppo
 
 ## Introduction to Materials, Textures, and Shading
 
-A 3D model's appearance is controlled by its materials. For example, a 3D model of a key will use a material that determines its color, how metallic it looks, and if its surface is bumpy or smooth. A 3D model of a cocktail glass will have material that determines its transparency and smoothness.
+A 3D model's appearance is controlled by its materials. For example, a 3D model of a key will use a material that determines its color, how metallic it looks, and if its surface is bumpy or smooth. A 3D model of a brick wall will have material that determines its roughness and color.
 
-High Fidelity supports Physically-based Rendering (PBR) materials. This means that your model will behave like a real world object when exposed to light. For example, the same 3D model of a key will shine and reflect any light that falls on it. On the other hand, the 3D model of the cocktail glass will let light through the model the same way a glass would in the real world.
+High Fidelity supports physically-based rendering (PBR) materials. This means that your model will behave like a real world object when exposed to light. For example, the same 3D model of a key will shine and reflect any light that falls on it. The 3D model of a brick wall will not shine, but will reflect enough light for you to observe its colors and surface. 
 
 A material contains texture and shading information.
 
@@ -30,12 +30,12 @@ Textures are flat images that are applied to 3D models. These add detail on how 
 High Fidelity supports textures in the PNG and JPEG formats.
 
 ### Shading
-Since High Fidelity supports PBR materials, the shading used depicts an accurate representation of a how light interacts with different material surfaces. This PBR shader has a set of material parameters or channels that can be modified to create different types of materials.
+Since High Fidelity supports PBR materials, the shading used depicts an accurate representation of a how light interacts with different material surfaces. This means that your 3D model will not look the same under different light settings. The PBR shader has a set of material parameters or channels that can be modified to create different types of materials.
 
 #### Material Channels
 Material channels determine various parameters such as the roughness or color of a material. You can determine the value of each channel in two ways:
 + **Setting a Value:** The value of a channel is a value set on a slider. Setting a value is like turning off or turning on a switch. For example, if you look at your phone, some parts of it are shiny and some are matte. When you use a value, the entire object reflects that value. If you want different parts of an object to reflect varied roughness, you'll need to use a map.
-+ **Using a Map:** The map is an image which you can import to define a property. For instance, your phone may have a case that is matte, but the rest of your phone is shiny. You can use a map to set the case as matte and the phone as shiny.
++ **Using a Map:** The map is an image which you can import to define a property. You will use a map to apply a texture to your 3D model. For instance, your phone may have a case that is matte, but the rest of your phone is shiny. You can use a map to set the case as matte and the phone as shiny.
 
 All materials in High Fidelity have the following channels that determine how they look:
 
@@ -66,3 +66,10 @@ We've listed all material information (including textures, shading, and channel 
 ## Set Material Values in Maya
 
 ** Will get this info from Alan **
+
+
+
+**See Also**
+
++ [Add a Material Entity](../../entities/material-entity)
++ [Load and Run a Script](../../../script/get-started-with-scripting#load-and-run-a-script)

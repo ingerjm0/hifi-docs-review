@@ -4,7 +4,15 @@ taxonomy:
   category: docs
 ---
 
-This guide will help you build High Fidelity if you’re using a Mac computer. Please read the [general build guide](https://docs.highfidelity.com/build-guide/basic-build-guide) for information on dependencies required for all platforms. Only OS X specific instructions are found in this file.
+This guide will help you build High Fidelity if you’re using a Mac computer. Please read the [general build guide](../) for information on dependencies required for all platforms. We have listed only OS X specific instructions on this page. 
+
+**On This Page:**
+
++ [Install Homebrew](#1-install-homebrew)
++ [Install Python 3](#2-install-python-3)
++ [Set OpenSSL Directory](#3-set-openssl-directory)
++ [Set Qt Directory](#4-set-qt-directory)
++ [Generate Xcode Files](#5-generate-xcode-files)
 
 #### 1. Install Homebrew 
 
@@ -47,6 +55,10 @@ cmake .. -G Xcode
 
 If CMake complains that Python 3 is missing, you may need to update your CMake binary with the command `brew upgrade cmake`, or by downloading and running the latest CMake installer, depending on how you originally installed CMake.
 
-After running CMake, you will have the make files or Xcode project file necessary to build all of the components. Open the hifi.xcodeproj file, choose ALL_BUILD from the Product > Scheme menu (or target drop down), and click Run.
+After running CMake, you will have the make files or Xcode project file necessary to build all of the components. Open the hifi.xcodeproj file, choose `ALL_BUILD` from the **Product > Scheme menu** (or target drop down), and click 'Run'.
 
-If the build completes successfully, you will have built targets for all components located in the `build/${target_name}/Debug`directories.
+If the build completes successfully, you will have built targets for all components located in the `build/${target_name}/Debug` directories.
+
+**See Also**
+
++ [Build High Fidelity](../)

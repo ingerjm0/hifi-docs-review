@@ -11,6 +11,20 @@ This guide details instructions for building High Fidelity on your system. If yo
 - [Linux](./linux)
 - [Android](./android)
 
+**On This Page:**
++ [Dependencies](#dependencies)
++ [CMake External Project Dependencies](cmake-external-project-dependencies)
+  + [CMake](#cmake)
+  + [Qt](#qt)
+  + [Vcpkg](#vcpkg)
+  + [Generating Build Files](#generating-build-files)
+  + [Variables](#variables)
+  + [Finding Dependencies](#finding-dependencies)
++ [Optional Components](#optional-components)
+  + [Build Options](#build-options)
+  + [Developer Build Options](#developer-build-options)
+  + [Devices](#devices)
+
 ## Dependencies
 
 | Dependencies                                 | Version       |
@@ -63,8 +77,6 @@ export QT_CMAKE_PREFIX_PATH=/usr/local/Cellar/qt5/5.10.1/lib/cmake
 export QT_CMAKE_PREFIX_PATH=/usr/local/opt/qt5/lib/cmake
 ```
 
-
-
 ### Vcpkg
 
 Hifi uses vcpkg to download and build dependencies. You do not need to install vcpkg.
@@ -111,7 +123,7 @@ In the examples below, the variable `$NAME` would be replaced by the name of the
 
 ## Optional Components
 
-#### Build Options
+### Build Options
 
 The following build options can be used when running CMake
 
@@ -120,12 +132,18 @@ The following build options can be used when running CMake
 - BUILD_TESTS
 - BUILD_TOOLS
 
-#### Developer Build Options
+### Developer Build Options
 
 - USE_GLES
 - DISABLE_UI
 
 ### Devices
 
-You can support external input/output devices such as Leap Motion, MIDI, and more by adding each individual SDK in the visible building path. Refer to the readme file available in each device folder in [interface/external/](https://github.com/highfidelity/hifi/tree/master/interface/external) for the requirements for each device..
+You can support external input/output devices such as Leap Motion, MIDI, and more by adding each individual SDK in the visible building path. Refer to the readme file available in each device folder in [interface/external/](https://github.com/highfidelity/hifi/tree/master/interface/external) for the requirements for each device.
 
+**See Also**
+
+- [Windows 64-bit Build Guide](./windows-64-bit)
+- [OS X Build Guide](./os-x)
+- [Linux Build Guide](./linux)
+- [Android Build Guide](./android)

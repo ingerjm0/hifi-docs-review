@@ -10,8 +10,16 @@ Using Adobe Fuse, you can create a custom avatar. The default heads, torsos, arm
 
 1. Launch Adobe Fuse.
 2. Pick your default body parts. ![](fuse-assemble.png)
-3. Click Customize. Here, you can customize the avatar. For example, you can customize how the eyebrows are shaped, facial expressions, how long the fingers are and much more. ![](fuse-customize.png)
-4. Click Clothing. Here, you can choose the clothing you'd like. In addition, you can set hair and facial hair options. In the next step, you will be able to modify the materials, colors, and textures of each clothing item you choose.![](fuse-clothing.png)
-5. Click Texture. Here, you can modify your clothing choices with custom materials and colors. ![](fuse-texture.png)
+3. Click 'Customize'. Here, you can customize the avatar. For example, you can customize how the eyebrows are shaped, facial expressions, how long the fingers are and much more. ![](fuse-customize.png)
+4. Click 'Clothing'. Here, you can choose the clothing you'd like. In addition, you can set hair and facial hair options. In the next step, you will be able to modify the materials, colors, and textures of each clothing item you choose.![](fuse-clothing.png)
+5. Click 'Texture'. Here, you can modify your clothing choices with custom materials and colors. ![](fuse-texture.png)
 6. Save your avatar.
+
+
+
+**See Also**
+
++ [Tutorial: Rig Your Avatar in Mixamo](../mixamo-tutorial)
++ [Tutorial: Modify Materials and Textures Using Blender](../blender-tutorial)
++ [Create Your Own Avatar](../create-avatars)
 

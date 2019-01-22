@@ -43,9 +43,9 @@ If you'd like to use an existing 3D model, you can find options for buildings in
 
 ## Add Your Building to Your Domain
 
-Follow the instructions in [Sandbox](https://wiki.highfidelity.com/wiki/Sandbox) if you haven't already to set up your own domain that you can host content in. If you're planning on using your building in a single domain, you can host your building by:
+[Set up your own domain](../../../host/your-domain) that you can host content in. If you're planning on using your building in a single domain, you can host your building by:
 
-1. Opening the Asset Browser and uploading your model to your domain
+1. Opening the [Asset Browser](../../../host/manage-your-domain-assets#add-an-asset-to-the-asset-server) and uploading your model to your domain
 2. Placing your building by clicking 'Add to World'
 3. Using the Edit tools to change the scale and location of your building, if necessary
 
@@ -53,4 +53,15 @@ Follow the instructions in [Sandbox](https://wiki.highfidelity.com/wiki/Sandbox)
 
 Once you have your building in High Fidelity, you'll likely want to customize it! You can add in various decorations, including posters, house plants, furniture, and games through the various Marketplace objects that are available in High Fidelity. You can also follow the steps that you used to add your building into your domain on external 3D models that you want to use in your building. Keep in mind that any objects added to the Asset Server are only available for that specific domain - if you want to use your decorations or furniture in additional domains, you'll need to host them somewhere that is publicly accessible to each different computer that the domains are hosted on.
 
-You can swap out textures to your model directly in High Fidelity by specifying new files in the 'Textures' section of the Entity Properties window that align with the names of the original texture files, viewable under "Original textures"
+You can swap out textures to your model directly in High Fidelity by specifying new files in the 'Textures' section of the Entity Properties window that align with the names of the original texture files, viewable under 'Original textures'.
+
+**See Also**
+
++ [Set Up Your Domain](../../../host/your-domain)
++ [Manage Your Assets](../../../host/manage-your-domain-assets)
++ [Environments](../../environments)
++ [Draw.io](https://www.draw.io/)
++ [RoomSketcher](http://www.roomsketcher.com/)
++ [MagicPlan](http://www.sensopia.com/)
++ [Archilogic](http://archilogic.com/)
++ [Clara.io](http://clara.io/)

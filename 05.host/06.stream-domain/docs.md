@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-You can stream content to your High Fidelity domain, which lets you host events such as watching a football game with your friends. Or, you can go the other way, and live stream what's happening in your domain to external users. 
+You can stream content to your High Fidelity domain, which lets you host events such as watching a football game or a movie with your friends. Or, you can go the other way, and live stream what's happening in your domain to external users. 
 
 **On This Page **
 
@@ -14,16 +14,17 @@ You can stream content to your High Fidelity domain, which lets you host events 
 
 ## Stream Audio to Your Domain
 
-When you want to stream audio from your domain, we recommend you set up another computer dedicated for streaming, with its own avatar, and use the Stereo Mix device from Windows as the audio input.
+When you want to stream audio from your computer to your domain, you can use the Stereo Mix recording device in Windows. Any users visiting your domain will hear your computer's audio.  
 
->>>>> These instructions work best on a machine with Realtek audio chipsets. 
+>>>>> These instructions work best on a machine with Realtek audio chipsets. We recommend you set up another computer dedicated for streaming, with its own avatar, and use the Stereo Mix device from Windows as the audio input.
 
 1. Go to the Sound settings on your computer. Click the 'Recording' tab. 
 2. Right-click and select 'Show Disabled Devices'. Certain new releases of Realtek drivers do not have Stereo Mix as a device. If Stereo Mix does not show up after turning on Show Disabled Devices, you can install an older version of the drivers. ![](showdisableddevices.PNG)
 3. Select and enable 'Stereo Mix'. This will route any audio coming from your computer's sound system into High Fidelity, as if it were a microphone. 
-4. In Interface, pull up your HUD or tablet and go to **Audio** and disable noise reduction to prevent the audio cutting out. If you are streaming from a stereo input, enable stereo input here. 
-5. Prepare to broadcast audio. Adjust the volume on your own computer to change the volume in High Fidelity. To prevent feedback, mute High Fidelity in the Volume Mixer. Remember, you will not be able to talk while you are broadcasting audio with Stereo Mix.
-6. Position the avatar within the domain. This can be tricky, so we recommend giving yourself extra time to prepare.
+4. In Interface, pull up your HUD or tablet and go to **Audio** and disable noise reduction to prevent the audio cutting out. If you are streaming from a stereo input, enable stereo input here.
+5. Under 'Choose Input Devices', select 'Stereo Mix'.  
+6. Prepare to broadcast audio. Adjust the volume on your own computer to change the volume in High Fidelity. To prevent feedback, mute High Fidelity in the Volume Mixer. Remember, you will not be able to talk while you are broadcasting audio with Stereo Mix.
+7. Position the avatar within the domain. This can be tricky, so we recommend giving yourself extra time to prepare. You will now be able to hear the audio from your computer in High Fidelity.
 
 You can change the natural attenuation and reverb of an audio source by [creating Audio Zones](../your-domain/configure-settings#audio-environments). Audio Zones will allow you to modify the audio effects of different parts of the domain to better fit your style. 
 
@@ -36,9 +37,11 @@ You can change the natural attenuation and reverb of an audio source by [creatin
 
 ## Stream Video to Your Domain
 
-Screenleap is an external service for Windows that allows you to share your whole screen, an application window, or a screen section to the rest of the world. We use it because it works with the current web entity system for High Fidelity. With Screenleap, everyone sees the exact same video image in sync, no matter how late they come into the domain. Latency is typically less than milliseconds.
+Screenleap is an external service for Windows that allows you to share your whole screen, an application window, or a screen section to the rest of the world. You can use Screenleap to stream video through a web entity in your domain. 
 
-> > >> > Screenleap does not stream audio. 
+We use Screenleap because it works with the current web entity system for High Fidelity. With Screenleap, everyone sees the exact same video image in sync, no matter how late they come into the domain. Latency is typically less than milliseconds.
+
+> > >> > Screenleap does not stream audio. Follow the instructions above to stream both audio and video to your High Fidelity domain.
 
 1. Make an account on [screenleap.com](http://screenleap.com) and login.
 2. Click on Broadcast Screen and follow the instructions to download and install the Screenleap app. 

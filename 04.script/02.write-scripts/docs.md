@@ -7,6 +7,8 @@ High Fidelity's robust [JavaScript API](../../api-reference) provides the tools 
 
 In this section, you can find simple code samples to do common tasks in High Fidelity. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer. 
 
+>>>>> Entity scripts, unlike interface scripts, are in containing functions. The example scripts here cannot be attached to an entity (and be used as an entity script) unless they are in a containing function `function(){}`
+
 **On This Page:**
 
 * [Write to the Debug Window](#write-to-the-debug-window)
@@ -14,17 +16,18 @@ In this section, you can find simple code samples to do common tasks in High Fid
 * [Edit an Entity](#edit-an-entity)
 
 ## Write to the Debug Window
-In this example, we'll start with a simple "Hello, World" script. 
+This is an example of an [interface script](../interface-scripts) and cannot be attached to an entity. It shows you how to print something to the [debug window ](../get-started-with-scripting#debug-window). In this example, we'll start with a simple "Hello, World" script. 
 
 ```javascript
 print("Hello, World");
 ```
 
-When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will write the words "Hello, World" to the Debug Window in High Fidelity.
-![](hello-world.png)
+1. Copy and paste this in a file `testScript.js` and save it on your computer. 
+2. When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in High Fidelity.
+   ![](hello-world.png)
 
 ## Create an Entity
-Instead of [using the Create app to add an entity](../../create/entities/create-entities), you can create one using a script. 
+Instead of [using the Create app to add an entity](../../create/entities/create-entities), you can create one using an [interface script](../interface-scripts). 
 
 ```javascript
 // Get your position in the domain, so that the cube is spawned in front of you
@@ -39,11 +42,12 @@ var entityID = Entities.addEntity(properties);
 print("Entity added");
 ```
 
-When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print a line to the Debug Window. In this case, the entity will be a red box.  
+1. Copy and paste this in a file `testScript.js` and save it on your computer. 
+2. When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print a line to the 'Debug Window'. In this case, the entity will be a red box.  
 ![](add-entity.png)
 
 ## Edit an Entity
-To manipulate an entity's properties, you can use `Entities.editEntity`. 
+To manipulate an entity's properties, you can use `Entities.editEntity`in an [interface script](../interface-scripts).
 
 ```javascript
 var entityID = Entities.addEntity({
@@ -61,11 +65,15 @@ properties = Entities.getEntityProperties(entityID, ["color"]);
 print("Entity color: " + JSON.stringify(properties.color));
 ```
 
-When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the Debug Window. Then, the script changes the color of the entity to red, and prints the new color in the Debug Window.
+1. Copy and paste this in a file `testScript.js` and save it on your computer. 
+2. When you [load and run this script](../get-started-with-scripting#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the 'Debug Window'. Then, the script changes the color of the entity to red, and prints the new color in the 'Debug Window'.
 ![](edit-entity.png)
 
 
 
 **See Also**
 
-+ [Load and Run A Script](../get-started-with-scripting#load-and-run-a-script)
++ [Get Started with Scripting](../get-started-with-scripting)
++ [Load and Run a Script](../get-started-with-scripting#load-and-run-a-script)
++ [Interface Scripts](../interface-scripts)
++ [API Reference](../../api-reference)

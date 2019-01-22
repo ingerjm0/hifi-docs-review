@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from our API and simplify it into a window with controls for others to use. 
+Applications (apps) in High Fidelity are customizable programs that expose functionality in an easy-to-use user interface. Apps let you take complex code from [our API](../../api-reference) and simplify it into a window with controls for others to use. 
 
 >>>>> To create custom apps, you must have a basic knowledge of web development (HTML, CSS and JavaScript) and be able to navigate our API. 
 
@@ -123,6 +123,7 @@ startup();
 
 **Close the app gracefully**  
 The AppUI module ensures that your app closes gracefully. However, if you want to do something else when you close the app, you can with the `onClosed` functionality built into the AppUI module. For example, you could:
+
 * Remove 3D interfaces
 * Stop secondary scripts
 
@@ -262,7 +263,16 @@ function onWebEventReceived(event) {
 
 Congratulations, you have successfully created an app in High Fidelity! To use your app, upload it to a cloud platform, such as Amazon S3, Google Cloud Storage, Microsoft Azure, Dropbox, etc. Once hosted, you can install it and use it:
 
-1. In Interface, go to Edit > Running Scripts.
+1. In Interface, go to **Edit > Running Scripts**.
 2. Under Load Scripts, click 'From URL' and enter the URL to your hosted JavaScript file. 
 3. Click the app icon on the tablet or HUD to open the app. 
 
+
+
+**See Also**
+
++ [Write Your Own Scripts](../../script/write-scripts)
++ [API Reference: Entities](../../api-reference/namespaces/entities)
++ [API Reference: Script](../../api-reference/namespaces/script)
++ [API Reference: Quat](../../api-reference/namespaces/quat)
++ [API Reference: Quat](../../api-reference/namespaces/vec3)
