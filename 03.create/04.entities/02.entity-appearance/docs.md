@@ -8,7 +8,7 @@ taxonomy:
 You can edit an entity's size, color, position and rotation using your mouse or trackpad. To edit an entity, open the [**Create** app](../../tools#the-create-app) and either select the entity or find it in the Entity List. 
 ![](select-entity.PNG)
 
->>>>>By default, zone entities cannot be selected for editing. To select these entities, you must click on the entity in the Entity List of the Create App.
+>>>>>By default, zone entities cannot be selected for editing. To select these entities, you must click on the entity in the Entity List of the **Create** app.
 
 
 **On This Page:**
@@ -19,7 +19,7 @@ You can edit an entity's size, color, position and rotation using your mouse or 
 
 ## Change the Color of an Entity
 
-You can manually change the color of most entity types in the **Create** App. With the entity selected, click on 'Properties' and scroll down to the 'Color' settings. Here are the different color settings you can configure:
+You can manually change the color of most entity types in the **Create** app. With the entity selected, click on 'Properties' and scroll down to the 'Color' settings. Here are the different color settings you can configure:
 
 | Setting  | Description  | Supported Entity Type(s)  |
 |---|---|---|
