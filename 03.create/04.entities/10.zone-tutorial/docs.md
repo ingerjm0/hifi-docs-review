@@ -16,7 +16,7 @@ The mini tutorials on this page show you how zone entities work and how you can 
 - [Change a Zone's Shape](#change-a-zones-shape)
 - [Add a Skybox to a Zone](#add-a-skybox-to-a-zone)
 - [Add Ambient Light to a Zone](#add-ambient-light-to-a-zone)
-- [Add the Haze Effect to a Zone](#add-the-haze-effect-to-a-zone)
+
 
 ## Prerequisites
 
@@ -69,7 +69,10 @@ All lighting effects have three modes:
 + Off: The lighting effect is turned off.
 + On: The lighting effect is turned on and can be changed to values of your choice. 
 
+  ![](light-properties.png)
+
 The keylight represents a parallel source of light, such as the sun. Let's change the keylight properties for each zone:
+
 1. In the 'Entity List' window, select 'Zone-1'.
 2. In the 'Properties' tab, change the 'Key Light' property by selecting 'On' from the drop-down.
 3. Click on 'Key Light' color, and add these RGB (`255,0,0`) values to add a red key light. 
@@ -93,7 +96,7 @@ All shapes will be stretched to fit the zone entity's dimensions.
 
 ## Add a Skybox to a Zone
 
-A skybox determines the texture of the sky in your domain. The skybox can be just a color, or an image from a URL. For example, you can have a blue sky or use an image of a the night sky with stars as a skybox. 
+A skybox determines the texture of the sky in your domain. The skybox can be just a color, or an image from a URL. For example, you can have a blue sky or use an image of the night sky with stars as a skybox. 
 
 To add a blue sky to your zone: 
 1. In the 'Entity List' window, select 'Zone-1'.
@@ -102,30 +105,55 @@ To add a blue sky to your zone:
 
 To add an image of the night sky to your zone:
 1. Host your image on a cloud service and copy the URL.
-2. In the 'Entity List' window, select 'Zone-1'.
-2. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
-3. Add the image URL to the 'Skybox URL'.
+
+2. Create a JSON file that refers to the URL and other skybox properties.
+
+   ```json
+   {
+      "Entities": [
+          {
+              "skybox": {
+                  "color": {
+                      "blue": 255,
+                      "green": 255,
+                      "red": 255
+                  },
+                  "url": SKYBOX_IMG_URL
+              },
+              "skyboxMode": "enabled",
+              "type": "Zone",
+              "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+          }
+      ],
+      "Id": ENTITY_ID,
+   }
+   ```
+
+   
+
+3. Host the JSON file on a cloud service. Copy its URL.
+
+4. In the 'Entity List' window, select 'Zone-1'.
+
+5. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
+
+6. In 'Skybox source' add the JSON file's URL. 
+
+You'll see your zone's lighting change to the image you specified in the skybox.
 
 
 
 ## Add Ambient Light to a Zone
 
-The ambient light is provided by a cubemap centred around the avatar. The intensity can be set, as well as the URL. For example, let's change the ambient intensity to 1. You can also do this by changing the ambient URL.
+The ambient light in a zone is a source of light different from the key light and provides background lighting. For example, warm sunlight coming from a sunset in your domain is ambient light. 
 
-## Add the Haze Effect to a Zone
-The haze effect simulates atmospheric absorption by water vapour and dust. Haze has a relatively large number of parameters to simulate the different aspects of atmospheric attenuation. You can modify these properties to see how it affects your domain.
+Similar to the skybox, your ambient light image can be added as a JSON file.
 
-| Property | Description |
-| --------- | ------------ |
-| Range | The range is the horizontal range that visibility is reduced by 95%. In other words, at this range, 95% of a pixel’s colour is the haze colour (the other 5 being the pixel’s original colour).|
-| Use Altitude | If this is checked, then the haze effect will decrease with altitude; otherwise, the haze is constant. The Base/Ceiling parameters are only used in this mode. |
-| Base/Ceiling | The Base defines the altitude where the haze density is as defined by the Range parameter. The Ceiling defines the altitude where the haze density has decreased by 95%. |
-|Haze Color |This is the colour that is blended into the image as the range to pixels increases. This is normally a bluish-grey colour. |
-|Background Blend | The background (i.e. the skybox) is very far away. The result of this is that the background image would always be obscured if any level of haze was active. To mitigate this effect, the background image may be blended back into the image. When set to 1.0, the background appears as if haze is not enabled.|
-|Enable Glare |This checkbox enables an additional aspect of haze, the effects of haze on the sun. |
-|Glare Color |When looking away from the sun (i.e. the Keylight direction) the haze will have the haze colour. This will change to the glare sun as the view direction approaches the sun. |
-|Glare Angle|Defines the (solid) angle from the sun that the haze colour and glare colour are blended 50%. |
+1. In the 'Entity List' window, select 'Zone-2'.
+2. Change the 'Ambient Intensity' to `1.00`. 
+3. In 'Ambient Source', add your ambient light JSON file, or click 'Copy from Skybox' to use the same image as the skybox.
 
+Your zone's ambient lighting will change to the image you've provided. 
 
 **See Also**
 
