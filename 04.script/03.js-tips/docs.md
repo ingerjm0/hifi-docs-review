@@ -20,7 +20,7 @@ When you script for VR worlds like High Fidelity, you need 3D math operations to
 
 + [Vec3](../../api-reference/namespaces/vec3): The Vec3 API has facilities for generating and manipulating 3-dimensional vectors. 
 + [Quat](../../api-reference/namespaces/quat): The Quat API provides facilities for generating and manipulating quaternions. 
-+ [MyAvatar](../../api-reference/namespaces/myavatar):
++ [MyAvatar](../../api-reference/namespaces/myavatar): The MyAvatar API provides facilities for manipulating avatars.  
 
 ### Get Your Avatar's Position
 

@@ -10,7 +10,7 @@ The mini tutorials on this page show you how zone entities work and how you can 
 
 **On This Page:**
 
-- [Prerequisites](#prerequisities)
+- [Prerequisites](#prerequisites)
 - [Create a Zone Entity](#create-a-zone-entity)
 - [Create Nested Zones with Different Lighting](#create-nested-zones-with-different-lighting)
 - [Change a Zone's Shape](#change-a-zones-shape)
@@ -105,7 +105,6 @@ To add a blue sky to your zone:
 
 To add an image of the night sky to your zone:
 1. Host your image on a cloud service and copy the URL.
-
 2. Create a JSON file that refers to the URL and other skybox properties.
 
    ```json
@@ -129,16 +128,13 @@ To add an image of the night sky to your zone:
    }
    ```
 
-   
+
+
 
 3. Host the JSON file on a cloud service. Copy its URL.
-
 4. In the 'Entity List' window, select 'Zone-1'.
-
 5. In the 'Properties' tab, change the 'Skybox' property by selecting 'On' from the drop-down.
-
 6. In 'Skybox source' add the JSON file's URL. 
-
 You'll see your zone's lighting change to the image you specified in the skybox.
 
 
