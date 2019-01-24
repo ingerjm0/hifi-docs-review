@@ -59,14 +59,6 @@ High Fidelity supports different types of materials. We've created sample object
 
 We've listed all material information (including textures, shading, and channel values and maps) for these sample objects [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-nLVF7sjZd1n/pubhtml?gid=0&single=true).
 
-## Set Material Values in Blender
-
-** Will get this info from Alan **
-
-## Set Material Values in Maya
-
-** Will get this info from Alan **
-
 
 
 **See Also**
