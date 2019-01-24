@@ -18,7 +18,6 @@ To build and create things in High Fidelity, you need to become familiar with th
     + [Maya](#maya)
     + [Blocks](#blocks)
 
-
 ## The Create App
 Use the **Create** app to [create any type of entity](../entities/create-entities). In Interface, pull up your HUD or Tablet and go to **Create** to get started. With the Create app, you can:
 
@@ -42,7 +41,6 @@ When you select an entity in the Entity List, you can:
 
 
 ## Shapes: Create in VR
-
 The Shapes app is a Marketplace app that lets you [add and edit basic shapes (entities)](../entities/create-entities) in High Fidelity. You can use Shapes only in VR mode. 
 
 To get the Shapes app: 
@@ -67,7 +65,9 @@ To get the Shapes app:
 Once you have created an item, you can test it prior to using it or [submitting it to Marketplace](../../sell/add-item). The Marketplace Item Tester reviews all kinds of content, including applications, avatars, content sets, entities, and wearables. Using it, you can verify that your item works the way you expected, and does not have any script errors.
 
 To use the Marketplace Item Tester:
-1. In Interface, in the top menu bar (Desktop mode) or your Tablet (VR mode), go to **Menu > Settings > Developer menu** to enable the developer menu. Open the Developer menu and go to **Marketplace Item Tester**.
+1. In Interface, open the menu from either the menu bar (in Desktop) or your Tablet (in VR mode). 
+2. Go to **Menu > Settings > Developer menu** to enable the developer menu. 
+3. Open the **Developer** menu and go to **Marketplace Item Tester**.
 2. You can load items in two different ways:
     - Click 'Load File' to load an item from your local computer or network. Browse to your file to open it. ![](load-file.png)
     - Click 'Load URL' to load an item hosted in the cloud. ![](load-url.png)
@@ -80,7 +80,6 @@ To use the Marketplace Item Tester:
 4. Click the icon to load your content in world. ![](test-item.png)
 
 ## External Creator Tools
-
 We've listed some external tools you might want to use to create avatars and 3D models. 
 
 ### Adobe Fuse

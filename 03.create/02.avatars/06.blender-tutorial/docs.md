@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Modify Materials and Textures Using Blender
+title: 'Tutorial: Modify Materials and Textures Using Blender'
 taxonomy:
     category: docs
 ---

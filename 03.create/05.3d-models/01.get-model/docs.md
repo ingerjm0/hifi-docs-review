@@ -39,7 +39,7 @@ We've listed the best practices for creating 3D models for High Fidelity (and VR
 | Mesh | Clean the mesh to make sure there are no N-gons and no coplanar faces. |
 | Materials | Always try to create Atlas maps. When every piece of your content shares the same material and UV space, it is an Atlas map. For example, if you create a robot, all its pieces should share one UV map, instead of giving its hands, feet, or face separate materials and UV maps.|
 | Materials | High Fidelity’s engine only supports one UV mapping per material. |
-| Textures | PNG files are recommended, but we also support JPEG files.   |
+| Textures | PNG files are recommended, but we also support JPG files.   |
 | Textures | Choose the color types wisely to minimize the size of the final file. |
 | Textures | PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, like GIF), and can be used to mask transparency. |
 | Textures | For more color resolution, you can use PNG-24. For translucent mask or transparent textures, use PNG-32. |

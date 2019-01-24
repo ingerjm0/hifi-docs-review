@@ -275,4 +275,4 @@ Congratulations, you have successfully created an app in High Fidelity! To use y
 + [API Reference: Entities](../../api-reference/namespaces/entities)
 + [API Reference: Script](../../api-reference/namespaces/script)
 + [API Reference: Quat](../../api-reference/namespaces/quat)
-+ [API Reference: Quat](../../api-reference/namespaces/vec3)
++ [API Reference: Vec3](../../api-reference/namespaces/vec3)

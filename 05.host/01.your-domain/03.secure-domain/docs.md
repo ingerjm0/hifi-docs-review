@@ -19,7 +19,7 @@ Add a username and password to protect your domain settings from being modified 
 1.  If you're hosting your domain on a cloud service, open the settings [here](https://highfidelity.com/user/cloud_domains). Click [here](http://localhost:40100/settings/) to open the settings if you're using your local sandbox. 
 2. Go to **Settings > Security** and add a username and password under the 'HTTP Username' and 'HTTP Password' fields.
 
-Every time, you or any user tries to access your domain settings, you'll be prompted to enter this username and password.
+Every time someone tries to access your domain settings, they'll be prompted to enter this username and password.
 
 ## Set User Permissions
 
@@ -39,8 +39,8 @@ You can control the types of users that have access to your domain, and the perm
 | ----------- | ---------- |
 | Connect |  A user is allowed to enter your domain. |
 | Lock/Unlock | A user can lock entities to prevent them from being modified. They can also unlock entities to enable editing. |
-| Rez | A user can create (or rez) entities for an unlimited amount of time. They will also have full access to the **Create** Tools app. |
-| Rez Temporary | A user can temporarily create entities that have a default lifetime of 1 hour. They will still have full access to the **Create** Tools app. |
+| Rez | A user can create (or rez) entities for an unlimited amount of time. They will also have full access to the **Create** app. |
+| Rez Temporary | A user can temporarily create entities that have a default lifetime of 1 hour. They will still have full access to the **Create** app. |
 | Rez Certified | A user can create pre-approved entities and scripts from the Marketplace for an unlimited amount of time. |
 | Rez Temporary Certified | A user can create pre-approved entities or scripts from the Marketplace with a set lifetime that also defaults to 1 hour. |
 | Write Assets | A user can [add assets](../../manage-your-domain-assets) (models, audio, or other files) to your asset server (your domain's file storage space). |
@@ -103,7 +103,6 @@ We've listed the following script examples for entity filters:
   ```
 
   
-
 + To protect specific entities: 
 
   ```javascript
