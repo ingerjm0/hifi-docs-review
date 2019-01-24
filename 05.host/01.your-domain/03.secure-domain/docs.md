@@ -129,5 +129,5 @@ You can add these scripts to a specific zone in your domain as well.
 
 **See Also**
 
-+ [Configure Your Domain Settings](../your-domain/configure-settings)
-+ [Restore Your Domain](../your-domain/restore-your-domain)
++ [Configure Your Domain Settings](../configure-settings)
++ [Backup and Restore Your Domain](../../backup-restore-domain)

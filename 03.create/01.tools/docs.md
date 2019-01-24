@@ -110,4 +110,4 @@ Use [Adobe Fuse](https://www.adobe.com/in/products/fuse.html) to create a custom
 + [Shopping the Marketplace](../../explore/bank-and-shop#shopping-the-marketplace)
 + [Tutorial: Create an Avatar with Fuse](../avatars/fuse-tutorial)
 + [Tutorial: Rig Your Avatar in Mixamo](../avatars/mixamo-tutorial)
-+ [Tutorial: Modify Materials and Textures Using Blender](../blender-tutorial)
++ [Tutorial: Modify Materials and Textures Using Blender](../avatars/blender-tutorial)

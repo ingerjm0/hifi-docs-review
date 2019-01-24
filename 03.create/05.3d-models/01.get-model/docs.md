@@ -51,4 +51,4 @@ We've listed the best practices for creating 3D models for High Fidelity (and VR
 
 **See Also**
 
-+ [Shopping the Marketplace](../../explore/bank-and-shop#shopping-the-marketplace)
++ [Shopping the Marketplace](../../../explore/bank-and-shop#shopping-the-marketplace)

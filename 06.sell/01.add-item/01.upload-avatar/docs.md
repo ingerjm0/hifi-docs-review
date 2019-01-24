@@ -52,4 +52,4 @@ If you wish to sell your avatar on the Marketplace, be sure to fill out your met
 
 + [Create Your Own Avatar](../../../create/avatars/create-avatars)
 + [Change your avatar](../../../explore/personalize-experience/change-avatar)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Marketplace Submission Rules](../../submission-rules)

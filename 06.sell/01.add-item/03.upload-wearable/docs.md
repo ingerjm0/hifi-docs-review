@@ -62,4 +62,4 @@ If you wish to sell your wearable on the Marketplace, be sure to fill out your m
 
 + [Wearables](../../../create/wearables)
 + [3D Models](../../../create/3d-models)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Marketplace Submission Rules](../../submission-rules)

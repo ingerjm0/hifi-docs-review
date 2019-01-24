@@ -145,4 +145,4 @@ You can change your account security settings in High Fidelity.
 
 **See Also**
 
-+ [Configure Your Domain Settings](../../../host/your-domain/install-domain-configure-settings)
++ [Configure Your Domain Settings](../../../host/your-domain/configure-settings)

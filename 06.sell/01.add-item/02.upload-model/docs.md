@@ -59,4 +59,4 @@ If you wish to sell your 3D model on the Marketplace, be sure to fill out your m
 
 + [Import Your 3D Model](../../../create/3d-models/import-model)
 + [Introduction to Materials, Textures, and Shading](../../../create/3d-models/pbr-materials-guide#introduction-to-materials-textures-and-shading)
-+ [Marketplace Submission Rules](../submission-rules)
++ [Marketplace Submission Rules](../../submission-rules)

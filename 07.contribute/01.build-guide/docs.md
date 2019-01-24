@@ -13,7 +13,7 @@ This guide details instructions for building High Fidelity on your system. If yo
 
 **On This Page:**
 + [Dependencies](#dependencies)
-+ [CMake External Project Dependencies](cmake-external-project-dependencies)
++ [CMake External Project Dependencies](#cmake-external-project-dependencies)
   + [CMake](#cmake)
   + [Qt](#qt)
   + [Vcpkg](#vcpkg)

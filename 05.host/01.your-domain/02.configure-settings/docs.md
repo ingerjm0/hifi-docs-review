@@ -127,7 +127,6 @@ You can add audio settings for a stage in your domain. This stage is used for pe
 
 **See Also**
 
-+ [Secure Your Domain](../your-domain/secure-your-domain)
-+ [Broadcast Your Domain](../../broadcast-domain)
-+ [Migrate Your Domain](../../migrate-domain)
-+ [Restore Your Domain](../../restore-your-domain)
++ [Secure Your Domain](../secure-domain)
++ [Broadcast to Other Domains](../../broadcast-your-domain)
++ [Backup and Restore Your Domain](../../backup-restore-domain)

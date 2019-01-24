@@ -85,6 +85,6 @@ You can also set the position manually in the **Create** app. With the entity se
 **See Also**
 
 + [Interact with Your Environment](../../../explore/interact-objects)
-+ [The Create App](../tools#the-create-app)
++ [The Create App](../../tools#the-create-app)
 + [Define an Entity's Behavior](../entity-behavior)
 

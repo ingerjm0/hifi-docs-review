@@ -37,5 +37,5 @@ You can [import your 3D model through your Asset Server](../../../host/manage-yo
 
 + [Manage Your Domain Assets](../../../host/manage-your-domain-assets#add-an-asset-to-the-asset-server)
 + [Add Your 3D Model to the Marketplace](../../../sell/add-item/upload-model)
-+ [Creator Tools](../../create/tools)
-+ [Create New Entities](../../create/entities/create-entities)
++ [Creator Tools](../../tools)
++ [Create New Entities](../../entities/create-entities)

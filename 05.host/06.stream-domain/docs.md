@@ -75,10 +75,10 @@ Before you start recording and streaming, determine if this is a one-time event,
 2. Ensure that your display is showing your Spectator Camera's view. 
 3. If you're using an HMD, uncheck disable preview in High Fidelity. In Interface, pull up your HUD or Tablet, and go to **Menu > Display > Disable Preivew**. This is important, as OBS captures what is being displayed in a window and will not capture anything apart from the preview disabled window if you don't uncheck it. 
 4.  Set your application's audio gain as -3dB so that its volume is lower than your audio. This allows you to be heard over any of the application's audio. ![](audio-gain.PNG)
-5.  To see your avatar moving properly, without any jarring experiences, you have to set your fps (frames per second) to 60. You can do this in OBS by going to **File > Settings > Video**. In the window that opens, change the Common FPS Values to 60. ![](fps.PNG)
+5.  To see your avatar moving properly, without any jarring experiences, you have to set your fps (frames per second) to 60. You can do this in OBS by going to **File > Settings > Video**. In the window that opens, change the Common FPS Values to 60. 
 6.  If you have to switch between Desktop and HMD during the show, check and change your audio inputs to allow your streaming to continue without any disruptions. 
 7.  Once you've set up OBS with these High Fidelity specific settings, you can add your streaming specific settings. 
-8.  You're ready! Click on Start Streaming. ![](start.PNG)
+8.  You're ready! Click on 'Start Streaming'. 
 
 **See Also**
 

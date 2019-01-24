@@ -10,7 +10,7 @@ This guide will help you build High Fidelity for Android devices. Please read th
 
 + [Android Dependencies](#android-dependencies)
   + [Gradle](#gradle)
-  + [Android Studio](android-studio)
+  + [Android Studio](#android-studio)
 + [Prepare Environment](#prepare-environment)
 + [Build and Run](#build-and-run)
 
