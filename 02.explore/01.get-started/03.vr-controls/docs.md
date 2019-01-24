@@ -28,7 +28,7 @@ Don't have your own VR equipment? You can still use High Fidelity in [desktop mo
 
 ## Motion Capture Using Vive Trackers
 
-You can enhance your High Fidelity experience using full body motion capture. High Fidelity currently supports motion capture using HTC Vive Trackers. 
+You can enhance your High Fidelity experience using full body motion capture (Mocap). High Fidelity currently supports mocap using HTC Vive Trackers. 
 
 Vive trackers need to be strapped to the body part you wish to track. You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands. 
 
@@ -43,7 +43,7 @@ You can set up different mocap systems:
 | Head + Hands + Feet + Hips + Chest | 4 Vive Trackers + HMD + 2 Hand Controllers |[Chest straps](https://www.amazon.com/gp/product/B00PQ6B5SY/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)|
 | Head + Hands + Feet + Hips + Shoulders | 5 Vive Trackers + HMD + 2 Hand Controllers | [Shoulder straps](https://rebuffreality.com/products/trackstrap) |
 
-> >> >> You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands.
+>>>>> You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands.
 
 ![](tracker-placement.jpg)
 
@@ -70,10 +70,9 @@ You can set up different mocap systems:
 
 | Issue | Steps |
 | ----- | ----- |
-| Calibration failed | <ul><li> Check if your trackers are properly connected in SteamVR. </li><li>Have you selected the correct configuration in your tablet and do you have enough number of trackers to support that configuration?</li><li> If you are performing and not in HMD, did you select to 'Use HTC Vive in Desktop Mode'?</li><li> Are any of the trackers blinking? If so, they may need to be paired again. </li><li>Do you have the correct number of dongles plugged in to your computer. You will need one dongle per tracker. If you are performing with all 7, then you may need a USB hub to handle them. </li></ul> |
+| Calibration failed | <p><ul><li> Check if your trackers are properly connected in SteamVR. </li><li>Have you selected the correct configuration in your tablet and do you have enough number of trackers to support that configuration?</li><li> If you are performing and not in HMD, did you select to 'Use HTC Vive in Desktop Mode'?</li><li> Are any of the trackers blinking? If so, they may need to be paired again. </li><li>Do you have the correct number of dongles plugged in to your computer. You will need one dongle per tracker. If you are performing with all 7, then you may need a USB hub to handle them. </li></ul> |
 |My sensor is jiggling a lot!|Make sure the straps on the sensor are tightened. |
-| My sensor keeps losing tracking. |<ul><li> If it’s the hip tracker, is your shirt is tucked in and not covering the puck? Also make sure your headphone cord isn’t covering the puck. </li><li>Can the base stations clearly see the tracker?</li><li>Is the signal from the base station conflicting with another Vive setup nearby?</li><li>Are you clear of reflective surfaces nearby? (such as picture frames, whiteboards, shiny tables).</li><li>Is the lighting consistent across the room (minimal outdoor lighting)?</li><li>Try restarting SteamVR. |
-
+| My sensor keeps losing tracking. |<p><ul><li> If it’s the hip tracker, is your shirt is tucked in and not covering the puck? Also make sure your headphone cord isn’t covering the puck. </li><li>Can the base stations clearly see the tracker?</li><li>Is the signal from the base station conflicting with another Vive setup nearby?</li><li>Are you clear of reflective surfaces nearby? (such as picture frames, whiteboards, shiny tables).</li><li>Is the lighting consistent across the room (minimal outdoor lighting)?</li><li>Try restarting SteamVR. |
 
 
 >>>>> Remember to charge your trackers when you aren't using them so that you don't have to deal with a low battery tracker negatively impacting your performance.
@@ -83,3 +82,4 @@ You can set up different mocap systems:
 **See Also**
 
 + [Interact with Your Environment](../../interact-objects)
++ [Explore in Desktop Mode](../keyboard-shortcuts)

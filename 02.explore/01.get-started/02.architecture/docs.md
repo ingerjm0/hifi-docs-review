@@ -10,40 +10,46 @@ High Fidelity's architecture shows how different parts of the system work togeth
 **On This Page**
 
 * [Architecture Overview](#architecture-overview)
+* [High Fidelity Interface](#high-fidelity-interface)
 * [Domain Server](#domain-server)
-* [Interface](#interface)
 * [Global Services](#global-services)
 
 
-
 ## Architecture Overview
-
 High Fidelity's architecture consists of the following components that work together and send data to each other for your VR experience. 
 
-+ [Domain Server](#domain-server)
-+ [Interface](#interface)
-+ [Global Services](#global-services)
++ The [High Fidelity Interface](#interface) runs your personal experience in the metaverse. With it, you can [visit VR worlds](../../travel), [meet people](../../socialize), [attend live events](../../socialize#attend-live-events) and more.
++ The [Domain Server](#domain-server) is the server that hosts a domain. The domain server [hosts the content](../../../host/your-domain-manage-your-domain-assets) in the domain, and manages the [domain-wide settings](../../../host/your-domain)configure-settings), such as audio spatialization, user permissions, and running scripts.
++ The [Global Services](#global-services) connect all of the servers together. These services are maintained by High Fidelity so that you can sign in, move seamlessly between places, and [purchase items on the Marketplace](../../bank-and-shop).
 
 ![](overview.png)
 
+## High Fidelity Interface
+The High Fidelity Interface (or simply 'Interface') is the main user interface for High Fidelity. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the [domain server](#domain-server) that is hosting the virtual world, alongside any [global services](#global-services). 
+
+You can download and use the Interface on your computer or your Android phone using the [Client-Only Installer](../install#client-only-installer). 
+
+![](interface.png)
+
+### Physics Engine
+Your VR experience won't be realistic without some physics. High Fidelity includes a [physics engine](http://bulletphysics.org/) that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine. 
+
+Each Interface runs its own physics engine, and the entity server coordinates the results to produce a consistent simulation across the entire domain.
 
 
 ## Domain Server
+A domain is a spatial simulation in High Fidelity that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's [place name](../../../host/add-a-place-name) to visit a domain, just like you would need a web address to visit a website. 
 
-A domain is a spatial simulation in High Fidelity that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's [place name](../../../host/add-a-place-name) to visit a domain, just like how you would need a web address to visit a website. 
-
-You can [set up your own domain](../../../host/your-domain) and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. So whatever you see, hear and do in your domain is managed by the server stack. 
+You can [set up your own domain](../../../host/your-domain) and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack. 
 
 ![](domain-server.png)
 
 ### Server Stack
-
 The Domain Server is at the top of this stack and its job is to give out assignments to the other components. These components are called Assignment Clients, because from the perspective of the domain server, they are clients that take on different roles.
 
 The server stack is not only controlling, managing and computing your domain as you see it, but also how it is seen by anyone visiting your domain. This means that the domain server hands out simulation assignments and provides their IP addresses to connecting Interface clients. The domain server is a single executable that spawns assignment clients that become the different mixers as requested. Each assignment client can function as one of the six types mentioned. The domain server determines which assignment client functions as which mixer.
 
 ### Assignment Clients 
-
 Assignment clients control and manage various aspects of a domain. They also communicate directly with the Interface clients connected to a domain. There are six types of assignment clients:
 
 | Assignment Client | Description |
@@ -58,22 +64,8 @@ Assignment clients control and manage various aspects of a domain. They also com
 
 >>>>> Sandbox manages all these components—the domain server, five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple computers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
 
-## Interface
-
-The Interface is the client or the user interface for High Fidelity. You don't need to have a domain of your own to use the Interface and can download it to visit other domains. 
-
-You can [download and use the Interface](../install) on your computer or your phone. 
-
-![](interface.png)
-
-### Physics Engine
-
-Your VR experience won't be realistic without some physics. High Fidelity includes a [physics engine](http://bulletphysics.org/) that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine. 
-
-Each Interface runs its own physics engine, and the entity server coordinates the results to produce a consistent simulation across the domain.
 
 ## Global Services
-
 High Fidelity maintains global services to connect different servers together. 
 
 ![](services.png)
@@ -85,5 +77,3 @@ High Fidelity maintains global services to connect different servers together.
 + [Install High Fidelity](../install)
 + [Host Your Domain](../../../host)
 + [Travel Between Worlds](../../travel)
-+ [Entities](../../../create/entities)
-+ [Avatars](../../../create/avatars)
