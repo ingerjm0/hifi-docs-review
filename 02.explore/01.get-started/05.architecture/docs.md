@@ -66,7 +66,11 @@ You can [download and use the Interface](../install) on your computer or your ph
 
 ![](interface.png)
 
+### Physics Engine
 
+Your VR experience won't be realistic without some physics. High Fidelity includes a [physics engine](http://bulletphysics.org/) that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine. 
+
+Each Interface runs its own physics engine, and the entity server coordinates the results to produce a consistent simulation across the domain.
 
 ## Global Services
 
