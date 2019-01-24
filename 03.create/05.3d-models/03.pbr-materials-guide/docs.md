@@ -13,7 +13,8 @@ The appearance of a 3D model is controlled by its materials. The materials suppo
     + [Material Channels](#material-channels)
 + [Sample Materials and Their Textures and Shading](#sample-materials-and-their-textures-and-shading)
 + [Set Material Values in Blender](#set-material-values-in-blender)
-+ [Set Material Values in Maya](#set-material-values-in-maya)
+
+  
 
 
 ## Introduction to Materials, Textures, and Shading
@@ -61,13 +62,17 @@ We've listed all material information (including textures, shading, and channel 
 
 ## Set Material Values in Blender
 
-** Will get this info from Alan **
+When you create a model in Blender, you have to export it in the FBX format to use in High Fidelity. Additionally, you have to modify material properties and textures in Blender to match the PBR material textures in High Fidelity. 
 
-## Set Material Values in Maya
+Doing so ensures that your model appears like how you want it to. 
 
-** Will get this info from Alan **
+By default, any material property set with a texture will override a property set with a value. The only exception to this is in the case of the albedo color set with an RGB color value and a texture, in which case the albedo value and texture will multiplied together. 
 
+We've included images where the fields corresponding to each supported PBR channel in Blender are highlighted, along with details about which values and colors correspond to the range corresponding with that channel.  It should be noted that all of the Blender material properties below only relate to exported FBX format models. Models exported as OBJ or other formats do not have full PBR material support in High Fidelity yet.
 
+![](material-textures-b.jpg)
+
+![](material-values-b.jpg)
 
 **See Also**
 
