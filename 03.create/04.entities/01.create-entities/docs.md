@@ -42,5 +42,6 @@ You can choose from the following entity types:
 + [Import Your 3D Model](../../3d-models/import-model)
 + [Tutorial: Create a Gold Spotlight](../create-spotlight)
 + [Tutorial: Display a YouTube Channel](../display-youtube)
++ [Tutorial: Modify a Zone Entity's Properties](../zone-tutorial)
 
   
