@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Create Buildings
+title: 'Tutorial: Create Buildings'
 taxonomy:
     category: docs
 ---
@@ -17,11 +17,11 @@ You can create large-scale worlds in High Fidelity. A big part of such worlds ar
 
 ## Create or Find Buildings
 
-There are many options for creating your own custom buildings to bring into your High Fidelity domains, ranging from primitive building to ground-up 3D modeling and photogrammetry capture. We'll explore various options that you can choose from to make a building, including:
+There are many options for creating your own custom buildings to bring into your High Fidelity domains, ranging from primitive building to ground-up 3D modeling and photogrammetry capture. You can use any of the following methods to make a building: 
 
-- Building your own custom 3D models in a modeling program
-- Creating a 2D floorplan that is converted to 3D
-- Making a building with primitives in High Fidelity
+- Build your own custom 3D models in a modeling program
+- Create a 2D floorplan that is converted to 3D
+- Make a building with primitives in High Fidelity
 
 ### Build a 3D Building in Maya or Blender
 

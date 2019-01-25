@@ -71,10 +71,10 @@ You can use our built-in Avatar Packager to upload, edit, and use your custom av
 1. In Interface, go to **Edit > Avatar Packager**. 
 2. In the Avatar Packager window that opens, click 'New Project'.![](new-project.png)
 3. In the Create Project window, fill in the following details:
-   1. Name: The name you want for your avatar. 
-   2. Project Location: The folder path where your avatar's files are stored. 
-   3. Avatar Model: Your avatar's FBX file.
-   4. Texture Folder: If your avatar has textures in a separate folder, specify the folder location. If your avatar's textures are embedded in the FBX, you do not need to specify anything. ![](create-project.png)
+   * Name: The name you want for your avatar. 
+   * Project Location: The folder path where your avatar's files are stored. 
+   * Avatar Model: Your avatar's FBX file.
+   * Texture Folder: If your avatar has textures in a separate folder, specify the folder location. If your avatar's textures are embedded in the FBX, you do not need to specify anything. ![](create-project.png)
 4. Click 'Create'.
 5. Click 'Upload' to upload your avatar's files to High Fidelity's servers. If you make any changes to your custom avatar, you will need to update it through this packager to see your changes. To update, select your project and click 'Open Project' in step 1. Follow the same steps to update your avatar.
 6. Once your avatar is uploaded to the servers, click 'View in Inventory' to view your custom avatar. ![](inventory.png)

@@ -16,7 +16,6 @@ This document outlines the standards you should follow when [creating your avata
 
 
 ## Reference Pose
-
 For the Reference pose, use a T-Pose which complies with the specifications below. You may wish to refer to the properly configured example avatar fbx with source files.
 - The character must face along the positive direction of the Z-axis.
 - The arms must be spread along the X-axis. The left arm should therefore be pointing along the positive direction of the X-axis.
@@ -29,7 +28,6 @@ For the Reference pose, use a T-Pose which complies with the specifications belo
 You can download the standard High Fidelity skeleton [here](http://hifi-content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx). This skeleton conforms to the specifications above.
 
 ## Skeleton
-
 The standard humanoid skeleton of your avatar should follow [HumanIK Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) with some modifications made for Mixamo. This skeleton system will work with the input systems already in place in High Fidelity, and will allow users to use their input devices to control their avatar's arm and finger movements (if they have any). 
 
 High Fidelity avatars should match the following standard skeletal structure. Each of these joints can be animated.
@@ -182,10 +180,10 @@ Here is an example of modifying your blendshapes in your FST file:
 
 ## Other Considerations
 
-#### File Optimization
+### File Optimization
 Content creators will have limited bandwidth on servers (read small print on any unlimited host plans) so optimization is important, for both the end users and content creators. The more polygons and larger textures you use, the more bandwidth you are using from your servers per load. Optimally, keep your avatar models under 20 MB.
 
-#### Textures
+### Textures
 We recommend that you try to keep total size of all the textures per avatar below 8 MB. They should be always smaller than 1024x1024, unless all the textures are in a single file. If using multiple texture files, then smaller the better, especially if you can make the textures smaller. Remember that you can get a lot more detail through roughness and normal mapping, than just textures. It is suggested that you keep Albedo at a smaller size than your roughness for best detail through light reflection instead of color variation.
 
 **See Also**

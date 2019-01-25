@@ -60,6 +60,7 @@ High Fidelity supports different types of materials. We've created sample object
 
 We've listed all material information (including textures, shading, and channel values and maps) for these sample objects [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRsPXURPsIYV_LeEz1A7IS-t44qdTMtbrq-gZ47BAoxhd0kLs_Yxh-i1G4Ukz-aunTj-nLVF7sjZd1n/pubhtml?gid=0&single=true).
 
+
 ## Set Material Values in Blender
 
 When you create a model in Blender, you have to export it in the FBX format to use in High Fidelity. Additionally, you have to modify material properties and textures in Blender to match the PBR material textures in High Fidelity. 
@@ -71,6 +72,7 @@ By default, any material property set with a texture will override a property se
 We've included images where the fields corresponding to each supported PBR channel in Blender are highlighted, along with details about which values and colors correspond to the range corresponding with that channel.  It should be noted that all of the Blender material properties below only relate to exported FBX format models. Models exported as OBJ or other formats do not have full PBR material support in High Fidelity yet.
 
 ![](material-textures-b.jpg)
+
 
 ![](material-values-b.jpg)
 

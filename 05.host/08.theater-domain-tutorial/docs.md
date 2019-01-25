@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Set Up A Theater Domain
+title: 'Tutorial: Set Up A Theater Domain'
 taxonomy:
     category: docs
 ---

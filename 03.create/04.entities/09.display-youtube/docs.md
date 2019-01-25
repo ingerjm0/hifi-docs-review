@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Display a YouTube Channel
+title: 'Tutorial: Display a YouTube Channel'
 taxonomy:
     category: docs
 ---
