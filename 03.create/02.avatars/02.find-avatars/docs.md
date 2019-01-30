@@ -17,12 +17,12 @@ You can download avatars for use from external sources such as TurboSquid or CGT
 
 ## Avatar Guidelines
 
-Many external sites like TurboSquid and CGTrader provide avatars that you can use. You can use avatars downloaded from these sites according to their terms of use. However, many of these may not work in High Fidelity. Be sure to find an avatar that fits these guidelines: 
+Many external sites like TurboSquid and CGTrader provide avatars that you can use. You can use avatars downloaded from these sites according to their terms of use. However, many of these may not work in High Fidelity. Be sure to find an avatar that fits these guidelines:
 
 * [Real-time models](https://blog.turbosquid.com/real-time-models/) (not rendered)
 * Rigged avatars
 >>>>>If your avatar is not rigged, you can use [Mixamo](../mixamo-tutorial) to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use [our avatar packager](../create-avatars.html#package-your-avatar) to import your avatar into High Fidelity. 
-* Avatars in the FBX file format (we don't enforce a poly count limit, but we recommend using an avatar with a low poly count of around 10k)
+* Avatars in the FBX file format (we don't enforce a poly count limit, but we recommend using an avatar with a low poly count of around 10k).
 
 ## High Fidelity Avatar Exporter for Unity
 High Fidelity supports only one standard type of rigging for avatars. Because many avatars do not match this skeleton, we created the High Fidelity Avatar Exporter for Unity (also known as the "avatar exporter") to convert human-like avatars with a humanoid bone structure (body, head, and limbs). The avatar exporter also automatically packages your avatar for use in High Fidelity.
@@ -30,9 +30,12 @@ High Fidelity supports only one standard type of rigging for avatars. Because ma
 >>>>>The avatar exporter was written to improve the process of rigging and mapping the skeleton rig. This will not affect the animations or materials in your avatar. To adjust the materials, you will need to use a 3D modeling tool such as Blender or Maya and make modifications to your avatar prior to using the avatar exporter in Unity.
 
 You will need the following to use this tool: 
-+ Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
-+ High Fidelity (v0.77.0 or higher)
-+ [High Fidelity Avatar Exporter for Unity](https://github.com/highfidelity/hifi/raw/master/tools/unity-avatar-exporter/avatarExporter.unitypackage)
++ You will need the following to use this tool:
+  - Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
+  - High Fidelity (v0.77.0 or higher)
+  - [High Fidelity Avatar Exporter for Unity](https://github.com/highfidelity/hifi/raw/master/tools/unity-avatar-exporter/avatarExporter.unitypackage) (latest version)
+
+> >> >> If you are using a version of Unity later than 2018.2.12f1, it is recommended to apply Enforce T-Pose under the Pose dropdown in Humanoid configuration.
 
 ### Create a Unity Project
 
@@ -60,8 +63,8 @@ You will need the following to use this tool:
    + In Unity, open the 'Assets' menu, then select **Import Package > Import New Asset**. Navigate to the FBX file and click 'Import'.
 2. In the 'Project' window, select your avatar’s FBX file. In the 'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then click 'Apply'. ![](apply-humanoid-animation.png)
 3. <a id="mesh"></a>Click 'Configure' to investigate and tweak the mapping of your avatar.  ![](configure-avatar.png)
-4. All bones mapped in Unity are highlighted in green and can be selected. Check if anything is missing. Any errors will appear in red. The minimum required bones for mapping are Hips and Spine. If either of these are missing, you must manually add bones before continuing. ![](check-mesh.png)
->>>>>Avatars in High Fidelity must also have a Chest bone. If your avatar does not have a chest bone, the avatar exporter attempts to map another existing bone to the Chest. If we can't find a suitable Chest bone and Humanoid didn't correctly map Chest, then you will get an error and need to manually add a Chest bone to your skeleton.
+4. All bones mapped in Unity are highlighted in green and can be selected. Check if anything is missing. Any errors will appear in red. The minimum required bones for mapping are Hips, Spine, Chest, and Head. If either of these are missing, you must manually add bones before continuing. ![](check-mesh.png)
+>>>>>Avatars in High Fidelity must also have a Chest bone. If your avatar does not have a chest bone, that avatar exporter will suggest a suitable alternative. If an alternative doesn't exist and Humanoid didn't correctly map the Chest, then you will get an error and need to manually add a Chest bone to your skeleton.
 5. If you made any changes, click 'Done'. 
 6. Click on the FBX file in the 'Assets' manager. ![](select-avatar-unity.png)
 7. Make sure that you have the [avatar exporter](#install-the-high-fidelity-avatar-exporter-for-unity) installed. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
@@ -90,14 +93,22 @@ If something doesn't look right, you can tweak your avatar in Unity, then update
 
 Use these troubleshooting tips if you notice any issues while packaging or testing your avatar:
 
-| Issue                                                     | Troubleshooting Tip                                          |
-| --------------------------------------------------------- | ------------------------------------------------------------ |
-| You receive a warning in Unity:<br />"Character is not in T pose." | This will not affect the results, and the avatar exporter can still be used. You can safely ignore this warning. |
-| You receive an error when exporting your avatar:<br />"There is no &lt;Chest &vert; Spine &vert; Hips> bone in the selected avatar." | Avatars in High Fidelity must have a minimum of 3 bones: the hips, spine and chest. This error will occur if one or more of these bones are either a) incorrectly mapped by Unity or b) missing in your skeleton. <p>If the bone is incorrectly mapped, [open the Humanoid mapping](#mesh) using the Configure button. In the Avatar Configuration hierarchy, locate the matching bones and drag them into the Humanoid mapping to manually assign the bone mappings. <p>If the bones do not actually exist in the model, you need to modify the model outside of Unity to add missing bones.  |
-| Your avatar is gray.                                      | One of two issues could have occurred: <br />A) Make sure you copied your avatar's textures into the project’s textures folder <br /> B) Verify that your textures are in a format that we support (either PNG or JPG) |
-| Your avatar is too small or too big.                      | In Interface, go to the **Avatar** app and click on the settings icon. Move the Avatar Scale slider between 0.1x to 4x to make it smaller or bigger. <p>If that isn't sufficient, you can manually change the scale in your avatar's FST file in a text editor. Keep in mind that any changes to the scale will work only after using the packager, as the packager overwrites these changes. |
-| Your avatar is tied up into knots or laying down.                      | This could mean that your skeleton is not right. Re-open your avatar in Unity and run through steps 2-5 of [Create an Avatar Package](#create-an-avatar-package) again. Update your project in Unity (go to High Fidelity menu > Update Existing Avatar, then browse to your avatar package). <p>If it still doesn't work, ensure that you are testing the correct file that the avatar exporter created. |
-| Your avatar's skin doesn't move properly with animations. |  The avatar exporter was written to improve the process of rigging and mapping the skeleton rig. This will not affect the animations in your avatar. To adjust the animations, you will need to use a 3D modeling tool such as Blender or Maya and fix the skin weighting on the avatar prior to using the avatar exporter in Unity.  |
+| Issue                                                        | Troubleshooting Tip                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| *You receive a warning in Unity:*<br />"Character is not in T pose." | Go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones. |
+| *You receive a warning in Unity:*<br />"There is more than one bone at the top level of the selected avatar's bone hierarchy. Please ensure all bones for Humanoid mappings are under the same bone hierarchy." | Ensure that your avatar has a single bone hierarchy.         |
+| *You receive a warning in Unity:*<br />"The XXX bone is mapped to more than one bone in Humanoid." | Your avatar should not have any duplicate mappings.          |
+| *You receive a warning in Unity:*<br />"The number of bones mapped in Humanoid for the left appendage (#) does not match the number of bones mapped in Humanoid for the right appendage (#)." | There should be no asymmetrical bone mappings.               |
+| *You receive a warning in Unity:*<br />"The bone mapped to Spine/Chest in Humanoid (XXX) is not a child of the bone mapped to Hips/Spine in Humanoid (YYY)." | The Spine bone is a descendant of Hips bone and the Chest bone is a descendant of Spine bone. You can ensure this is the case for your avatar when your receive this warning. |
+| *You receive a warning in Unity:*<br />"There is no LeftEye/ RightEye/Neck bone mapped in Humanoid for the selected avatar." | Map the LeftEye/ RightEye/Neck bone in Humanoid.             |
+| *You receive a warning in Unity:*<br />"The bone mapped to Hips in Humanoid (XXX) should not be at ground level." | The avatar's Hips bone should not be at ground level.        |
+| *You receive a warning in Unity:*<br />"The bone mapped to Hips in Humanoid (XXX), the bone mapped to Spine in Humanoid (YYY), and the bone mapped to Chest in Humanoid (ZZZ) should not be coincidental." | The Hips, Spine, and Chest bones should not be coincident.   |
+| *You receive a warning in Unity:*<br />"The total number of bones in the avatar (#) exceeds the maximum bone limit (256)." | The total number of bones in an avatar should be equal or under the limit (256). |
+| You receive an error when exporting your avatar:<br />"There is no &lt;Spine \| Hips \| Chest \| Head> bone in the selected avatar." | Avatars in High Fidelity must have a minimum of 4 bones: the hips, spine, chest, and head. This error will occur if one or more of these bones are either a) incorrectly mapped by Unity or b) missing in your skeleton. <p>If the bone is incorrectly mapped, [open the Humanoid mapping](#mesh) using the Configure button. In the Avatar Configuration hierarchy, locate the matching bones and drag them into the Humanoid mapping to manually assign the bone mappings. <p>If the bones do not actually exist in the model, you need to modify the model outside of Unity to add missing bones. |
+| Your avatar is gray.                                         | One of two issues could have occurred: <br />A) Make sure you copied your avatar's textures into the project’s textures folder <br /> B) Verify that your textures are in a format that we support (either PNG or JPG) |
+| Your avatar is too small or too big.                         | In Interface, go to the **Avatar** app and click on the settings icon. Move the Avatar Scale slider between 0.1x to 4x to make it smaller or bigger. <p>If that isn't sufficient, you can manually change the scale in your avatar's FST file in a text editor. Keep in mind that any changes to the scale will work only after using the packager, as the packager overwrites these changes. |
+| Your avatar is tied up into knots or laying down.            | This could mean that your skeleton is not right. Re-open your avatar in Unity and run through steps 2-5 of [Create an Avatar Package](#create-an-avatar-package) again. Update your project in Unity (go to High Fidelity menu > Update Existing Avatar, then browse to your avatar package). <p>If it still doesn't work, ensure that you are testing the correct file that the avatar exporter created. |
+| Your avatar's skin doesn't move properly with animations.    | The avatar exporter was written to improve the process of rigging and mapping the skeleton rig. This will not affect the animations in your avatar. To adjust the animations, you will need to use a 3D modeling tool such as Blender or Maya and fix the skin weighting on the avatar prior to using the avatar exporter in Unity. |
 
 **See Also**
 
