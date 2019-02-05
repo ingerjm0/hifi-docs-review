@@ -6,7 +6,7 @@ taxonomy:
 
 Once you've created music or ambient sounds to be [added to a domain](../../../create/entities/add-sounds#add-ambient-audio), you need to add the item and its assets to the Marketplace. To sell audio on the marketplace, you will need the following assets:
 
-+ WAV, MP3, or OGG file
++ WAV or MP3 file
 + Script file (sound emitter script)
 + FBX file (for the entity to which you will attach the sound emitter script)
 + JSON file 
@@ -33,10 +33,9 @@ If your model could be re-imported without any issues, it is now ready to be upl
 1. Go to [https://highfidelity.com/marketplace/items/new](https://highfidelity.com/marketplace/items/new) to create a new item. If you're not logged in, you will be prompted to do so. 
 2. Enter your audio's name and select your category as 'Audio'. You can add the metadata now or later. 
 3. Click 'Save Draft'. 
-4. Scroll down to the 'Assets' section. 
-5. Upload your audio file. 
-6. Click 'Choose Folder' and navigate to where your 3D model has been saved on your computer. Upload all related folders, including your FBX file and script file (in the scripts folder).
-7. Click your uploaded FBX file and copy the new Marketplace URL for the FBX file. ![](C:/Users/nimis/hifi-docs-review/06.sell/01.add-item/02.upload-model/copy-fbx-url.png)
+4. Scroll down to the 'Assets' section.  
+5. Click 'Choose Folder' and navigate to where your 3D model and audio file have been saved on your computer. Upload all related folders, including your FBX file and script file (in the scripts folder).
+6. Click your uploaded FBX file and copy the new Marketplace URL for the FBX file. ![](C:/Users/nimis/hifi-docs-review/06.sell/01.add-item/02.upload-model/copy-fbx-url.png)
 
 ### Upload Your Item's JSON File
 
